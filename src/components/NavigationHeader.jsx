@@ -17,7 +17,7 @@ export default function NavigationHeader() {
       <nav className='nav-links'>
         <ul>
           <ul> <a href='/'>Solutions</a> </ul>
-          <ul> <a href='/'>For Publishers</a></ul>
+          <ul> <a href='/publisher'>For Publishers</a></ul>
           <ul> <a href='/'>For Advertisers</a></ul>
           <ul> <a href='/'>About Us</a></ul>
           <ul> <Button type='primary'>Contact Us</Button></ul>
