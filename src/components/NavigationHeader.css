@@ -352,48 +352,36 @@
     }
 }
 
-@media (max-width: 375px) {
-    .navigation-header {
-        padding: 10px;
+@media (max-width: 425px){
+    .navigation-header{
+        height: auto;
+        min-height: 60px;
+        padding: 10px 15px;
+        flex-direction: column;
+        align-items: flex-start;
     }
-    
-    .company-name {
-        font-size: 16px;
+    .brand-section {
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 100%;
     }
-    
-    .logo {
-        width: 20px;
-        height: 24px;
-    }
-    
-    .navigation-tabs .ant-tabs-tab-btn {
-        font-size: 12px;
-    }
-    
     .contact-button {
-        font-size: 11px;
-        padding: 0 6px;
-        height: 26px;
+        position: static;
+        margin: 10px auto 5px auto;
+        order: 3;
     }
-}
+    .nav-tabs-container {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
 
-@media (max-width: 320px) {
-    .company-name {
-        font-size: 14px;
-        max-width: calc(100%-60px);
+    .navigation-tabs {
+        width: 100%;
     }
-    
-    .navigation-tabs .ant-tabs-tab {
-        padding: 0 6px;
-    }
-    
-    .navigation-tabs .ant-tabs-tab-btn {
-        font-size: 11px;
-    }
-    
-    .contact-button {
-        font-size: 10px;
-        padding: 0 5px;
-        height: 24px;
+
+    .navigation-tabs .ant-tabs-nav-list {
+        justify-content: center;
     }
 }
