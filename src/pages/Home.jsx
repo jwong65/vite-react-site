@@ -7,7 +7,6 @@ export default function Home() {
         <Card className='main'>
             content goes here
         </Card>
-        <div>Home</div>
     </div>
   )
 }
