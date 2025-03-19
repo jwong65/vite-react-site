@@ -103,7 +103,13 @@
 }
 
 .contact-button{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
     height: 32px;
     margin-left: 32px;
+    white-space: nowrap;
+    font-weight: 700;
 }
   
