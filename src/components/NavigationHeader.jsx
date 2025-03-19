@@ -6,8 +6,13 @@ import { Button } from 'antd'
 export default function NavigationHeader() {
   return (
     <header className='navigation-header'>
-      <div className='logo-container'>
-        <img src='/Layer_1.svg' alt='Logo' className=''/>
+      <div className='brand-section'>
+        <div className='logo-container'>
+          <img src='/Layer_1.svg' alt='Logo' className=''/>
+        </div>
+        <div className='company-name'>
+          Thunder Monetize
+        </div>
       </div>
       <nav className='nav-links'>
         <ul>

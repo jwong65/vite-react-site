@@ -21,8 +21,14 @@ background-color: white;
 z-index: 1000;
 }
 
+.brand-section{
+    display: flex;
+    align-items: center;
+    margin-left: 94px;
+}
+
 .logo-container {
-margin-left: 94px;
+    margin-right: 15px;
 }
 
 .logo{
