@@ -114,3 +114,26 @@
     border-radius: 2px;
 }
   
+@media (max-width: 1200px) {
+    .nav-tabs-container {
+      margin-right: 0;
+      width: auto;
+    }
+  }
+  
+@media (max-width: 768px) {
+    .nav-tabs-container {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+    
+    .navigation-tabs {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .navigation-tabs .ant-tabs-nav-list {
+      gap: 15px;
+    }
+  }
