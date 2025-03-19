@@ -19,32 +19,34 @@ export default function NavigationHeader() {
 
 
   return (
-    <header className='navigation-header'>
-      <div className='brand-section'>
-        <div className='logo-container'>
-          <img src='/thunder_monetize_logo.svg' alt='Logo' className=''/>
+    <div className='header-container'>  
+      <header className='navigation-header'>
+        <div className='brand-section'>
+          <div className='logo-container'>
+            <img src='/thunder_monetize_logo.svg' alt='Logo' className='logo'/>
+          </div>
+          <div className='company-name'>
+            Thunder Monetize
+          </div>
         </div>
-        <div className='company-name'>
-          Thunder Monetize
-        </div>
-      </div>
-      <div className='nav-tabs-container'>
-        <Tabs
-          className = 'navigation-tabs'
-          activeKey={currentPath}
-          onChange={handleTabChange}
-        >
-          <Tabs.TabPane tab="Solutions" key="/" />
-          <Tabs.TabPane tab="For Publishers" key="/publisher" />
-          <Tabs.TabPane tab="For Advertisers" key="/" />
-          <Tabs.TabPane tab="About" key="/" />
+        <div className='nav-tabs-container'>
+          <Tabs
+            className = 'navigation-tabs'
+            activeKey={currentPath}
+            onChange={handleTabChange}
+          >
+            <Tabs.TabPane tab="Solutions" key="/" />
+            <Tabs.TabPane tab="For Publishers" key="/publisher" />
+            <Tabs.TabPane tab="For Advertisers" key="/" />
+            <Tabs.TabPane tab="About" key="/" />
+            
+          </Tabs>
           
-        </Tabs>
-        
-        <Button type='primary' className='contact-button' onClick={handleContactClick}>
-              Contact Us
-        </Button>
-      </div>
-    </header>
+          <Button type='primary' className='contact-button' onClick={handleContactClick}>
+                Contact Us
+          </Button>
+        </div>
+      </header>
+    </div>
    )
 }
