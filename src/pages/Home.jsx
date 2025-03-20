@@ -1,6 +1,8 @@
 import React from 'react'
 import backgroundImage from '../assets/home_photo1.svg'
 
+import { Button } from 'antd'
+
 import "./home.css"
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
             </h1>
             <h3 className='sub-heading'>Because every millisecond counts.</h3>
             <h3 className='sub-heading2'>Maximize revenue with real-time bidding, premium demand, and AI-driven optimization—built for publishers, trusted by advertisers.</h3>
+            < Button type='primary'>Supercharge Your Growth Today</Button>
         </div>
     </div>
   )
