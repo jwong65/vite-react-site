@@ -2,7 +2,7 @@ import React from 'react'
 import './navigation_header.css'
 import { Tabs, Button } from 'antd'
 
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate, useLocation, Link } from 'react-router-dom'
 export default function NavigationHeader() {
 
   const navigate = useNavigate();
@@ -10,7 +10,7 @@ export default function NavigationHeader() {
   const currentPath = location.pathname;
 
   const handleTabChange = (key) =>{
-    navigate(key)
+      navigate(key)
   }
 
   const handleContactClick = () => {
@@ -19,16 +19,17 @@ export default function NavigationHeader() {
 
 
   return (
+    
     <div className='header-container'>  
       <header className='navigation-header'>
-        <div className='brand-section'>
+        <Link to="/" className='brand-section'>
           <div className='logo-container'>
             <img src='/thunder_monetize_logo.svg' alt='Logo' className='logo'/>
           </div>
           <div className='company-name'>
             Thunder Monetize
           </div>
-        </div>
+        </Link>
         <div className='nav-tabs-container'>
           <Tabs
             className = 'navigation-tabs'
