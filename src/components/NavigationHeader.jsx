@@ -17,6 +17,24 @@ export default function NavigationHeader() {
     navigate('/contact');
   }
 
+  const tabItems = [
+    {
+      key: '/',
+      label: 'Solutions'
+    },
+    {
+      key: '/publisher',
+      label: 'For Publishers'
+    },
+    {
+      key: '/advertisers',
+      label: 'For Advertisers'
+    },
+    {
+      key: '/about',
+      label: 'About'
+    }
+  ]
 
   return (
     
@@ -35,14 +53,8 @@ export default function NavigationHeader() {
             className = 'navigation-tabs'
             activeKey={currentPath}
             onChange={handleTabChange}
-          >
-            <Tabs.TabPane tab="Solutions" key="/" />
-            <Tabs.TabPane tab="For Publishers" key="/publisher" />
-            <Tabs.TabPane tab="For Advertisers" key="/advertisers" />
-            <Tabs.TabPane tab="About" key="/about" />
-            
-          </Tabs>
-          
+            items ={tabItems}
+          />
           <Button type='primary' className='contact-button' onClick={handleContactClick}>
                 Contact Us
           </Button>
