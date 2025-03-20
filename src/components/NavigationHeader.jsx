@@ -37,8 +37,8 @@ export default function NavigationHeader() {
           >
             <Tabs.TabPane tab="Solutions" key="/" />
             <Tabs.TabPane tab="For Publishers" key="/publisher" />
-            <Tabs.TabPane tab="For Advertisers" key="/" />
-            <Tabs.TabPane tab="About" key="/" />
+            <Tabs.TabPane tab="For Advertisers" key="/advertisers" />
+            <Tabs.TabPane tab="About" key="/about" />
             
           </Tabs>
           
