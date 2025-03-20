@@ -31,8 +31,6 @@ body {
 main {
   flex: 1;
   display: flex;
-  place-items: center; /* Center content in the main area */
-  justify-content: center;
   padding: 20px;
 }
 
