@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+.header-wrapper {
+    width: 100%;
+    background-color:  var(--Primary-Arctic-White, #F8F9FA);
+    position: relative;
+    z-index: 1000; 
+  }
 .header-container{
     display: flex;
     justify-content: center;
@@ -8,6 +14,7 @@
     position: relative;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: white;
 }
 
 .navigation-header {

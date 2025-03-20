@@ -6,11 +6,24 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+main{
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .app-layout{
     min-height:100vh;
-    background: var(--Primary-Arctic-White, #F8F9FA);
+    /* background: var(--Primary-Arctic-White, #F8F9FA); */
+    background: transparent;
 }
+
+.ant-layout-header {
+    background: transparent;
+    padding-bottom: 20px;
+    padding: 0;
+  }
+
 .app-content {
     padding: 0;
     background: transparent;
@@ -18,6 +31,8 @@
 }
 
 .ant-layout-content {
+    margin-top: 20px;
+    padding-top: 20px !important;
     width: 100%;
     max-width: 100%;
     padding: 0;

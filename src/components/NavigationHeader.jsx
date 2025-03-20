@@ -37,29 +37,30 @@ export default function NavigationHeader() {
   ]
 
   return (
-    
-    <div className='header-container'>  
-      <header className='navigation-header'>
-        <Link to="/" className='brand-section'>
-          <div className='logo-container'>
-            <img src='/thunder_monetize_logo.svg' alt='Logo' className='logo'/>
+    <div className='header-wrapper'>
+      <div className='header-container'>  
+        <header className='navigation-header'>
+          <Link to="/" className='brand-section'>
+            <div className='logo-container'>
+              <img src='/thunder_monetize_logo.svg' alt='Logo' className='logo'/>
+            </div>
+            <div className='company-name'>
+              Thunder Monetize
+            </div>
+          </Link>
+          <div className='nav-tabs-container'>
+            <Tabs
+              className = 'navigation-tabs'
+              activeKey={currentPath}
+              onChange={handleTabChange}
+              items ={tabItems}
+            />
+            <Button type='primary' className='contact-button' onClick={handleContactClick}>
+                  Contact Us
+            </Button>
           </div>
-          <div className='company-name'>
-            Thunder Monetize
-          </div>
-        </Link>
-        <div className='nav-tabs-container'>
-          <Tabs
-            className = 'navigation-tabs'
-            activeKey={currentPath}
-            onChange={handleTabChange}
-            items ={tabItems}
-          />
-          <Button type='primary' className='contact-button' onClick={handleContactClick}>
-                Contact Us
-          </Button>
-        </div>
-      </header>
+        </header>
+      </div>
     </div>
    )
 }
