@@ -14,25 +14,21 @@ main{
 }
 .app-layout{
     min-height:100vh;
-    /* background: var(--Primary-Arctic-White, #F8F9FA); */
-    background: transparent;
 }
 
 .ant-layout-header {
-    background: transparent;
+    /* background: transparent; */
     padding-bottom: 20px;
     padding: 0;
   }
 
 .app-content {
     padding: 0;
-    background: transparent;
     width: 100%;
 }
 
 .ant-layout-content {
-    margin-top: 20px;
-    padding-top: 20px !important;
+    padding-top: 80px !important;
     width: 100%;
     max-width: 100%;
     padding: 0;
@@ -49,4 +45,22 @@ main{
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .App .ant-layout .ant-layout-content {
+      padding-top: 70px !important; 
+    }
+  }
+
+@media (max-width: 768px) {
+.App .ant-layout .ant-layout-content {
+    padding-top: 120px !important; 
+}
+}
+ 
+@media (max-width: 480px) {
+    .App .ant-layout .ant-layout-content {
+      padding-top: 140px !important; 
+}
 }
