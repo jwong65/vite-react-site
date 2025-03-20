@@ -1,0 +1,11 @@
+.home-container{
+    flex-shrink: 0;
+    background: var(--Primary-Arctic-White, #F8F9FA);
+    border: 1px solid red;
+}
+
+.background-image{
+    width: 95vw;
+    height: 850px;
+    flex-shrink: 0;
+}
