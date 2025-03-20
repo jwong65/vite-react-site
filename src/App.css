@@ -17,7 +17,6 @@ main{
 }
 
 .ant-layout-header {
-    /* background: transparent; */
     padding-bottom: 20px;
     padding: 0;
   }
@@ -55,12 +54,12 @@ main{
 
 @media (max-width: 768px) {
 .App .ant-layout .ant-layout-content {
-    padding-top: 120px !important; 
+    padding-top: 160px !important; 
 }
 }
  
 @media (max-width: 480px) {
     .App .ant-layout .ant-layout-content {
-      padding-top: 140px !important; 
+      padding-top: 200px !important; 
 }
 }
