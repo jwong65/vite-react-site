@@ -6,3 +6,32 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.app-layout{
+    min-height:100vh;
+    background: var(--Primary-Arctic-White, #F8F9FA);
+}
+.app-content {
+    padding: 0;
+    background: transparent;
+    width: 100%;
+}
+
+.ant-layout-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+.app-footer {
+    text-align: center;
+    background: #4A4A4A;
+    color: white;
+    padding: 24px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
