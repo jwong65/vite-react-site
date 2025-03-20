@@ -9,25 +9,24 @@ import './App.css'
 
 
 import { Layout } from 'antd'
-const {Header, Content, Footer} =  Layout
+const { Content, Footer} =  Layout
 function App() {
 
   return (
     <Router>
       <Layout className='app-layout'>
         <div className='App'>
-          <Header className='app-header'tyle={{ padding: 0, background: 'transparent' }}>
-            <NavigationHeader />
-          </Header>
-          <main>
+          <NavigationHeader />
+          <Content className='app-content'>
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/publisher' element={<Publisher />} />
               <Route path='/advertisers' element={<Advertisers />} />
               <Route path='/about' element={<About />} />
             </Routes>
-          </main>
+          </Content>
         </div>
+        <Footer />
       </Layout>
     </Router>
   )
