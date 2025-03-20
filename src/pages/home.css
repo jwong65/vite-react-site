@@ -1,6 +1,4 @@
 .home-container{
-    width: 945px;
-    height: 850px;
     flex-shrink: 0;
     background: var(--Primary-Arctic-White, #F8F9FA);
     border: 1px solid red;
@@ -10,5 +8,4 @@
     width: 95vw;
     height: 850px;
     flex-shrink: 0;
-    aspect-ratio: 1927.60/850.00;
 }
