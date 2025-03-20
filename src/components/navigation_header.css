@@ -15,6 +15,7 @@
     margin: 0 auto;
     padding: 0 20px;
     background-color: white;
+    white-space: nowrap;
 }
 
 .navigation-header {
@@ -35,6 +36,7 @@
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+    min-width: 0;
 }
 
 .logo-container {
@@ -117,6 +119,9 @@
     white-space: nowrap;
     font-weight: 700;
     border-radius: 2px;
+}
+.ant-dropdown-menu{
+    text-align: center;
 }
 
 @media (max-width: 1199px) {
@@ -392,4 +397,27 @@
     .navigation-tabs .ant-tabs-nav-list {
         justify-content: center;
     }
+}
+
+.mobile-full-width-dropdown {
+    width:100vw !important;
+    position:fixed;
+}
+.mobile-full-width-dropdown .ant-dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  
+.mobile-full-width-dropdown .ant-dropdown-menu-item {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+.header-wrapper {
+    position: relative;
+    z-index: 1000;
 }
