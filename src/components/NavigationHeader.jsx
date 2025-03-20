@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './navigation_header.css'
-import { Tabs, Button } from 'antd'
-
+import { Tabs, Button, Dropdown, Menu } from 'antd'
+import { MenuOutlined } from '@ant-design/icons'
 import { useNavigate, useLocation, Link } from 'react-router-dom'
 export default function NavigationHeader() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 834)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -17,6 +19,19 @@ export default function NavigationHeader() {
     navigate('/contact');
   }
 
+  const toggleMobileMenu = () =>{
+    setMobileMenuOpen(!mobileMenuOpen)
+  }
+
+
+
+  useEffect(()=>{
+    const handleResize = ()=>{
+      setIsMobile(window.innerWidth <= 834)
+    }
+    window.addEventListener('resize', handleResize)
+    return ()=> window.removeEventListener('resize', handleResize)
+  })
   const tabItems = [
     {
       key: '/',
@@ -48,6 +63,37 @@ export default function NavigationHeader() {
               Thunder Monetize
             </div>
           </Link>
+
+          {/* {isMobile ? (
+            // Mobile view
+          ):(<></>
+            // Desktop view
+          )}  */}
+          <Dropdown
+            menu={{
+              items:[
+                ...tabItems,
+                {
+                  key:'/contact',
+                  label: 'Contact Us'
+                }
+              ].map(item=>({
+                key: item.key,
+                label: item.label,
+                onClick: ()=> navigate(item.key)
+              }))
+            }}
+            trigger={['click']}
+            placement='bottomRight'
+          >
+           <div className='mobile-menu'>
+              <Button 
+                type='text'
+                icon={<MenuOutlined />}
+                className='hamburger-button'
+              />
+            </div>
+          </Dropdown>
           <div className='nav-tabs-container'>
             <Tabs
               className = 'navigation-tabs'
