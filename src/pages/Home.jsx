@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import backgroundImage from '../assets/home_photo1.svg'
+import backgroundImage from '../assets/home_photo1.jpg'
 
 import { Button } from 'antd'
 
@@ -28,6 +28,9 @@ export default function Home() {
         <div className = 'text-overlay-2'>
         At Thunder Monetize, we power publishers and advertisers with <span className='underline-text'>cutting-edge monetization solutions</span>, delivering <span className='highlight-text'>premium inventory</span>, <span className='highlight-text'>transparency</span>, and <span className='highlight-text'>AI-driven optimization</span> to <span className='underline-text'>maximize every opportunity</span>.
         </div>
+    </div>
+    <div className='home-container-3'>
+
     </div>
     </div>
   )
