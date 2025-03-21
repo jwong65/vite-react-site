@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:ital,wght@0,400;0,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+.page-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .home-container{
     flex-shrink: 0;
     background: var(--Primary-Arctic-White, #F8F9FA);
     position: relative;
     max-width: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
+    justify-content: center;
 }
 
 .background-image{
