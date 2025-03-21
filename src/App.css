@@ -6,3 +6,60 @@
     margin-left: auto;
     margin-right: auto;
 }
+main{
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.app-layout{
+    min-height:100vh;
+}
+
+.ant-layout-header {
+    padding-bottom: 20px;
+    padding: 0;
+  }
+
+.app-content {
+    padding: 0;
+    width: 100%;
+}
+
+.ant-layout-content {
+    padding-top: 80px !important;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+.app-footer {
+    text-align: center;
+    background: #4A4A4A;
+    color: white;
+    padding: 24px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .App .ant-layout .ant-layout-content {
+      padding-top: 70px !important; 
+    }
+  }
+
+@media (max-width: 768px) {
+.App .ant-layout .ant-layout-content {
+    padding-top: 160px !important; 
+}
+}
+ 
+@media (max-width: 480px) {
+    .App .ant-layout .ant-layout-content {
+      padding-top: 200px !important; 
+}
+}

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+.header-wrapper {
+    width: 100%;
+    background-color:  var(--Primary-Arctic-White, #F8F9FA);
+    position: relative;
+    z-index: 1000; 
+  }
 .header-container{
     display: flex;
     justify-content: center;
@@ -8,6 +14,8 @@
     position: relative;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: white;
+    white-space: nowrap;
 }
 
 .navigation-header {
@@ -28,6 +36,9 @@
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+    min-width: 0;
+    flex-shrink: 0;
+    margin-right: 20px;
 }
 
 .logo-container {
@@ -56,6 +67,8 @@
     align-items: center;
     height: 46px;
     position: relative;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
 .navigation-tabs {
@@ -79,7 +92,7 @@
     align-items: center;
     align-self: stretch;
     height: 100%;
-    gap: calc(2vw + 10px);
+    gap: calc(2em + 5px);
     padding: 0 15px;
 }
   
@@ -110,6 +123,10 @@
     white-space: nowrap;
     font-weight: 700;
     border-radius: 2px;
+    flex-shrink: 0;
+}
+.ant-dropdown-menu{
+    text-align: center;
 }
 /* Desktop */
 @media (max-width: 1280px) {
@@ -323,4 +340,27 @@
     .navigation-tabs .ant-tabs-nav-list {
         justify-content: center;
     }
+}
+
+.mobile-full-width-dropdown {
+    width:100vw !important;
+    position:fixed;
+}
+.mobile-full-width-dropdown .ant-dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  
+.mobile-full-width-dropdown .ant-dropdown-menu-item {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+.header-wrapper {
+    position: relative;
+    z-index: 1000;
 }

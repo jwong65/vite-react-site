@@ -1,10 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:ital,wght@0,400;0,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 .home-container{
     flex-shrink: 0;
     background: var(--Primary-Arctic-White, #F8F9FA);
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .background-image{
-    width: 95vw;
-    height: 850px;
-    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    max-height: 850px;
+    object-fit: cover;
+    display: block;
+}
+
+.text-overlay-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color:white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 40px 20px;
+}
+.main-heading{
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    font-family: Rajdhani;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.sub-heading{
+    color: var(--Secondary-Electric-Blue-Light, #308DFF);
+    align-self: stretch;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 90%; 
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sub-heading2{
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.text-overlay-1 .ant-btn {
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+    border-radius: 2px;
+    border: 1px solid var(--Primary-Lightning-Yellow, #FFC107);
+    background: var(--Primary-Lightning-Yellow, #FFC107);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 992px) {
+    .main-heading {
+        font-size: 48px;
+    }
+    
+    .sub-heading {
+        font-size: 48px;
+    }
+    
+    .sub-heading2 {
+        font-size: 16px;
+    }
+    
+    .text-overlay-1 {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 36px;
+    }
+    
+    .sub-heading {
+        font-size: 36px;
+    }
+    
+    .sub-heading2 {
+        font-size: 14px;
+    }
+    
+    .text-overlay-1 {
+        padding: 20px;
+        width: 70%; /* Make the overlay wider on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-heading {
+        font-size: 28px;
+    }
+    
+    .sub-heading {
+        font-size: 28px;
+    }
+    
+    .sub-heading2 {
+        font-size: 13px;
+    }
+    
+    .text-overlay-1 {
+        width: 100%; /* Full width on very small screens */
+        background-color: rgba(255, 255, 255, 0.9); /* Add some transparency */
+    }
+    
+    button, .ant-btn {
+        font-size: 16px;
+    }
 }
