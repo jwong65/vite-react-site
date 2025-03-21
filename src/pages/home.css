@@ -7,6 +7,7 @@
     max-width: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .background-image{
@@ -17,13 +18,15 @@
     display: block;
 }
 
+
 .text-overlay-1{
     position: absolute;
     top: 0;
     left: 0;
     width: 50%;
     height: 100%;
-    background-color:white;
+    
+    background-color: #F8F9FA;
 
     display: flex;
     flex-direction: column;
@@ -31,6 +34,7 @@
     align-items: flex-start;
 
     padding: 40px 20px;
+    z-index: 1;
 }
 .main-heading{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
@@ -78,6 +82,46 @@
     background: var(--Primary-Lightning-Yellow, #FFC107);
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
 }
+.home-container-2{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 468px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.comapny-logo{
+    max-width: 74px;
+    height: auto;
+    margin-bottom: 32px;
+    display: block;
+}
+.text-overlay-2{
+    text-align: center;
+    align-self: stretch;
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    }
+.text-overlay-2 .highlight-text{
+    color: var(--Primary-Electric-Blue, #007BFF);
+}
+.text-overlay-2 .underline-text{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
 
 @media (max-width: 992px) {
     .main-heading {
@@ -112,7 +156,7 @@
     
     .text-overlay-1 {
         padding: 20px;
-        width: 70%; /* Make the overlay wider on smaller screens */
+        width: 70%;
     }
 }
 
@@ -130,8 +174,7 @@
     }
     
     .text-overlay-1 {
-        width: 100%; /* Full width on very small screens */
-        background-color: rgba(255, 255, 255, 0.9); /* Add some transparency */
+        width: 100%; 
     }
     
     button, .ant-btn {
