@@ -19,10 +19,6 @@ export default function NavigationHeader() {
     navigate('/contact');
   }
 
-  const toggleMobileMenu = () =>{
-    setMobileMenuOpen(!mobileMenuOpen)
-  }
-
   const dropdownClassName = isMobile ? 'mobile-full-width-dropdown' : '';
 
 

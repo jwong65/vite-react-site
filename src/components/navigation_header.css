@@ -309,17 +309,40 @@
 }
 /* Smaller phones */
 @media (max-width: 480px){
+    .company-name {
+        font-size: 16px;
+        max-width: calc(100% - 70px); /* Fix the typo in your original CSS */
+    }
+    
+    .logo-container {
+        margin-right: 6px;
+    }
+    
+    .logo {
+        width: 24px;
+        height: 28px;
+    }
+    
+    .navigation-tabs .ant-tabs-tab-btn {
+        font-size: 13px;
+    }
+    
+    .contact-button {
+        font-size: 12px;
+        padding: 0 8px;
+    }
+
     .navigation-header{
         height: auto;
-        min-height: 60px;
+        min-height: 50px;
         padding: 10px 15px;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
     }
     .brand-section {
         margin-left: 0;
         margin-bottom: 10px;
-        width: 100%;
+        width: auto;
     }
     .contact-button {
         position: static;
