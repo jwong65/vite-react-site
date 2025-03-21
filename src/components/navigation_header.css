@@ -195,9 +195,8 @@
     
     .brand-section {
         width: auto;
-        justify-content: flex-start;
+        justify-content: center;
         margin-left: 0;
-        padding-right: 50px;
     }
     
     .company-name {
@@ -310,7 +309,7 @@
 @media (max-width: 480px){
     .company-name {
         font-size: 16px;
-        max-width: calc(100% - 70px); /* Fix the typo in your original CSS */
+        max-width: none;
     }
     
     .logo-container {
