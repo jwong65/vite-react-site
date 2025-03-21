@@ -41,12 +41,18 @@ export default function Home() {
             </div>
             <div className='text-box'>
             <BulbOutlined className='feature-icon' />
+            <h2 className='tab-heading'>Smarter Monetization</h2>
+            Header bidding, OpenRTB, and proprietary traffic shaping to drive maximum yield.
             </div>
             <div className='text-box'>
             <RobotOutlined className='feature-icon' />
+            <h2 className='tab-heading'>ai-driven revenue optimization</h2>
+            Advanced post-bid data analysis ensures higher fill rates and efficiency.
             </div>
             <div className='text-box'>
             <FileAddOutlined className='feature-icon'/>
+            <h2 className='tab-heading'>Flexible ad formats</h2>
+            Interstitial, Rewarded, Banner, MREC, and Native to optimize user engagement.
             </div>
         </div>
         <div className='right-content'>

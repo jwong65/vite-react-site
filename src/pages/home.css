@@ -111,6 +111,12 @@
     margin: 0 auto;
     max-width: 1200px;
 }
+.home-container-3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+}
 
 .home-container-3 .main-heading{
     font-size: 40px;
@@ -118,7 +124,15 @@
 .home-container-3 .sub-heading{
     font-size: 40px;
 }
-
+.tab-heading{
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    font-family: Rajdhani;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+}
 .company-logo{
     width: 74px;
     height: 86px;
