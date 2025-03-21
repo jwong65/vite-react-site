@@ -27,6 +27,15 @@
     object-fit: cover;
     display: block;
 }
+.floating-overlay-image{
+    z-index:2;
+    position: absolute;
+    top:10%;
+    left:50%;
+
+    transform: translate(-50%, -50%);
+    height:auto;
+}
 
 
 .text-overlay-1{
@@ -133,7 +142,8 @@
     text-underline-position: from-font;
 }
 
-@media (max-width: 992px) {
+/* Laptop width */
+@media (max-width: 1024px) {
     .main-heading {
         font-size: 48px;
     }
@@ -149,7 +159,13 @@
     .text-overlay-1 {
         padding: 30px 20px;
     }
+    .floating-overlay-image{
+        top: 8%;
+        max-width: 35%;
+    }
 }
+
+/* Tablet Sizes */
 
 @media (max-width: 768px) {
     .main-heading {
@@ -168,7 +184,13 @@
         padding: 20px;
         width: 70%;
     }
+    .floating-overlay-image{
+        max-width: 40%;
+        top: 6%;
+    }
 }
+
+/* Small Phones */
 
 @media (max-width: 480px) {
     .main-heading {
@@ -189,5 +211,8 @@
     
     button, .ant-btn {
         font-size: 16px;
+    }
+    .floating-overlay-image{
+        top:5%;
     }
 }

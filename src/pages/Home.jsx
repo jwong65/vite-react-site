@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import backgroundImage from '../assets/home_photo1.jpg'
+import overlayImage from "../assets/home_photo2.jpg"
 
 import { Button } from 'antd'
 
@@ -11,6 +12,7 @@ export default function Home() {
     <div className='page-wrapper'>
     <div className='home-container'>
         <img src={backgroundImage} className='background-image' />
+        <img src={overlayImage} className='floating-overlay-image' />
         <div className='text-overlay-1'>
             <h1 className='main-heading'>
                 Precision. Scale. <br/>
