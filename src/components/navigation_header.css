@@ -278,6 +278,19 @@
         font-size: 14px;
         padding: 0 10px;
     }
+
+    .mobile-menu {
+        display: flex;
+        align-items: center; 
+        height: 100%; 
+      }
+      
+      .hamburger-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 32px;
+      }
 }
 /* Phones */
 
