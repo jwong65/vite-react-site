@@ -87,7 +87,6 @@
     margin-top: 0;
     margin-bottom: 48px;
 }
-
 .text-overlay-1 .ant-btn {
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     text-align: center;
@@ -112,11 +111,23 @@
     margin: 0 auto;
     max-width: 1200px;
 }
-.comapny-logo{
-    max-width: 74px;
-    height: auto;
+
+.home-container-3 .main-heading{
+    font-size: 40px;
+}
+.home-container-3 .sub-heading{
+    font-size: 40px;
+}
+
+.company-logo{
+    width: 74px;
+    height: 86px;
     margin-bottom: 32px;
     display: block;
+}
+.feature-icon svg{
+    width: 36px;
+    height: 36px;
 }
 .text-overlay-2{
     text-align: center;

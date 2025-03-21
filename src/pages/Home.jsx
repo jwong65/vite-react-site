@@ -2,8 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import backgroundImage from '../assets/home_photo1.jpg'
 import overlayImage from "../assets/home_photo2.jpg"
+import graphicImage1 from "../assets/graphic1.jpg"
 
 import { Button } from 'antd'
+import { BulbOutlined, RobotOutlined,FileAddOutlined } from '@ant-design/icons'
 
 import "./home.css"
 
@@ -32,6 +34,24 @@ export default function Home() {
         </div>
     </div>
     <div className='home-container-3'>
+        <div className='left-content'>
+            <div className='text-container-left'>
+                <h1 className='main-heading'>Solutions for</h1>
+                <h3 className='sub-heading'>Publishers</h3>
+            </div>
+            <div className='text-box'>
+            <BulbOutlined className='feature-icon' />
+            </div>
+            <div className='text-box'>
+            <RobotOutlined className='feature-icon' />
+            </div>
+            <div className='text-box'>
+            <FileAddOutlined className='feature-icon'/>
+            </div>
+        </div>
+        <div className='right-content'>
+            <img src={graphicImage1}></img>
+        </div>
 
     </div>
     </div>
