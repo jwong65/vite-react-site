@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import backgroundImage from '../assets/home_photo1.jpg'
 import overlayImage from "../assets/home_photo2.jpg"
-import graphicImage1 from "../assets/graphic1.jpg"
+import graphicImage1 from "../assets/graphic1.png"
 
 import { Button } from 'antd'
 import { BulbOutlined, RobotOutlined,FileAddOutlined } from '@ant-design/icons'
@@ -40,23 +40,29 @@ export default function Home() {
                 <h3 className='sub-heading'>Publishers</h3>
             </div>
             <div className='text-box'>
-            <BulbOutlined className='feature-icon' />
-            <h2 className='tab-heading'>Smarter Monetization</h2>
-            Header bidding, OpenRTB, and proprietary traffic shaping to drive maximum yield.
+                <BulbOutlined className='feature-icon' />
+                <div className='text-content'>
+                    <h2 className='tab-heading'>Smarter Monetization</h2>
+                    <p>Header bidding, OpenRTB, and proprietary traffic shaping to drive maximum yield.</p>
+                </div>
             </div>
             <div className='text-box'>
-            <RobotOutlined className='feature-icon' />
-            <h2 className='tab-heading'>ai-driven revenue optimization</h2>
-            Advanced post-bid data analysis ensures higher fill rates and efficiency.
+                <RobotOutlined className='feature-icon' />
+                <div className='text-content'>
+                    <h2 className='tab-heading'>ai-driven revenue optimization</h2>
+                    <p>Advanced post-bid data analysis ensures higher fill rates and efficiency.</p>
+                </div>
             </div>
             <div className='text-box'>
-            <FileAddOutlined className='feature-icon'/>
-            <h2 className='tab-heading'>Flexible ad formats</h2>
-            Interstitial, Rewarded, Banner, MREC, and Native to optimize user engagement.
+                <FileAddOutlined className='feature-icon'/>
+                <div className='text-content'>
+                    <h2 className='tab-heading'>Flexible ad formats</h2>
+                    <p>Interstitial, Rewarded, Banner, MREC, and Native to optimize user engagement.</p>
+                </div>
             </div>
         </div>
         <div className='right-content'>
-            <img src={graphicImage1}></img>
+            <img src={graphicImage1}  />
         </div>
 
     </div>
