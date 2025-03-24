@@ -217,6 +217,29 @@
     text-underline-position: from-font;
 }
 
+.main-heading-partners{
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.sub-heading-partners{
+    color: var(--Primary-Electric-Blue, #007BFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 90%;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
 /* Laptop width */
 @media (max-width: 1024px) {
     .main-heading {

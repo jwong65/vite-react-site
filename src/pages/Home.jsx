@@ -105,11 +105,10 @@ export default function Home() {
             </Link>
         </div>
     </div>
-    {/* <div className='home-container-4'>
-        <div className='text-overlay-2'>
-            Some of Our
-        </div>
-    </div> */}
+    <div className='home-container-2'>
+        <h1 className='main-heading-partners'>Some of Our</h1>
+        <h3 className='sub-heading-partners'>Partners</h3>
+    </div>
     </div>
   )
 }
