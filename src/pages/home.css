@@ -308,8 +308,8 @@
     .floating-overlay-image{
         max-width: 30%;
         top: 6%;
-        left: 85%;
-        transform: translate(-30%, -50%);
+        right: 5%;
+        /* transform: translate(-30%, -50%); */
     }
 
     .home-container-3 {
