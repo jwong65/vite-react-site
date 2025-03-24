@@ -6,7 +6,7 @@ import graphicImage1 from "../assets/graphic1.png"
 import graphicImage2 from "../assets/graphic2.png"
 
 import { Button } from 'antd'
-import { BulbOutlined, RobotOutlined,FileAddOutlined } from '@ant-design/icons'
+import { BulbOutlined, RobotOutlined,FileAddOutlined, TrophyOutlined, AimOutlined, SafetyOutlined } from '@ant-design/icons'
 
 import "./home.css"
 
@@ -75,9 +75,41 @@ export default function Home() {
             <img src={graphicImage2} />
         </div>
         <div className='right-content'>
-
+        <div className='text-container-left'>
+                <h1 className='main-heading'>Solutions for</h1>
+                <h3 className='sub-heading'>Advertisers</h3>
+        </div>
+            <div className='text-box'>
+                <TrophyOutlined className='feature-icon'/>
+                <div className='text-content'>
+                    <h2 className='tab-heading'>Access to premium supply</h2>
+                    <p>Unparalleled reach across top SDK networks and direct publishers.</p>
+                </div>
+            </div>
+            <div className='text-box'>
+                <AimOutlined className='feature-icon' />
+                <div className='text-content'>
+                    <h2 className='tab-heading'>Performance-Driven Targeting</h2>
+                    <p>Advanced optimization ensures efficient spend and higher ROI.</p>
+                </div>
+            </div>
+            <div className='text-box'>
+                <SafetyOutlined className='feature-icon' />
+                <div className='text-content'>
+                    <h2 className='tab-heading'>Brand-Safe & Transparent</h2>
+                    <p>Fully OMSDK, app-ads.txt, sellers.json compliant with industry-leading fraud prevention</p>
+                </div>
+            </div>
+            <Link to="/advertisers">
+                <Button type='primary' className='redirect'>Learn More</Button> 
+            </Link>
         </div>
     </div>
+    {/* <div className='home-container-4'>
+        <div className='text-overlay-2'>
+            Some of Our
+        </div>
+    </div> */}
     </div>
   )
 }
