@@ -11,6 +11,12 @@ import inMobiLogo from "../assets/partnericons/InMobi-Logo.png"
 import ironSourceLogo from "../assets/partnericons/IronSource_Logo.png"
 import sovrnLogo from "../assets/partnericons/sovrn-logo.png"
 
+import magniteLogo from "../assets/partnericons/magniteLogo.png"
+import unityLogo from "../assets/partnericons/Unity_2021.png"
+import yieldLogo from "../assets/partnericons/yieldmo.png"
+import mintegralLogo from "../assets/partnericons/mtgLogo.png"
+import epsilonLogo from "../assets/partnericons/epsilonLogo.png"
+
 import { Button } from 'antd'
 import { BulbOutlined, RobotOutlined,FileAddOutlined, TrophyOutlined, AimOutlined, SafetyOutlined } from '@ant-design/icons'
 
@@ -120,6 +126,11 @@ export default function Home() {
             <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
             <img src={ironSourceLogo} alt='IronSource' className='partner-logo' />
             <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
+            <img src={magniteLogo} alt='Magnite' className='partner-logo' />
+            <img src={unityLogo} alt='Unity' className='partner-logo' />
+            <img src={yieldLogo} alt='Yieldmo' className='partner-logo' />
+            <img src={mintegralLogo} alt='Mintegral' className='partner-logo' />
+            <img src={epsilonLogo} alt='Epislon' className='partner-logo' />
         </div>
     </div>
     </div>

@@ -241,10 +241,8 @@
 }
 
 .partners-grid{
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex; 
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 80px;
@@ -272,6 +270,10 @@
     .floating-overlay-image{
         top: 8%;
         max-width: 35%;
+    }
+
+    .partners-grid{
+        gap:60px;
     }
 }
 
@@ -313,6 +315,9 @@
       .left-content {
         margin-bottom: 20px;
       }
+    .partners-grid{
+        gap:40px;
+    }
 }
 
 /* Small Phones */
@@ -339,5 +344,8 @@
     }
     .floating-overlay-image{
         top:5%;
+    }
+    .partners-grid{
+        gap: 30px;
     }
 }
