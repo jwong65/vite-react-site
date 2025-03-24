@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:ital,wght@0,400;0,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+.page-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .home-container{
     flex-shrink: 0;
     background: var(--Primary-Arctic-White, #F8F9FA);
     position: relative;
     max-width: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    overflow: hidden;
+    justify-content: center;
 }
 
 .background-image{
@@ -16,6 +27,16 @@
     object-fit: cover;
     display: block;
 }
+.floating-overlay-image{
+    z-index:2;
+    position: absolute;
+    top:10%;
+    left:50%;
+
+    transform: translate(-50%, -50%);
+    height:auto;
+}
+
 
 .text-overlay-1{
     position: absolute;
@@ -23,7 +44,8 @@
     left: 0;
     width: 50%;
     height: 100%;
-    background-color:white;
+    
+    background-color: #F8F9FA;
 
     display: flex;
     flex-direction: column;
@@ -31,6 +53,7 @@
     align-items: flex-start;
 
     padding: 40px 20px;
+    z-index: 1;
 }
 .main-heading{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
@@ -64,7 +87,6 @@
     margin-top: 0;
     margin-bottom: 48px;
 }
-
 .text-overlay-1 .ant-btn {
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     text-align: center;
@@ -78,8 +100,167 @@
     background: var(--Primary-Lightning-Yellow, #FFC107);
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
 }
+.home-container-2{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 468px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.home-container-3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+}
+.home-container-3 .main-heading, .home-container-3 .sub-heading{
+    font-size: 40px;
+}
+.home-container-4{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    overflow: visible;
+}
+.left-content, .right-content{
+    flex: 1;
+    max-width: 50%;
+}
+.left-content {
+    flex: 1;
+    padding-right: 20px; 
+  }
 
-@media (max-width: 992px) {
+.right-content img, .left-content img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+  
+
+
+.tab-heading{
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    font-family: Rajdhani;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.text-box{
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    background: #FFF;
+
+    display: flex;
+    align-items: flex-start;
+    padding: 48px 32px;
+    gap: 24px;
+    align-self: stretch;
+
+    margin: 24px;
+}
+.text-box p{
+    margin-top: 0;
+}
+.company-logo{
+    width: 74px;
+    height: 86px;
+    margin-bottom: 32px;
+    display: block;
+}
+.feature-icon{
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.feature-icon svg{
+    width: 36px;
+    height: 36px;
+}
+
+.redirect{
+    border-radius: 2px;
+    border: 1px solid var(--Primary-Electric-Blue, #007BFF);
+    background: var(--Primary-Electric-Blue, #007BFF);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+}
+.text-overlay-2{
+    text-align: center;
+    align-self: stretch;
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    }
+.text-overlay-2 .highlight-text{
+    color: var(--Primary-Electric-Blue, #007BFF);
+}
+.text-overlay-2 .underline-text{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.main-heading-partners{
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.sub-heading-partners{
+    color: var(--Primary-Electric-Blue, #007BFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 90%;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.partners-grid{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    align-self: stretch;
+    width: 100%;
+    overflow: visible;
+}
+
+/* Laptop width */
+@media (max-width: 1024px) {
     .main-heading {
         font-size: 48px;
     }
@@ -95,7 +276,17 @@
     .text-overlay-1 {
         padding: 30px 20px;
     }
+    .floating-overlay-image{
+        top: 8%;
+        max-width: 35%;
+    }
+
+    .partners-grid{
+        gap:60px;
+    }
 }
+
+/* Tablet Sizes */
 
 @media (max-width: 768px) {
     .main-heading {
@@ -112,9 +303,32 @@
     
     .text-overlay-1 {
         padding: 20px;
-        width: 70%; /* Make the overlay wider on smaller screens */
+        width: 70%;
+    }
+    .floating-overlay-image{
+        max-width: 40%;
+        top: 6%;
+    }
+
+    .home-container-3 {
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem;
+      }
+      .left-content, .right-content {
+        max-width: 50%;
+        flex: 1;
+      }
+      
+      .left-content {
+        margin-bottom: 20px;
+      }
+    .partners-grid{
+        gap:40px;
     }
 }
+
+/* Small Phones */
 
 @media (max-width: 480px) {
     .main-heading {
@@ -130,11 +344,16 @@
     }
     
     .text-overlay-1 {
-        width: 100%; /* Full width on very small screens */
-        background-color: rgba(255, 255, 255, 0.9); /* Add some transparency */
+        width: 100%; 
     }
     
     button, .ant-btn {
         font-size: 16px;
+    }
+    .floating-overlay-image{
+        top:5%;
+    }
+    .partners-grid{
+        gap: 30px;
     }
 }

@@ -9,6 +9,7 @@ import './App.css'
 
 
 import { Layout } from 'antd'
+import Contact from './pages/Contact'
 const { Header, Content, Footer} =  Layout
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
               <Route path='/publisher' element={<Publisher />} />
               <Route path='/advertisers' element={<Advertisers />} />
               <Route path='/about' element={<About />} />
+              <Route path='/contact' element={<Contact />} />
             </Routes>
           </Content>
         </div>
