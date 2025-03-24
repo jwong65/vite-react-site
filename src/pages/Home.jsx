@@ -4,13 +4,13 @@ import backgroundImage from '../assets/home_photo1.jpg'
 import overlayImage from "../assets/home_photo2.jpg"
 import graphicImage1 from "../assets/graphic1.png"
 import graphicImage2 from "../assets/graphic2.png"
+import companyLogoWhite from "../assets/companyLogoWhite.svg"
 
 import appLovinLogo from "../assets/partnericons/AppLovin_Full.svg"
 import verveGroupLogo from "../assets/partnericons/verve-group-logo 2.png"
 import inMobiLogo from "../assets/partnericons/InMobi-Logo.png"
 import ironSourceLogo from "../assets/partnericons/IronSource_Logo.png"
 import sovrnLogo from "../assets/partnericons/sovrn-logo.png"
-
 import magniteLogo from "../assets/partnericons/magniteLogo.png"
 import unityLogo from "../assets/partnericons/Unity_2021.png"
 import yieldLogo from "../assets/partnericons/yieldmo.png"
@@ -137,6 +137,16 @@ export default function Home() {
                 <img src={mintegralLogo} alt='Mintegral' className='partner-logo' />
                 <img src={epsilonLogo} alt='Epislon' className='partner-logo' />
             </div>
+        </div>
+    </div>
+    <div className='section-wrapper-bottom'>
+        <div className='home-container-4'>
+            <div className='logo-container'>
+                <img src={companyLogoWhite} alt='Logo' className='logo' />
+            </div>
+            <div className='footer-heading'>Join the Thunder.</div>
+            <div className='footer-subtext'>Elevate your monetization</div>
+
         </div>
     </div>
     </div>
