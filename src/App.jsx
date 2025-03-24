@@ -9,16 +9,14 @@ import './App.css'
 
 
 import { Layout } from 'antd'
-const { Header, Content, Footer} =  Layout
+const { Content, Footer} =  Layout
 function App() {
 
   return (
     <Router>
       <Layout className='app-layout'>
         <div className='App'>
-          <Header> 
-            <NavigationHeader />
-          </Header>
+          <NavigationHeader />
           <Content className='app-content'>
             <Routes>
               <Route path='/' element={<Home />} />
