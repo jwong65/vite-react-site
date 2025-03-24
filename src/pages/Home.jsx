@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import backgroundImage from '../assets/home_photo1.jpg'
 import overlayImage from "../assets/home_photo2.jpg"
 import graphicImage1 from "../assets/graphic1.png"
+import graphicImage2 from "../assets/graphic2.png"
 
 import { Button } from 'antd'
 import { BulbOutlined, RobotOutlined,FileAddOutlined } from '@ant-design/icons'
@@ -67,7 +68,15 @@ export default function Home() {
         <div className='right-content'>
             <img src={graphicImage1}  />
         </div>
+    </div>
+    
+    <div className='home-container-3'>
+        <div className='left-content'>
+            <img src={graphicImage2} />
+        </div>
+        <div className='right-content'>
 
+        </div>
     </div>
     </div>
   )
