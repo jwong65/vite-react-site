@@ -23,6 +23,7 @@ function App() {
               <Route path='/publisher' element={<Publisher />} />
               <Route path='/advertisers' element={<Advertisers />} />
               <Route path='/about' element={<About />} />
+              <Route path='/contact' element={<Contact />} />
             </Routes>
           </Content>
         </div>

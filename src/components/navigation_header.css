@@ -199,16 +199,14 @@
     
     .brand-section {
         width: auto;
-        justify-content: flex-start;
+        justify-content: center;
         margin-left: 0;
-        padding-right: 50px;
     }
     
     .company-name {
         font-size: 22px;
         white-space: nowrap;
         overflow: hidden;
-        text-overflow: ellipsis;
     }
     
     .contact-button{
@@ -284,6 +282,19 @@
         font-size: 14px;
         padding: 0 10px;
     }
+
+    .mobile-menu {
+        display: flex;
+        align-items: center; 
+        height: 100%; 
+      }
+      
+      .hamburger-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 32px;
+      }
 }
 /* Phones */
 
@@ -315,7 +326,7 @@
 @media (max-width: 480px){
     .company-name {
         font-size: 16px;
-        max-width: calc(100% - 70px); /* Fix the typo in your original CSS */
+        max-width: none;
     }
     
     .logo-container {
