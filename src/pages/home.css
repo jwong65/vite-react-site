@@ -240,6 +240,16 @@
     margin-top: 0;
 }
 
+.partners-grid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    align-self: stretch;
+    width: 100%;
+}
+
 /* Laptop width */
 @media (max-width: 1024px) {
     .main-heading {

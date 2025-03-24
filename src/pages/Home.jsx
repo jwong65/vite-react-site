@@ -5,6 +5,9 @@ import overlayImage from "../assets/home_photo2.jpg"
 import graphicImage1 from "../assets/graphic1.png"
 import graphicImage2 from "../assets/graphic2.png"
 
+import appLovinLogo from "../assets/partnericons/AppLovin_Full.svg"
+import verveGroupLogo from "../assets/partnericons/verve-group-logo 2.png"
+
 import { Button } from 'antd'
 import { BulbOutlined, RobotOutlined,FileAddOutlined, TrophyOutlined, AimOutlined, SafetyOutlined } from '@ant-design/icons'
 
@@ -108,6 +111,11 @@ export default function Home() {
     <div className='home-container-2'>
         <h1 className='main-heading-partners'>Some of Our</h1>
         <h3 className='sub-heading-partners'>Partners</h3>
+        <div className='partners-grid'>
+            <img src={appLovinLogo} alt='AppLovin' className='partner-logo' />
+            <img src={verveGroupLogo} alt="VerveGroup" className='partner-logo' />
+
+        </div>
     </div>
     </div>
   )
