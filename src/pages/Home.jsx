@@ -7,6 +7,9 @@ import graphicImage2 from "../assets/graphic2.png"
 
 import appLovinLogo from "../assets/partnericons/AppLovin_Full.svg"
 import verveGroupLogo from "../assets/partnericons/verve-group-logo 2.png"
+import inMobiLogo from "../assets/partnericons/InMobi-Logo.png"
+import ironSourceLogo from "../assets/partnericons/IronSource_Logo.png"
+import sovrnLogo from "../assets/partnericons/sovrn-logo.png"
 
 import { Button } from 'antd'
 import { BulbOutlined, RobotOutlined,FileAddOutlined, TrophyOutlined, AimOutlined, SafetyOutlined } from '@ant-design/icons'
@@ -114,7 +117,9 @@ export default function Home() {
         <div className='partners-grid'>
             <img src={appLovinLogo} alt='AppLovin' className='partner-logo' />
             <img src={verveGroupLogo} alt="VerveGroup" className='partner-logo' />
-
+            <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
+            <img src={ironSourceLogo} alt='IronSource' className='partner-logo' />
+            <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
         </div>
     </div>
     </div>
