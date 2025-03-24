@@ -40,12 +40,15 @@ export default function Home() {
             </Link>
         </div>
     </div>
-    <div className ='home-container-2'>
-        <img src="/thunder_monetize_logo.svg" alt='Company Logo' className='company-logo'/>
-        <div className = 'text-overlay-2'>
-        At Thunder Monetize, we power publishers and advertisers with <span className='underline-text'>cutting-edge monetization solutions</span>, delivering <span className='highlight-text'>premium inventory</span>, <span className='highlight-text'>transparency</span>, and <span className='highlight-text'>AI-driven optimization</span> to <span className='underline-text'>maximize every opportunity</span>.
+    <div className='home-container-2-wrapper'>
+        <div className ='home-container-2'>
+            <img src="/thunder_monetize_logo.svg" alt='Company Logo' className='company-logo'/>
+            <div className = 'text-overlay-2'>
+            At Thunder Monetize, we power publishers and advertisers with <span className='underline-text'>cutting-edge monetization solutions</span>, delivering <span className='highlight-text'>premium inventory</span>, <span className='highlight-text'>transparency</span>, and <span className='highlight-text'>AI-driven optimization</span> to <span className='underline-text'>maximize every opportunity</span>.
+            </div>
         </div>
     </div>
+    <div className='home-container-3-wrapper'>
     <div className='home-container-3'>
         <div className='left-content'>
             <div className='text-container-left'>
@@ -80,6 +83,7 @@ export default function Home() {
         <div className='right-content'>
             <img src={graphicImage1}  />
         </div>
+    </div>
     </div>
     
     <div className='home-container-3'>
@@ -117,20 +121,22 @@ export default function Home() {
             </Link>
         </div>
     </div>
-    <div className='home-container-2'>
-        <h1 className='main-heading-partners'>Some of Our</h1>
-        <h3 className='sub-heading-partners'>Partners</h3>
-        <div className='partners-grid'>
-            <img src={appLovinLogo} alt='AppLovin' className='partner-logo' />
-            <img src={verveGroupLogo} alt="VerveGroup" className='partner-logo' />
-            <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
-            <img src={ironSourceLogo} alt='IronSource' className='partner-logo' />
-            <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
-            <img src={magniteLogo} alt='Magnite' className='partner-logo' />
-            <img src={unityLogo} alt='Unity' className='partner-logo' />
-            <img src={yieldLogo} alt='Yieldmo' className='partner-logo' />
-            <img src={mintegralLogo} alt='Mintegral' className='partner-logo' />
-            <img src={epsilonLogo} alt='Epislon' className='partner-logo' />
+    <div className='section-wrapper'>
+        <div className='partners-container'>
+            <h1 className='main-heading-partners'>Some of Our</h1>
+            <h3 className='sub-heading-partners'>Partners</h3>
+            <div className='partners-grid'>
+                <img src={appLovinLogo} alt='AppLovin' className='partner-logo' />
+                <img src={verveGroupLogo} alt="VerveGroup" className='partner-logo' />
+                <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
+                <img src={ironSourceLogo} alt='IronSource' className='partner-logo' />
+                <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
+                <img src={magniteLogo} alt='Magnite' className='partner-logo' />
+                <img src={unityLogo} alt='Unity' className='partner-logo' />
+                <img src={yieldLogo} alt='Yieldmo' className='partner-logo' />
+                <img src={mintegralLogo} alt='Mintegral' className='partner-logo' />
+                <img src={epsilonLogo} alt='Epislon' className='partner-logo' />
+            </div>
         </div>
     </div>
     </div>
