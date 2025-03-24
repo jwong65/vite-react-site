@@ -42,6 +42,7 @@
     padding-left: 94px; 
     width: 347px;
     height: 50px;
+    position: relative;
 }
 
 .logo-container {
