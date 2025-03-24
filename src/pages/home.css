@@ -306,8 +306,9 @@
         width: 70%;
     }
     .floating-overlay-image{
-        max-width: 40%;
+        max-width: 30%;
         top: 6%;
+        left: 60%;
     }
 
     .home-container-3 {
