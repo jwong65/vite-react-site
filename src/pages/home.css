@@ -120,6 +120,14 @@
 .home-container-3 .main-heading, .home-container-3 .sub-heading{
     font-size: 40px;
 }
+.home-container-4{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    overflow: visible;
+}
 .left-content, .right-content{
     flex: 1;
     max-width: 50%;
@@ -248,6 +256,7 @@
     gap: 80px;
     align-self: stretch;
     width: 100%;
+    overflow: visible;
 }
 
 /* Laptop width */
@@ -306,7 +315,6 @@
         width: 100%;
         padding: 2rem;
       }
-      
       .left-content, .right-content {
         max-width: 50%;
         flex: 1;
