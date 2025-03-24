@@ -146,7 +146,9 @@ export default function Home() {
             </div>
             <div className='footer-heading'>Join the Thunder.</div>
             <div className='footer-subtext'>Elevate your monetization</div>
-
+            <Link to='/contact'>
+                <Button type='primary'>Unlock Your Revenue Potential</Button>
+            </Link>
         </div>
     </div>
     </div>
