@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Publisher from './pages/Publisher'
 import Advertisers from './pages/Advertisers'
 import About from './pages/About'
-import './App.css'
+import Contact from './pages/Contact'
 
 
 import { Layout } from 'antd'
