@@ -17,7 +17,7 @@ function App() {
       <Layout className='app-layout'>
         <div className='App'>
           <NavigationHeader />
-          <Content className='app-content'>
+          <Content className='app-content' style={{paddingBottom:0}} >
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/publisher' element={<Publisher />} />
