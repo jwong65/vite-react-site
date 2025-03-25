@@ -457,6 +457,18 @@
         height: auto;
         margin: 0 auto;
     }
+    .home-container-3:first-of-type .right-content {
+        order: 1; 
+    }
+    .home-container-3:first-of-type .left-content {
+        order: 2; 
+    }
+    .home-container-3:nth-of-type(2) .left-content {
+        order: 1; 
+    }
+    .home-container-3:nth-of-type(2) .right-content {
+        order: 2; 
+    }
     .footer-heading, .footer-subtext{
         font-size: 28px;
     }
