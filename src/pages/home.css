@@ -474,44 +474,66 @@
     }
 }
 
-@media (max-height: 480px) and (orientation: landscape) {
-    .home-container {
-        max-height: 100vh;
-        overflow: hidden;
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .home-container-3 {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
     }
     
-    .background-image {
-        height: 100vh;
-        object-fit: cover;
+    .left-content, .right-content {
+        max-width: 90%;
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    /* Order of images on responsive view below 768 */
+    
+    .home-container-3:first-of-type .right-content {
+        order: 1; 
     }
     
-    .floating-overlay-image {
-        max-width: 20%;
-        top: 15%;
+    .home-container-3:first-of-type .left-content {
+        order: 2; 
     }
     
-    .text-overlay-1 {
-        width: 60%;
-        padding: 15px;
-        justify-content: flex-start;
+    .home-container-3:nth-of-type(2) .left-content {
+        order: 1; 
     }
     
-    .main-heading {
-        font-size: 28px;
+    .home-container-3:nth-of-type(2) .right-content {
+        order: 2; 
+    }
+
+    
+    .right-content img, .left-content img {
+        max-width: 70%;
+        display: block;
+        margin: 0 auto;
     }
     
-    .sub-heading {
-        font-size: 28px;
+    .text-box {
+        padding: 30px 20px;
+        margin: 15px 0;
     }
     
-    .sub-heading2 {
-        font-size: 12px;
-        margin-bottom: 20px;
+    .main-heading, .sub-heading {
+        font-size: 32px;
+        text-align: center;
     }
     
-    .text-overlay-1 .ant-btn {
-        font-size: 16px;
-        padding: 0 15px;
-        height: 32px;
+    .tab-heading {
+        font-size: 24px;
+    }
+    
+    .text-container-left {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .redirect {
+        display: block;
+        margin: 0 auto;
     }
 }
