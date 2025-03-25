@@ -15,7 +15,21 @@ export default function NavigationFooter() {
             <div className='company-name-footer'>
               Thunder Monetize
             </div>
-          </Link>
+        </Link>
+
+        <div className='footer-links'>
+          <div className='footer-links-column'>
+            <ul>
+              <li>Home</li>
+              <li>For Publishers</li>
+              <li>For Advertisers</li>
+              <li>About</li>
+              <li>Privacy Policy</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+
         </div>
         NavigationFooter
     </div>
