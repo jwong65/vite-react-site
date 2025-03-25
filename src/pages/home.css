@@ -381,9 +381,8 @@
     .floating-overlay-image{
         max-width: 30%;
         top: 6%;
-        right: 5%;
-        left: auto;
-        transform: none;
+        left: 80%;
+        transform: translateX(-50%);
     }
     .home-container-2{
         font-size: 28px;
