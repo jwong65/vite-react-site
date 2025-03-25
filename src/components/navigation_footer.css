@@ -61,7 +61,7 @@
     margin: 0;
     gap: 24px;
 }
-.footer-links-column ul li{
+.footer-links-column ul li a{
     font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -69,10 +69,10 @@
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
     color: #F8F9FA;
     margin: 0;
     white-space: nowrap;
-
 }
 /* @media (max-width:768px){
 
