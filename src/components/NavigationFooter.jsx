@@ -24,7 +24,7 @@ export default function NavigationFooter() {
               <li><Link to="/publishers">For Publishers</Link></li>
               <li><Link to="/advertisers">For Advertisers</Link></li>
               <li><Link to="/about">About</Link></li>
-              <li><Link to='/privacy'>Privacy Policy</Link></li>
+              {/* <li><Link to='/privacy'>Privacy Policy</Link></li> */}
               <li><Link to='/contact'>Contact</Link></li>
             </ul>
           </div>
