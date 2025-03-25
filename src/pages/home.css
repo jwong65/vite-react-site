@@ -382,6 +382,8 @@
         max-width: 30%;
         top: 6%;
         right: 5%;
+        left: auto;
+        transform: none;
     }
     .home-container-2{
         font-size: 28px;
