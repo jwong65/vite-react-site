@@ -441,6 +441,22 @@
     .partners-grid{
         gap: 30px;
     }
+    .home-container-3{
+        flex-direction: column;
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .left-content, .right-content{
+        max-width: 100%;
+        width: 100%;
+        flex: none;
+        margin-bottom: 20px;
+    }
+    .left-content img, .right-content img{
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
     .footer-heading, .footer-subtext{
         font-size: 28px;
     }
