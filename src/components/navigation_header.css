@@ -2,19 +2,20 @@
 
 .header-wrapper {
     width: 100%;
-    background-color:  var(--Primary-Arctic-White, #F8F9FA);
     position: relative;
     z-index: 1000; 
+    background-color: #FFFFFF;
   }
 .header-container{
     display: flex;
     justify-content: center;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1512px;
     position: relative;
     margin: 0 auto;
     padding: 0 20px;
-    background-color: white;
     white-space: nowrap;
+    background-color: #FFFFFF;
 }
 
 .navigation-header {
@@ -24,9 +25,9 @@
     width: 100%;
     height: 80px;
     position: static;
-    background-color: white;
+    background-color: #FFFFFF;
     z-index: 1000;
-    padding: 0 20px;
+    padding: 0;
 }
 
 .brand-section{
@@ -38,6 +39,9 @@
     min-width: 0;
     flex-shrink: 0;
     margin-right: 20px;
+    width: 347px;
+    height: 50px;
+    position: relative;
 }
 
 .logo-container {
@@ -66,8 +70,7 @@
     align-items: center;
     height: 46px;
     position: relative;
-    flex-grow: 1;
-    justify-content: flex-end;
+    margin-left: auto;
 }
 
 .navigation-tabs {
@@ -91,7 +94,7 @@
     align-items: center;
     align-self: stretch;
     height: 100%;
-    gap: calc(2em + 5px);
+    /* gap: 32px; */
     padding: 0 15px;
 }
   
@@ -101,8 +104,8 @@
     display: flex;
     align-items: center;
     align-self: stretch;
-    padding: 0 15px;
-    margin: 0;
+    padding: 0;
+    margin: 0 16px;
 }
   
 .navigation-tabs .ant-tabs-tab-btn {

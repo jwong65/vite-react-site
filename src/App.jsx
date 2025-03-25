@@ -5,21 +5,18 @@ import Home from './pages/Home'
 import Publisher from './pages/Publisher'
 import Advertisers from './pages/Advertisers'
 import About from './pages/About'
-import './App.css'
+import Contact from './pages/Contact'
 
 
 import { Layout } from 'antd'
-import Contact from './pages/Contact'
-const { Header, Content, Footer} =  Layout
+const { Content, Footer} =  Layout
 function App() {
 
   return (
     <Router>
       <Layout className='app-layout'>
         <div className='App'>
-          <Header> 
-            <NavigationHeader />
-          </Header>
+          <NavigationHeader />
           <Content className='app-content'>
             <Routes>
               <Route path='/' element={<Home />} />
