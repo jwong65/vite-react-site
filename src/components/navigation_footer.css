@@ -17,6 +17,8 @@
     padding: 40px 20px;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 .footer-wrapper .brand-section-footer {
     display: flex;
@@ -50,7 +52,31 @@ top: 4811px;
 left: 94px;
 
 }
+.footer-links{
+    margin-left: auto;
+}
 
+.footer-links-column ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+}
+.footer-links-column ul li{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8F9FA;
+    margin: 0;
+    white-space: nowrap;
+
+}
 /* @media (max-width:768px){
 
 } */

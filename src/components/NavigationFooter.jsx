@@ -29,9 +29,7 @@ export default function NavigationFooter() {
             </ul>
           </div>
         </div>
-
         </div>
-        NavigationFooter
     </div>
   )
 }
