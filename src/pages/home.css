@@ -473,3 +473,45 @@
         font-size: 28px;
     }
 }
+
+@media (max-height: 480px) and (orientation: landscape) {
+    .home-container {
+        max-height: 100vh;
+        overflow: hidden;
+    }
+    
+    .background-image {
+        height: 100vh;
+        object-fit: cover;
+    }
+    
+    .floating-overlay-image {
+        max-width: 20%;
+        top: 15%;
+    }
+    
+    .text-overlay-1 {
+        width: 60%;
+        padding: 15px;
+        justify-content: flex-start;
+    }
+    
+    .main-heading {
+        font-size: 28px;
+    }
+    
+    .sub-heading {
+        font-size: 28px;
+    }
+    
+    .sub-heading2 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .text-overlay-1 .ant-btn {
+        font-size: 16px;
+        padding: 0 15px;
+        height: 32px;
+    }
+}
