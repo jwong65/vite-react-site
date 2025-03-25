@@ -7,20 +7,25 @@ import Publisher from './pages/Publisher'
 import Advertisers from './pages/Advertisers'
 import About from './pages/About'
 import Contact from './pages/Contact'
+<<<<<<< HEAD
 import './App.css'
 
 
 import { Layout } from 'antd'
 const { Header, Content} =  Layout
+=======
+
+
+import { Layout } from 'antd'
+const { Content, Footer} =  Layout
+>>>>>>> main
 function App() {
 
   return (
     <Router>
       <Layout className='app-layout'>
         <div className='App'>
-          <Header> 
-            <NavigationHeader />
-          </Header>
+          <NavigationHeader />
           <Content className='app-content'>
             <Routes>
               <Route path='/' element={<Home />} />

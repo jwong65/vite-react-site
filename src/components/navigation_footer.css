@@ -20,6 +20,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
 }
 .footer-wrapper .brand-section-footer {
     display: flex;
@@ -46,15 +47,10 @@
     text-transform: uppercase;
     color: #F8F9FA;
 }
-.brand-section-footer{
-    width: 347;
-height: 52;
-top: 4811px;
-left: 94px;
 
-}
 .footer-links{
     margin-left: auto;
+    align-items: center;
 }
 
 .footer-links-column ul{

@@ -473,3 +473,67 @@
         font-size: 28px;
     }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .home-container-3 {
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+    
+    .left-content, .right-content {
+        max-width: 90%;
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+
+    /* Order of images on responsive view below 768 */
+    
+    .home-container-3:first-of-type .right-content {
+        order: 1; 
+    }
+    
+    .home-container-3:first-of-type .left-content {
+        order: 2; 
+    }
+    
+    .home-container-3:nth-of-type(2) .left-content {
+        order: 1; 
+    }
+    
+    .home-container-3:nth-of-type(2) .right-content {
+        order: 2; 
+    }
+
+    
+    .right-content img, .left-content img {
+        max-width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .text-box {
+        padding: 30px 20px;
+        margin: 15px 0;
+    }
+    
+    .main-heading, .sub-heading {
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .tab-heading {
+        font-size: 24px;
+    }
+    
+    .text-container-left {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .redirect {
+        display: block;
+        margin: 0 auto;
+    }
+}
