@@ -13,9 +13,10 @@
 }
 .footer-container {
     width: 100%;
-    max-width: 1200px;
-    padding: 40px 20px;
+    max-width: 1512px;
+    padding: 64px 20px;
     display: flex;
+    position: relative;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
