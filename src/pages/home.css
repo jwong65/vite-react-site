@@ -366,12 +366,8 @@
 /* Tablet Sizes */
 
 @media (max-width: 768px) {
-    .main-heading {
-        font-size: 36px;
-    }
-    
-    .sub-heading {
-        font-size: 36px;
+    .main-heading, .sub-heading {
+        font-size: 40px;
     }
     
     .sub-heading2 {
@@ -386,7 +382,9 @@
         max-width: 30%;
         top: 6%;
         right: 5%;
-        /* transform: translate(-30%, -50%); */
+    }
+    .home-container-2{
+        font-size: 28px;
     }
 
     .home-container-3 {
@@ -401,6 +399,9 @@
       
       .left-content {
         margin-bottom: 20px;
+      }
+      .text-content{
+        font-size:14px;git s
       }
     .partners-grid{
         gap:40px;
