@@ -11,7 +11,7 @@ import './App.css'
 
 
 import { Layout } from 'antd'
-const { Header, Content, Footer} =  Layout
+const { Header, Content} =  Layout
 function App() {
 
   return (
@@ -31,9 +31,7 @@ function App() {
             </Routes>
           </Content>
         </div>
-        <Footer>
           <NavigationFooter />
-        </Footer>
       </Layout>
     </Router>
   )

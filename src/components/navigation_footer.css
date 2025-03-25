@@ -1,1 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+.footer-wrapper{
+    width: 100vw;
+    background-color:#4A4A4A;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+}
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-wrapper .brand-section-footer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF; 
+    cursor: pointer;
+    min-width: 0;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.logo-container-footer {
+    margin-right: 1em;
+  }
+  
+.company-name-footer{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90%;
+    letter-spacing: -5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F8F9FA;
+
+}
+.brand-section-footer{
+    width: 347;
+height: 52;
+top: 4811px;
+left: 94px;
+
+}
