@@ -1,15 +1,16 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import NavigationHeader from './components/NavigationHeader'
+import NavigationFooter from './components/NavigationFooter'
 import Home from './pages/Home'
 import Publisher from './pages/Publisher'
 import Advertisers from './pages/Advertisers'
 import About from './pages/About'
+import Contact from './pages/Contact'
 import './App.css'
 
 
 import { Layout } from 'antd'
-import Contact from './pages/Contact'
 const { Header, Content, Footer} =  Layout
 function App() {
 
@@ -30,7 +31,9 @@ function App() {
             </Routes>
           </Content>
         </div>
-        <Footer />
+        <Footer>
+          <NavigationFooter />
+        </Footer>
       </Layout>
     </Router>
   )
