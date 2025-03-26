@@ -46,10 +46,7 @@
     left: 0;
     width: 50%;
     height: 100%;
-    
     background-color: #F8F9FA;
-    
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,7 +129,7 @@
 }
 .home-container-2-wrapper{
     width: 100vw;
-    background-color: #FFF;;
+    background-color: #FFF;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -270,7 +267,7 @@
 }
 
 .text-overlay-2{
-    max-width:945pxa;
+    max-width:945px;
     text-align: center;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     text-align: center;
