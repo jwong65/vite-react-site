@@ -76,6 +76,7 @@ export default function Home() {
                     <p>Interstitial, Rewarded, Banner, MREC, and Native to optimize user engagement.</p>
                 </div>
             </div>
+            
             <Link to="/publisher">
                 <Button type='primary' className='redirect'>Learn More</Button> 
             </Link>
