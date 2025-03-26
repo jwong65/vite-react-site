@@ -24,7 +24,7 @@ export default function NavigationHeader() {
 
   useEffect(()=>{
     const handleResize = ()=>{
-      setIsMobile(window.innerWidth <= 768)
+      setIsMobile(window.innerWidth <= 834)
     }
     window.addEventListener('resize', handleResize)
     return ()=> window.removeEventListener('resize', handleResize)
