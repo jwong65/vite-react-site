@@ -1,24 +1,38 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 import './navigation_footer.css'
 import companyLogo from "../assets/companyLogoSmall.svg"
 
 export default function NavigationFooter() {
+  const location = useLocation();
+
+  const handleHomeClick = (e) =>{
+    if (location.pathname ==='/'){
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+  }
+
   return (
     <div className='footer-wrapper'>
         <div className='footer-container'>
-            <div className='logo-container-footer'>
-              <img src={companyLogo} alt='Logo' className='logo'/>
-            </div>
-            <div className='company-name-footer'>
-              Thunder Monetize
-            </div>
+            <Link to="/" onClick={handleHomeClick} className='brand-section-footer'>
+              <div className='logo-container-footer'>
+                <img src={companyLogo} alt='Logo' className='logo'/>
+              </div>
+              <div className='company-name-footer'>
+                Thunder Monetize
+              </div>
+            </Link>
 
         <div className='footer-links'>
           <div className='footer-links-column'>
             <ul>
-              <li><Link to="/">Home</Link></li>
+              <li><Link to="/" onClick={handleHomeClick}>Home</Link></li>
               <li><Link to="/publisher">For Publishers</Link></li>
               <li><Link to="/advertisers">For Advertisers</Link></li>
               <li><Link to="/about">About</Link></li>
