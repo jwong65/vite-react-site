@@ -251,8 +251,15 @@
     font-weight: 700;
     line-height: 130%;
 }
+
+.home-container-3 .redirect.ant-btn:hover,
+.home-container-3 .redirect.ant-btn:focus {
+    border: 1px solid #06C;
+    background: #06C;
+}
+
 .text-overlay-2{
-    max-width:945px;
+    max-width:945pxa;
     text-align: center;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     text-align: center;
