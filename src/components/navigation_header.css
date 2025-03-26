@@ -150,9 +150,6 @@
         gap: 20px;
     }
     
-    .company-name {
-        font-size: 32px;
-    }
 }
 /* Laptop View */
 @media (max-width: 1024px) {
@@ -170,10 +167,6 @@
     
     .navigation-tabs .ant-tabs-tab {
         padding: 0 8px;
-    }
-    
-    .company-name {
-        font-size: 26px;
     }
     
     .logo {
@@ -216,7 +209,7 @@
         height: 100%; 
       }
     .company-name {
-        font-size: 22px;
+        font-size: 40px;
         white-space: nowrap;
         overflow: hidden;
     }
@@ -306,10 +299,6 @@
 }  
 
 @media (max-width: 640px) {
-    .company-name {
-        font-size: 16px;
-        max-width: calc(100%-70px);
-    }
     
     .logo-container {
         margin-right: 6px;
@@ -331,10 +320,7 @@
 }
 /* Smaller phones */
 @media (max-width: 480px){
-    .company-name {
-        font-size: 16px;
-        max-width: none;
-    }
+
     
     .logo-container {
         margin-right: 6px;
