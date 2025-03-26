@@ -40,3 +40,17 @@
     font-size: 16px;
     font-weight: 400;
 }
+.privacy-text{
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 18.2px */
+
+    width: 1134px;
+}
+
+.privacy-text-header{
+    
+}
