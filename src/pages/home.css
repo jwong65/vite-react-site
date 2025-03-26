@@ -8,11 +8,12 @@
     max-width: 1512px;
     margin: 0 auto;
     padding: 0 20px;
+    background: var(--Primary-Arctic-White, #F8F9FA);
+    
 }
 
 .home-container{
     flex-shrink: 0;
-    background: var(--Primary-Arctic-White, #F8F9FA);
     position: relative;
     max-width: 100%;
     margin: 0 auto;
@@ -47,6 +48,7 @@
     height: 100%;
     
     background-color: #F8F9FA;
+    
 
     display: flex;
     flex-direction: column;
@@ -130,7 +132,7 @@
 }
 .home-container-2-wrapper{
     width: 100vw;
-    background-color: #FFFFFF;
+    background-color: #FFF;;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -369,6 +371,7 @@
 
 .section-wrapper,
 .section-wrapper-bottom,
+.home-container-wrapper,
 .home-container-2-wrapper,
 .home-container-3-wrapper {
   width: 100vw;
@@ -376,6 +379,10 @@
   margin-right: calc(-50vw + 50%);
   display: flex;
   justify-content: center;
+}
+
+.home-container-3-wrapper {
+    background-color: var(--Primary-Arctic-White, #F8F9FA);
 }
 
 /* Laptop width */

@@ -25,21 +25,21 @@ import "./home.css"
 export default function Home() {
   return (
     <div className='page-wrapper'>
-    <div className='home-container'>
-        <img src={backgroundImage} className='background-image' />
-        <img src={overlayImage} className='floating-overlay-image' />
-        <div className='text-overlay-1'>
-            <h1 className='main-heading'>
-                Precision. Scale. <br/>
-                Performance.
-            </h1>
-            <h3 className='sub-heading'>Because every millisecond counts.</h3>
-            <h3 className='sub-heading2'>Maximize revenue with real-time bidding, premium demand, and AI-driven optimization—built for publishers, trusted by advertisers.</h3>
-            <Link to='/contact'>
-                < Button>Supercharge Your Growth Today</Button>
-            </Link>
+        <div className='home-container'>
+            <img src={backgroundImage} className='background-image' />
+            <img src={overlayImage} className='floating-overlay-image' />
+            <div className='text-overlay-1'>
+                <h1 className='main-heading'>
+                    Precision. Scale. <br/>
+                    Performance.
+                </h1>
+                <h3 className='sub-heading'>Because every millisecond counts.</h3>
+                <h3 className='sub-heading2'>Maximize revenue with real-time bidding, premium demand, and AI-driven optimization—built for publishers, trusted by advertisers.</h3>
+                <Link to='/contact'>
+                    < Button>Supercharge Your Growth Today</Button>
+                </Link>
+            </div>
         </div>
-    </div>
     <div className='home-container-2-wrapper'>
         <div className ='home-container-2'>
             <img src="/thunder_monetize_logo.svg" alt='Company Logo' className='company-logo'/>
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
     </div>
     </div>
-    
+    <div className='home-container-3-wrapper'>
     <div className='home-container-3'>
         <div className='left-content'>
             <img src={graphicImage2} />
@@ -121,6 +121,7 @@ export default function Home() {
                 <Button type='primary' className='redirect'>Learn More</Button> 
             </Link>
         </div>
+    </div>
     </div>
     <div className='section-wrapper'>
         <div className='partners-container'>
