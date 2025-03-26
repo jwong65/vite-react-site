@@ -40,6 +40,36 @@ export default function Privacy() {
             We are not responsible for the tracking technologies or privacy practices of our Clients or their vendors. 
             Please review our Platform Cookie Statement for more information.
           </div>
+          <div className='privacy-text-header'>Use of User Information</div>
+          <div className='text-box-privacy'>
+            We and our Clients use User Information to guide decisions on buying and selling advertising space on Digital Media Properties.
+            This data, which may also be combined with information from third-party services, helps deliver targeted ads that our Clients believe will interest specific users.
+            When an ad is shown on a publisher's site, it may also be targeted based on the content that you are viewing or have viewed, for example a travel ad appearing on a travel site.
+            Tracking Technologies help to match client's advertising opportunities with the right advertisements.
+            To do so, we may perform cookie syncing between Clients, Thunder Monetize, third party data provider and/or advertiser client cookies.
+            This cookie synching process allows the parties to map their respective cookie information.
+            For example, if publisher A sets a cookie on a user's device with an ID 12345 and advertiser B sets a cookie on the same user's device with an ID 67890, cookie synching would enable publisher A and advertiser B to recognize that ID 12345 and ID 67890 relate to the same user's device. 
+            In the case of advertisers, cookie syncing may influence the decision whether to bid on a specific advertising opportunity, because if an advertiser recognizes a given cookie ID it may place a higher value on that opportunity.
+            We also use these technologies to prevent users from seeing the same ad repeatedly, enhance ad delivery, report to clients, and assess ad effectiveness.
+            This processing may constitute “targeted advertising” under some laws and the “sale” or “sharing” of personal information under other laws.
+          </div>
+          <div className='privacy-text-header'>Cooperation with Clients in the European Union</div>
+          <div className='text-box-privacy'>
+            In the European Union, we and our Clients may act in limited circumstances as joint controllers under the GDPR for the collection of User Information on Digital Media Properties. In this case, this joint controllership is limited to setting and collecting identifiers and User Information on the Digital Media Properties and transmitting this information to us (“Joint Processing“). 
+            Further processing of your information is our sole responsibility and we act as an independent controller.
+            We have put contractual arrangements in place with our Clients that set out the distribution of responsibilities between us and our Client. Accordingly, our Clients establish the necessary legal basis for this Joint Processing by obtaining consent on the Digital Media Properties and providing the required transparency information. We and our Clients cooperate to fulfill our obligations under the GDPR, especially regarding collaboration with data protection authorities.
+            If you wish to exercise your rights under the GDPR concerning Joint Processing, please contact us via the User Choice Portal.
+            Information We Collect, Use, Disclose, and the Purposes for such Disclosure:
+          </div>
+          <div className='privacy-text-header'>Types of data we collect:</div>
+          <div className='text-box-privacy'>
+            <ul>
+              <li>Device Characteristics: device identifiers, IP address, authentication-derived identifiers such as hashed email, probabilistic identifiers and other advertising identifiers.</li>
+              <li>Browsing and Interaction Data: information about the domain, topic or name of the property, the date/time of visits, the search terms you enter, visitor activities and actions, viewability data, the video title, video player size, description or category being displayed, click data, types of advertisements viewed, type of browser you use, app version, and the page you visited before navigating to the Digital Media Properties.</li>
+              <li>User’s Profiles, User behavior data, derived information: user demographics, information with respect to a user’s preferences, patterns, click and video interactions, behaviors or interests, and information provided to us by advertisers and advertising platforms to match an advertisement opportunity offered by our Clients with the right advertisement.</li>
+            </ul>
+            <p>When you visit Digital Media Properties that use our technology, we collect, use and disclose the following information to the listed recipients for the indicated purposes:</p>
+          </div>
         </div>
       </div>
   )
