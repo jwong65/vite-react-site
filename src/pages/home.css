@@ -7,6 +7,7 @@
     align-items: center;
     max-width: 1512px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .home-container{
@@ -250,8 +251,8 @@
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
 }
 .text-overlay-2{
+    max-width:945px;
     text-align: center;
-    align-self: stretch;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     text-align: center;
     font-family: Rajdhani;
@@ -261,6 +262,7 @@
     line-height: 100%;
     text-transform: uppercase;
     }
+
 .text-overlay-2 .highlight-text{
     color: var(--Primary-Electric-Blue, #007BFF);
 }
@@ -379,6 +381,9 @@
     .text-overlay-1 {
         padding: 20px;
         width: 70%;
+    }
+    .text-overlay-2{
+        max-width: 90%;
     }
     .floating-overlay-image{
         max-width: 30%;
