@@ -85,10 +85,16 @@
     .footer-container{
         flex-direction: column;
         padding: 40px 20px;
+        text-align: center;
     }
     .brand-section-footer{
         margin-right:0;
         margin-bottom: 20px;
+        justify-content: center;
+    }
+    .footer-links{
+        margin-left: 0;
+        width: 100%;
     }
     .footer-links-column ul{
         flex-wrap: wrap;
