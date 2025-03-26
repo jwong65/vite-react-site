@@ -301,6 +301,26 @@
       }
 }
 /* Phones */
+/* Mobile view adjustments */
+@media (max-width: 834px) {
+    .brand-section {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0;
+      width: auto;
+    }
+    .mobile-menu {
+      position: relative;
+      z-index: 10;
+    }
+    .navigation-header {
+        position: relative;
+        min-height: 80px;
+        justify-content: flex-start; /* Align to start to position hamburger button */
+      }
+    
+}  
 
 @media (max-width: 640px) {
     .company-name {
