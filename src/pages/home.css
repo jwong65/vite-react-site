@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:ital,wght@0,400;0,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+.ant-layout-content {
+    background-color: var(--Primary-Arctic-White, #F8F9FA);
+}
+
 .page-wrapper {
     width: 100%;
     display: flex;
@@ -214,6 +218,9 @@
 }
 .text-box p{
     margin-top: 0;
+}
+.logo-container{
+    margin: 0;
 }
 .company-logo{
     width: 74px;
