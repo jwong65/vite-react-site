@@ -257,6 +257,14 @@
     border: 1px solid #06C;
     background: #06C;
 }
+.page-wrapper .text-overlay-1 .ant-btn:hover,
+.page-wrapper .text-overlay-1 .ant-btn:focus, 
+.page-wrapper .home-container-4 .ant-btn:hover,
+.page-wrapper .home-container-4 .ant-btn:focus {
+    border: 1px solid #E2A602;
+    background: #E2A602;
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A)
+}
 
 .text-overlay-2{
     max-width:945pxa;
