@@ -211,9 +211,10 @@
     }
     .mobile-menu {
         position: relative;
-        z-index: 10;
+        display: flex;
+        align-items: center; 
+        height: 100%; 
       }
-    
     .company-name {
         font-size: 22px;
         white-space: nowrap;
@@ -293,34 +294,10 @@
         font-size: 14px;
         padding: 0 10px;
     }
-    .brand-section {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0;
-        width: auto;
-      }
-      .mobile-menu {
-        position: relative;
-        display: flex;
-        align-items: center; 
-        height: 100%; 
-      }
-      }
-      .navigation-header {
-          position: relative;
-          min-height: 80px;
-          justify-content: flex-start; /* Align to start to position hamburger button */
-        }
-
+  
       
-      .hamburger-button {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 32px;
-      }
-
+}
+    
 /* Phones */
 /* Mobile view adjustments */
 @media (max-width: 834px) {
@@ -431,4 +408,17 @@
 .header-wrapper {
     position: relative;
     z-index: 1000;
+}
+.navigation-header {
+    position: relative;
+    min-height: 80px;
+    justify-content: flex-start; 
+  }
+
+
+.hamburger-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
 }
