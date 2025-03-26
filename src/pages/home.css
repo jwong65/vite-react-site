@@ -534,8 +534,11 @@
     }
     
     .text-box {
-        padding: 30px 20px;
-        margin: 15px 0;
+        gap: 24px;
+        padding-top: 48px;
+        padding-right: 32px;
+        padding-bottom: 48px;
+        padding-left: 32px;
     }
     
     .main-heading, .sub-heading {
