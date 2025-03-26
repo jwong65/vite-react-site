@@ -75,6 +75,9 @@
     margin: 0;
     white-space: nowrap;
 }
+.footer-links-column ul li a:hover{
+    color: #308DFF
+}
 @media (max-width: 1024px){
     .footer-links-column ul{
         flex-wrap: wrap;
