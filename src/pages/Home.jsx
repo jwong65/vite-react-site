@@ -142,7 +142,7 @@ export default function Home() {
     <div className='section-wrapper-bottom'>
         <div className='home-container-4'>
             <div className='logo-container'>
-                <img src={companyLogoWhite} alt='Logo' className='logo' />
+                <img src={companyLogoWhite} alt='Logo' className='blue-logo' />
             </div>
             <div className='footer-heading'>Join the Thunder.</div>
             <div className='footer-subtext'>Elevate your monetization</div>
