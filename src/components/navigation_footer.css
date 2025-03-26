@@ -74,10 +74,25 @@
     margin: 0;
     white-space: nowrap;
 }
-/* @media (max-width:768px){
-
-} */
-
-/* @media (max-width:480px){
-
-} */
+@media (max-width:768px){
+    .footer-container{
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    .brand-section-footer{
+        margin-right:0;
+        margin-bottom: 20px;
+    }
+    .footer-links-column ul{
+        gap: 24px 24px;
+    }
+}
+/* @media (max-width: 640px)  */
+ @media (max-width:480px){
+    .footer-links-column ul{
+        gap: 12px 12px;
+    }
+} 
+ /* 
+@media (min-width: 481px) and (max-width: 767px) {
+ */
