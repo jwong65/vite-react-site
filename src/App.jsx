@@ -7,6 +7,7 @@ import Publisher from './pages/Publisher'
 import Advertisers from './pages/Advertisers'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Privacy from './pages/Privacy'
 
 import { Layout } from 'antd'
 const { Content } =  Layout
@@ -24,6 +25,7 @@ function App() {
               <Route path='/advertisers' element={<Advertisers />} />
               <Route path='/about' element={<About />} />
               <Route path='/contact' element={<Contact />} />
+              <Route path='/privacy' element={<Privacy />} />
             </Routes>
           </Content>
         </div>
