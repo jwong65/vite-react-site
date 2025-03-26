@@ -30,6 +30,16 @@ export default function Privacy() {
             These identifiers help us to recognize a particular device without knowing the identity of the user of that device.
             This helps us, our Clients, and our partners (such as third party advertising platforms) select appropriate advertisements to display to you.
           </div>
+          <div className='privacy-text-header'>Information Our Clients and Vendors Collect Independently </div>
+          <div className='text-box-privacy'>
+            We collaborate with various third-parties for analytics and advertising services, which independently gather and use User Information. 
+            These third-party services provide our Clients with additional ways to deliver targeted ads using our technology.
+            For example, third-party companies may use data about your visits to Digital Media Properties across multiple devices or browsers to create advertising profiles that allow advertisers to deliver more personalized content and ads.
+            Our advertiser clients can combine this data with the information we collect to deliver targeted ads or create audience segments for advertising on Digital Media Properties. 
+            Our Clients and their vendors may use their own tags, pixels, cookies, or similar technologies within ads and on certain third-party platforms and Digital Media Properties. 
+            We are not responsible for the tracking technologies or privacy practices of our Clients or their vendors. 
+            Please review our Platform Cookie Statement for more information.
+          </div>
         </div>
       </div>
   )
