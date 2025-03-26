@@ -15,7 +15,7 @@ import magniteLogo from "../assets/partnericons/magniteLogo.svg"
 import unityLogo from "../assets/partnericons/Unity_2021.svg"
 import yieldLogo from "../assets/partnericons/yieldmo.svg"
 import mintegralLogo from "../assets/partnericons/mtgLogo.svg"
-import epsilonLogo from "../assets/partnericons/epsilonLogo.svg"
+import epsilonLogo from "../assets/partnericons/Epsilon-Logo 1.svg"
 
 import { Button } from 'antd'
 import { BulbOutlined, RobotOutlined,FileAddOutlined, TrophyOutlined, AimOutlined, SafetyOutlined } from '@ant-design/icons'
