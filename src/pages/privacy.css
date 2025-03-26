@@ -52,5 +52,15 @@
 }
 
 .privacy-text-header{
-    
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    font-family: Rajdhani;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    align-self: flex-start;
+    text-align: left;
+    padding: 28px 0px;
 }
