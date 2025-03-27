@@ -36,8 +36,8 @@ export default function Publisher() {
         <div className='publisher-container-2'>
           <img src='/thunder_monetize_logo.svg' alt='Company Logo' className='company-logo'/>
           <div className='publisher-text-overlay-2'>
-            We're not just another ad exchange—we're your profitability partner.
-            With cutting-edge traffic shaping, seamless integrations, and premium advertiser demand, we ensure higher fill rates, increased eCPMs, and smarter monetization at scale.
+            We're not just another ad exchange—we're your <span className='underline-text'>profitability partner</span>.
+            With cutting-edge traffic shaping, seamless integrations, and premium advertiser demand, we <span className='highlight-text'>ensure higher fill rates</span>, <span className='highlight-text'>increased eCPMs</span>, and <span className='highlight-text'>smarter monetization at scale</span>.
           </div>
         </div>
       </div>

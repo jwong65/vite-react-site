@@ -173,6 +173,18 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration-style: solid;
-
     width: 950px;
+}
+
+.publisher-text-overlay-2 .underline-text {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.publisher-text-overlay-2 .highlight-text{
+    color: var(--Primary-Electric-Blue, #007BFF);
 }
