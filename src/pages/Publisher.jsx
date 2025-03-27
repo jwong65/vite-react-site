@@ -5,9 +5,14 @@ import publisherImage2 from "../assets/publisher_photo3.png"
 import publisherImage3 from "../assets/publisher_photo4.png"
 
 import { Button } from 'antd'
-import {LineChartOutlined} from '@ant-design/icons'
+import {LineChartOutlined, TrophyOutlined} from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 
+import magniteLogo from "../assets/partnericons/magniteLogo.svg"
+import sovrnLogo from "../assets/partnericons/sovrn-logo.svg"
+import inMobiLogo from "../assets/partnericons/InMobi-Logo.svg"
+import yieldmoLogo from "../assets/partnericons/yieldmo.svg"
+import epsilonLogo from "../assets/partnericons/Epsilon-Logo 1.svg"
 import "./publisher.css"
 
 export default function Publisher() {
@@ -50,7 +55,7 @@ export default function Publisher() {
           <div className='container-3-subheader'>Solutions</div>
           <div className='container-3-text'>
             Monetize every impression with Header Bidding, OpenRTB, and PreBid integrations that ensure fair competition and maximum yield. 
-            Our real-time bidding engine connects you with top DSPs, SSPS, and direct advertisers, unlocking premium demand at top dollar.
+            Our real-time bidding engine connects ythou with top DSPs, SSPS, and direct advertisers, unlocking premium demand at top dollar.
           </div>
         </div>
       </div>
@@ -63,7 +68,8 @@ export default function Publisher() {
                       <h2 className='tab-heading'>Revenue optimization</h2>
                       <p>
                       More than just an ad server—our proprietary traffic-shaping algorithms fine-tune every auction to drive maximum efficiency and return. 
-
+                      </p>
+                      <p>
                       With AI-powered post-bid analysis, we continually optimize yield strategies to extract the highest value from your traffic.
                       </p>
               </div>
@@ -74,9 +80,42 @@ export default function Publisher() {
           </div>
         </div>
       </div>
-
-      
-      Publisher
+      <div className='publiser-container-3-wrapper'>
+        <div className='publisher-content-3'>
+          <div className='left-content'>
+            <img src={publisherImage3} alt='publisherImage3' className='publisher-image' />
+          </div>
+          <div className='right-content'>
+            <div className='text-box'>
+                <TrophyOutlined className='feature-icon' />
+                <div className='text-content'>
+                        <h2 className='tab-heading'>premium ad formats</h2>
+                        <p>
+                          Engage users without compromising experience. 
+                        </p>
+                        <p>
+                        Choose from high-performing ad formats designed for maximum engagement and revenue potential:
+                        </p>
+                        <ul className='content-list'>
+                          <li>Interstitials (Display/Video)</li>
+                          <li>Rewarded Ads (Display/Video)</li>
+                          <li>Banners & MREC</li>
+                          <li>Native Ads</li>
+                        </ul>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div className='bottom-content'>
+            <div className='partners-grid'>
+              <img src={magniteLogo} alt='Magnite' className='partner-logo' />
+              <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
+              <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
+              <img src={yieldmoLogo} alt='Yieldmo' className='partner-logo' />
+              <img src={epsilonLogo} alt='Epislon' className='partner-logo' />                                
+            </div>
+          </div>
+      </div>
     </div>
   )
 }

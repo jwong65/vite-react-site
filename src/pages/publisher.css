@@ -309,6 +309,18 @@
     line-height: 130%;
     letter-spacing: 0%;
 }
+.bottom-content{
+    width: 100%;
+    max-width: 1512px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 60 20px;
+}
+.partners-grid{
+    display: flex;
+    gap: 80px;
+}
 /* Tablet view */
 @media (max-width: 768px) {
     .publisher-container-2-wrapper{
