@@ -17,8 +17,7 @@
 
 .publisher-hero-section-wrapper {
     width: 100vw;
-    background-color: #007BFF; /* Blue background */
-    display: flex;
+    background-color: #007BFF;
     justify-content: center;
     position: relative;
     margin-left: -50vw;
@@ -202,7 +201,10 @@
     margin-left: -50vw;
     margin-right: -50vw;
 }
-
+.publisher-container-3{
+    margin-top: 124px;
+    margin-bottom: 124px;
+}
 .container-3-header{
     font-family: Rajdhani;
     font-weight: 700;
@@ -224,6 +226,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #007BFF;
+    margin-bottom: 23px;
 }
 .container-3-text{
     width: 950px;
@@ -233,6 +236,78 @@
     line-height: 130%;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.publisher-content-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1512px;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.left-content, .right-content{
+    flex: 0 0 auto;
+    max-width: 50%;
+    box-sizing: border-box;
+    flex-direction: row;
+    background-color: #F8F9FA;
+
+}
+.left-content{
+    justify-content: flex-end;
+}
+.right-content{
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.feature-icon{
+    width: 36;
+    height: 36;
+    margin-right: 24px;
+}
+.text-box {
+    color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    background: #FFF;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px 32px;
+    gap: 24px;
+    align-self: stretch;
+
+    margin: 24px 24px 24px 0px;
+    border-radius: 8px;
+}
+.text-content{
+    width: 100%;
+    max-width: 350px;
+}
+.tab-heading {
+    font-family: 'Rajdhani';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color:#4A4A4A;
+
+}
+.text-content p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
 }
 /* Tablet view */
 @media (max-width: 768px) {

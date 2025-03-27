@@ -1,8 +1,11 @@
 import React from 'react'
 import publisherImage from "../assets/publisher_photo1.png"
 import publisherImage1 from "../assets/publisher_photo2.png"
+import publisherImage2 from "../assets/publisher_photo3.png"
+import publisherImage3 from "../assets/publisher_photo4.png"
 
 import { Button } from 'antd'
+import {LineChartOutlined} from '@ant-design/icons'
 import { Link } from 'react-router-dom'
 
 import "./publisher.css"
@@ -49,14 +52,30 @@ export default function Publisher() {
             Monetize every impression with Header Bidding, OpenRTB, and PreBid integrations that ensure fair competition and maximum yield. 
             Our real-time bidding engine connects you with top DSPs, SSPS, and direct advertisers, unlocking premium demand at top dollar.
           </div>
-          <div className=''></div>
-          <div className='left-content'>
-
-          </div>
-          <div className='right-content'></div>
-
         </div>
       </div>
+      <div className='publisher-container-3-wrapper'>
+        <div className='publisher-content-3'>
+          <div className='left-content'>
+            <div className='text-box'>
+              <LineChartOutlined className='feature-icon' />
+              <div className='text-content'>
+                      <h2 className='tab-heading'>Revenue optimization</h2>
+                      <p>
+                      More than just an ad server—our proprietary traffic-shaping algorithms fine-tune every auction to drive maximum efficiency and return. 
+
+                      With AI-powered post-bid analysis, we continually optimize yield strategies to extract the highest value from your traffic.
+                      </p>
+              </div>
+            </div>
+          </div>
+          <div className='right-content'>
+           <img src={publisherImage2} alt='publisherImage2' className='publisher-image' />
+          </div>
+        </div>
+      </div>
+
+      
       Publisher
     </div>
   )
