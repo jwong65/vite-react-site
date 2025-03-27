@@ -80,7 +80,7 @@ export default function Publisher() {
           </div>
         </div>
       </div>
-      <div className='publiser-container-3-wrapper'>
+      <div className='publisher-container-3-wrapper'>
         <div className='publisher-content-3'>
           <div className='left-content'>
             <img src={publisherImage3} alt='publisherImage3' className='publisher-image' />
@@ -106,7 +106,8 @@ export default function Publisher() {
               </div>
           </div>
         </div>
-        <div className='bottom-content'>
+      </div>
+      <div className='bottom-content'>
             <div className='partners-grid'>
               <img src={magniteLogo} alt='Magnite' className='partner-logo' />
               <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
@@ -114,8 +115,7 @@ export default function Publisher() {
               <img src={yieldmoLogo} alt='Yieldmo' className='partner-logo' />
               <img src={epsilonLogo} alt='Epislon' className='partner-logo' />                                
             </div>
-          </div>
-      </div>
+        </div>
     </div>
   )
 }
