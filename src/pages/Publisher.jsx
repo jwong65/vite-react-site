@@ -3,13 +3,17 @@ import publisherImage from "../assets/publisher_photo1.png"
 import publisherImage1 from "../assets/publisher_photo2.png"
 
 import { Button } from 'antd'
+import { Link } from 'react-router-dom'
+
+import "./publisher.css"
 
 export default function Publisher() {
   return (
-    <div className='publisher-container'>
+    <div className='publisher-page-wrapper'>
+      <div className = 'publisher-hero-section-wrapper'>
       <div className='publisher-hero-container'>
         <img src={publisherImage} className='background-publisher' />
-        <img src={publisherImage1} className='floating-publisher-overlay' />
+        <img src={publisherImage1} className='publisher-floating-overlay' />
         <div className='publisher-text-overlay'>
           <h1 className='publisher-main-heading'>
             Publisher Solutions
@@ -23,10 +27,11 @@ export default function Publisher() {
           Thunder Monetize delivers powerful monetization solutions, AI-driven yield optimization, and premium ad formats to maximize every impression—so you earn more with zero wasted potential.
           </h3>
           <Link to='/contact'>
-            < Button>Supercharge Your Growth Today</Button>
+            < Button type='primary'>Supercharge Your Growth Today</Button>
           </Link>
         </div>
 
+      </div>
       </div>
       Publisher
     </div>
