@@ -41,6 +41,22 @@ export default function Publisher() {
           </div>
         </div>
       </div>
+      <div className='publisher-container-3-wrapper'>
+        <div className='publisher-container-3'>
+          <div className='container-3-header'>Monetization</div>
+          <div className='container-3-subheader'>Solutions</div>
+          <div className='container-3-text'>
+            Monetize every impression with Header Bidding, OpenRTB, and PreBid integrations that ensure fair competition and maximum yield. 
+            Our real-time bidding engine connects you with top DSPs, SSPS, and direct advertisers, unlocking premium demand at top dollar.
+          </div>
+          <div className=''></div>
+          <div className='left-content'>
+
+          </div>
+          <div className='right-content'></div>
+
+        </div>
+      </div>
       Publisher
     </div>
   )
