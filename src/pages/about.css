@@ -297,3 +297,33 @@
     box-sizing: border-box;
     z-index: 2;
   }
+
+.banner-heading{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.about-banner-text-box1 .banner-heading{
+    color:#F8F9FA;
+}
+
+.about-banner-text-box2 .banner-heading{
+    color: #4A4A4A;
+}
+
+.about-banner-text-box1 p, .about-banner-text-box2 p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+.about-banner-text-box1 p{
+    color:#F8F9FA
+}
+.about-banner-text-box2 p{
+    color: #4A4A4A
+}
