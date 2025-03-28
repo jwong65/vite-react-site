@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Button } from 'antd'
 
 import aboutImage from "../assets/about_photo1.png"
+import aboutImage1 from "../assets/about_photo2.png"
 import "./about.css"
 
 export default function About() {
@@ -25,7 +26,23 @@ export default function About() {
               <Button type='primary'>Maximize Your Impact</Button>
             </Link>
           </div>
+        </div>
+      </div>
+      <div className='about-content-section-wrapper'>
+        <div className='about-content-section'>
+          <div className='about-content-header-container'>
+            <div className='content-header'>The Thunder Monetize</div>
+            <div className='content-sub-header'>Advantage</div>
+          </div>
+          <div className='about-left-content'>
 
+          </div>
+          <div className='about-center-graphic'>
+            <img src={aboutImage1} alt="Center Graphic" />
+          </div>
+          <div className='about-right-content'>
+
+          </div>
         </div>
       </div>
       About
