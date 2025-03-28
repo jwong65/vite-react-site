@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:ital,wght@0,400;0,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 .ant-layout-content {
     background-color: var(--Primary-Arctic-White, #F8F9FA);
 }
@@ -13,7 +15,8 @@
 }
 .about-hero-section-wrapper{
     width: 100vw;
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA; */
+    background-color: #4A4A4A;
     display: flex;
     justify-content: center;
     position: relative;
@@ -39,5 +42,54 @@
     max-height: 850px;
     object-fit: cover;
     display: block;
-    object-position: right center;
+}
+
+.about-text-overlay{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 50%;
+    max-width: 950px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #4A4A4A;
+    border: 1px solid purple;
+
+}
+
+.about-main-heading{
+    font-family: Rajdhani;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #F8F9FA;
+
+    width: 100%;
+    max-width: 750px;
+    text-align: left;
+    word-wrap: break-word;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.about-sub-heading{
+    font-family: Poppins;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 64px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+
 }
