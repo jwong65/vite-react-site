@@ -6,6 +6,8 @@ import aboutImage from "../assets/about_photo1.png"
 import aboutImage1 from "../assets/about_photo2.png"
 import "./about.css"
 
+import { SafetyOutlined, StarOutlined, RobotOutlined, ApiOutlined } from '@ant-design/icons';
+
 export default function About() {
   return (
     <div className='about-page-wrapper'>
@@ -34,18 +36,58 @@ export default function About() {
             <div className='content-header'>The Thunder Monetize</div>
             <div className='content-sub-header'>Advantage</div>
           </div>
-          <div className='about-left-content'>
-
-          </div>
-          <div className='about-center-graphic'>
-            <img src={aboutImage1} alt="Center Graphic" />
-          </div>
-          <div className='about-right-content'>
-
+          <div className='about-content-container'>
+            <div className='about-left-content'>
+                <div className='text-box'>
+                  <StarOutlined className='feature-icon' />
+                  <div className='text-content'>
+                    <div className='tab-heading'>Premium connections</div> 
+                    <p>
+                      We link top publishers and advertisers, ensuring higher fill rates and stronger eCPMs.
+                    </p>
+                </div>
+              </div>
+              <div className='text-box'>
+                <SafetyOutlined className='feature-icon' />
+                <div className='text-content'>
+                  <div className='tab-heading'>Unmatched transparency & safety</div>  
+                  <p>
+                    Fully OMSDK, app-ads.txt, and sellers.json compliant, with industry-leading fraud prevention.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='about-center-graphic'>
+              <img src={aboutImage1} alt="Center Graphic" />
+            </div>
+            <div className='about-right-content'>
+              <div className='text-box'>
+                <RobotOutlined className='feature-icon' />
+                <div className='text-content'>
+                  <div className='tab-heading'>AI-driven optimization</div>
+                  <p>
+                    Proprietary traffic shaping and post-bid AI maximize revenue on every impression.
+                  </p>
+                </div>
+              </div>
+              <div className='text-box'>
+                <ApiOutlined className='feature-icon' />
+                <div className='text-content'>
+                  <div className='tab-heading'>Seamless integration</div>
+                  <p>
+                    Designed for SDK networks, SSPs, DSPs, and direct publishers with effortless implementation.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      About
+      <div className='about-banner-section-wrapper'>
+        <div className='about-banner-container'>
+          <img></img>
+        </div>
+      </div>
     </div>
   )
 }
