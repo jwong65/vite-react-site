@@ -346,6 +346,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 124px;
 }
 .bottom-about-container .logo-container{
     margin-top: 124px;
