@@ -139,9 +139,9 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 0 0 124px 0;
     left: 50%;
     right: 50%;
+    padding-bottom: 124px;
     margin-left: -50vw;
     margin-right: -50vw;
 }
@@ -163,6 +163,7 @@
     height: 500px;
     max-width: 1512px;
     box-sizing: border-box;
+    background-color: #F8F9FA;
 }
 .publisher-text-overlay-2{
     font-family: Rajdhani;
@@ -196,7 +197,6 @@
     display: flex;
     justify-content: center;
     padding: 0;
-    margin: 0;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
@@ -310,17 +310,39 @@
     line-height: 130%;
     letter-spacing: 0%;
 }
+.partner-wrapper{
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+}
+
 .bottom-content{
     width: 100%;
     max-width: 1512px;
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 60 20px;
+    align-items: center;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
+
 .partners-grid{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
     gap: 80px;
+    width: 100%;
+    max-width: 1512px;
+    margin: 0 auto;
 }
 /* Tablet view */
 @media (max-width: 768px) {

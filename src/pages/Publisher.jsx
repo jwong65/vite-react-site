@@ -107,15 +107,17 @@ export default function Publisher() {
           </div>
         </div>
       </div>
-      <div className='bottom-content'>
-            <div className='partners-grid'>
-              <img src={magniteLogo} alt='Magnite' className='partner-logo' />
-              <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
-              <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
-              <img src={yieldmoLogo} alt='Yieldmo' className='partner-logo' />
-              <img src={epsilonLogo} alt='Epislon' className='partner-logo' />                                
-            </div>
+      <div className='partner-wrapper'>
+        <div className='bottom-content'>
+          <div className='partners-grid'>
+            <img src={magniteLogo} alt='Magnite' className='partner-logo' />
+            <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
+            <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
+            <img src={yieldmoLogo} alt='Yieldmo' className='partner-logo' />
+            <img src={epsilonLogo} alt='Epislon' className='partner-logo' />                                
+          </div>
         </div>
+      </div>
     </div>
   )
 }
