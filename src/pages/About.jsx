@@ -4,6 +4,8 @@ import { Button } from 'antd'
 
 import aboutImage from "../assets/about_photo1.png"
 import aboutImage1 from "../assets/about_photo2.png"
+import aboutImage2 from "../assets/about_photo3.png"
+import companyLogo from "../assets/companyLogoWhite.svg"
 import "./about.css"
 
 import { SafetyOutlined, StarOutlined, RobotOutlined, ApiOutlined } from '@ant-design/icons';
@@ -85,7 +87,20 @@ export default function About() {
       </div>
       <div className='about-banner-section-wrapper'>
         <div className='about-banner-container'>
-          <img></img>
+          <img src={aboutImage2} alt="About Image 2" />
+          <div className='about-banner-content'>
+            <div className='about-banner-text-box1'>
+              <h3 className='banner-heading'>Our Mission</h3>
+              <p>To redefine programmatic advertising by delivering lightning-fast, transparent, and intelligent monetization solutions that empower publishers and advertisers to achieve unmatched performance and profitability.</p>
+            </div>
+            <div className='about-banner-logo'>
+              <img src={companyLogo} alt='Thunder Monetize Logo' />
+            </div>
+            <div className='about-banner-text-box2'>
+              <h3 className='banner-heading'>Our Vision</h3>
+              <p>A digital ecosystem where every impression counts, every bid is optimized, and every partner thrives—backed by the most advanced AI-driven technology and a relentless pursuit of innovation.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
