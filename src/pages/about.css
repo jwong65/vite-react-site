@@ -327,3 +327,75 @@
 .about-banner-text-box2 p{
     color: #4A4A4A
 }
+
+.about-section-bottom-wrapper{
+    width: 100vw;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.bottom-about-container{
+    width: 100%;
+    max-width: 1512px;
+    min-height: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-about-container .logo-container{
+    margin-top: 124px;
+}
+.bottom-about-container .logo-container img{
+    width: 74px;
+    height: 88px;
+}
+.about-footer-text{
+    margin: 40px;
+}
+.about-footer-heading{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4A4A4A;
+}
+.about-footer-subtext{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4A4A4A;
+
+    margin-top: 16px;
+}
+.bottom-about-container .ant-btn{
+    border-radius: 2px;
+    border: 1px solid var(--Primary-Electric-Blue, #007BFF);
+    background: var(--Primary-Electric-Blue, #007BFF);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
+    height: 44px;
+    color: var(--Primary-Arctic-White, #F8F9FA);
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+
+.about-section-bottom-wrapper .bottom-about-container .ant-btn:hover,
+.about-section-bottom-wrapper .bottom-about-container .ant-btn:focus {
+    border: 1px solid #06C;
+    background: #06C;
+}

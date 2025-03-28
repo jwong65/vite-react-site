@@ -6,6 +6,7 @@ import aboutImage from "../assets/about_photo1.png"
 import aboutImage1 from "../assets/about_photo2.png"
 import aboutImage2 from "../assets/about_photo3.png"
 import companyLogo from "../assets/companyLogoWhite.svg"
+import companyLogoBlack from "../assets/companyLogoBlack.svg"
 import "./about.css"
 
 import { SafetyOutlined, StarOutlined, RobotOutlined, ApiOutlined } from '@ant-design/icons';
@@ -101,6 +102,20 @@ export default function About() {
               <p>A digital ecosystem where every impression counts, every bid is optimized, and every partner thrives—backed by the most advanced AI-driven technology and a relentless pursuit of innovation.</p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className='about-section-bottom-wrapper'>
+        <div className='bottom-about-container'>
+          <div className='logo-container'>
+            <img src={companyLogoBlack} alt='Thunder Monetize Logo' />
+          </div>
+          <div className='about-footer-text'>
+            <div className='about-footer-heading'>Maximize Impact with Thunder.</div>
+            <div className='about-footer-subtext'>Join the world's leading advertisers in a faster, safer, and more transparent ecosystem. Let’s get started.</div>
+          </div>
+          <Link to='/contact'>
+            <Button type='primary'>Supercharge Your Campaigns Today</Button>
+          </Link>
         </div>
       </div>
     </div>
