@@ -114,7 +114,7 @@ export default function About() {
             <div className='about-footer-subtext'>Join the world's leading advertisers in a faster, safer, and more transparent ecosystem. Let’s get started.</div>
           </div>
           <Link to='/contact'>
-            <Button type='primary'>Supercharge Your Campaigns Today</Button>
+            <Button type='primary'>Supercharge Your Campaigns</Button>
           </Link>
         </div>
       </div>
