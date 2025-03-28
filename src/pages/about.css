@@ -1,0 +1,43 @@
+.ant-layout-content {
+    background-color: var(--Primary-Arctic-White, #F8F9FA);
+}
+.about-page-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: var(--Primary-Arctic-White, #F8F9FA);
+}
+.about-hero-section-wrapper{
+    width: 100vw;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    overflow: visible;
+}
+.about-container {
+    flex-shrink: 0;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid yellow; */
+}
+
+.about-background-image {
+    width: 100%;
+    height: auto;
+    max-height: 850px;
+    object-fit: cover;
+    display: block;
+    object-position: right center;
+}

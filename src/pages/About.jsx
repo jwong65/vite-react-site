@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom'
 import { Button } from 'antd'
 
 import aboutImage from "../assets/about_photo1.png"
+import "./about.css"
 export default function About() {
   return (
     <div className='about-page-wrapper'>
       <div className='about-hero-section-wrapper'>
-        <div className='about-hero-container'>
+        <div className='about-container'>
           <img src={aboutImage} className='about-background-image' />
           <div className='about-text-overlay'>
             <h1 className='about-main-heading'>About Thunder Monetize</h1>
