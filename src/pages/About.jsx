@@ -4,6 +4,7 @@ import { Button } from 'antd'
 
 import aboutImage from "../assets/about_photo1.png"
 import "./about.css"
+
 export default function About() {
   return (
     <div className='about-page-wrapper'>
@@ -21,7 +22,7 @@ export default function About() {
               At Thunder Monetize, we move fast, think bold, and deliver results. Built for publishers and advertisers who refuse to settle, we provide high-performance monetization solutions that maximize revenue, transparency, and efficiency at every step.
             </h3>
             <Link to='/contact'>
-              <Button>Maximize Your Impact</Button>
+              <Button type='primary'>Maximize Your Impact</Button>
             </Link>
           </div>
 
