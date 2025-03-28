@@ -10,12 +10,10 @@
     align-items: center;
     max-width: 1512px;
     margin: 0 auto;
-    padding: 0 20px;
     background: var(--Primary-Arctic-White, #F8F9FA);
 }
 .about-hero-section-wrapper{
     width: 100vw;
-    /* background-color: #F8F9FA; */
     background-color: #4A4A4A;
     display: flex;
     justify-content: center;
@@ -25,15 +23,14 @@
     overflow: visible;
 }
 .about-container {
-    flex-shrink: 0;
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1512px;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
     justify-content: center;
     box-sizing: border-box;
-    /* border: 1px solid yellow; */
 }
 
 .about-background-image {
