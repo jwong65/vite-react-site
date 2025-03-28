@@ -84,9 +84,11 @@
     letter-spacing: 0%;
     text-transform: uppercase;
     word-wrap: break-word;
-    margin-top: 0;
+    margin-top: 16px;
     padding-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
+    color: #308DFF;
+
 }
 
 .about-sub-heading2{
@@ -96,7 +98,7 @@
     line-height: 130%;
     letter-spacing: 0%;
     word-wrap: break-word;
-
+    color: #F8F9FA;
 }
 .about-text-overlay .ant-btn{
     height: 44px;
