@@ -246,11 +246,15 @@
     padding: 2rem;
     box-sizing: border-box;
     background-color: #FFFFFF;
+    align-items: stretch;
 }
 
 .left-content, .right-content{
     flex: 0 0 auto;
     max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     flex-direction: row;
     background-color: #F8F9FA;
