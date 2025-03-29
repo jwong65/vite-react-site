@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Button } from 'antd'
 
 import "./advertisers.css"
 import advertiserPhoto from "../assets/advertiser_photo1.png"
@@ -25,6 +26,9 @@ export default function Advertisers() {
           <h3 className='advertiser-sub-heading2'>
             Reach premium audiences with full transparency and precision. Thunder Monetize connects you to high-quality, brand-safe inventory while leveraging advanced optimization and fraud prevention tools to ensure every ad dollar drives real results.
           </h3>
+          <Link to='/contact'>
+            < Button type='primary'>Maximize Your Impact</Button>
+          </Link>
         </div>
       </div>
       Advertisers
