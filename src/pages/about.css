@@ -83,9 +83,7 @@
     letter-spacing: 0%;
     text-transform: uppercase;
     word-wrap: break-word;
-    margin-top: 16px;
     padding-top: 0;
-    margin-bottom: 16px;
     color: #308DFF;
 
 }
@@ -100,7 +98,6 @@
     letter-spacing: 0%;
     word-wrap: break-word;
     color: #F8F9FA;
-    margin-bottom: 48px;
 }
 .about-text-overlay .ant-btn{
     height: 44px;
@@ -306,6 +303,7 @@
     line-height: 100%;
     letter-spacing: 0%;
     text-transform: uppercase;
+    margin:0;
 }
 .about-banner-text-box1 .banner-heading{
     color:#F8F9FA;
