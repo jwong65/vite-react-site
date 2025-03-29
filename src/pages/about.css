@@ -46,16 +46,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    
-    width: 50%;
+    width: 65%;
     max-width: 950px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: #4A4A4A
-
+    background-color: #4A4A4A;
 }
 
 .about-main-heading{
