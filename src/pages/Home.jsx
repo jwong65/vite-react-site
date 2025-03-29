@@ -50,26 +50,26 @@ export default function Home() {
     </div>
     <div className='home-container-3-wrapper'>
     <div className='home-container-3'>
-        <div className='left-content'>
+        <div className='left-content-home'>
             <div className='text-container-left'>
                 <h1 className='main-heading'>Solutions for</h1>
                 <h3 className='sub-heading'>Publishers</h3>
             </div>
-            <div className='text-box'>
+            <div className='text-box-home'>
                 <BulbOutlined className='feature-icon' />
                 <div className='text-content'>
                     <h2 className='tab-heading'>Smarter Monetization</h2>
                     <p>Header bidding, OpenRTB, and proprietary traffic shaping to drive maximum yield.</p>
                 </div>
             </div>
-            <div className='text-box'>
+            <div className='text-box-home'>
                 <RobotOutlined className='feature-icon' />
                 <div className='text-content'>
                     <h2 className='tab-heading'>ai-driven revenue optimization</h2>
                     <p>Advanced post-bid data analysis ensures higher fill rates and efficiency.</p>
                 </div>
             </div>
-            <div className='text-box'>
+            <div className='text-box-home'>
                 <FileAddOutlined className='feature-icon'/>
                 <div className='text-content'>
                     <h2 className='tab-heading'>Flexible ad formats</h2>
@@ -81,36 +81,36 @@ export default function Home() {
                 <Button type='primary' className='redirect'>Learn More</Button> 
             </Link>
         </div>
-        <div className='right-content'>
+        <div className='right-content-home'>
             <img src={graphicImage1}  />
         </div>
     </div>
     </div>
     <div className='home-container-3-wrapper'>
     <div className='home-container-3'>
-        <div className='left-content'>
+        <div className='left-content-home'>
             <img src={graphicImage2} />
         </div>
-        <div className='right-content'>
+        <div className='right-content-home'>
         <div className='text-container-left'>
                 <h1 className='main-heading'>Solutions for</h1>
                 <h3 className='sub-heading'>Advertisers</h3>
         </div>
-            <div className='text-box'>
+            <div className='text-box-home'>
                 <TrophyOutlined className='feature-icon'/>
                 <div className='text-content'>
                     <h2 className='tab-heading'>Access to premium supply</h2>
                     <p>Unparalleled reach across top SDK networks and direct publishers.</p>
                 </div>
             </div>
-            <div className='text-box'>
+            <div className='text-box-home'>
                 <AimOutlined className='feature-icon' />
                 <div className='text-content'>
                     <h2 className='tab-heading'>Performance-Driven Targeting</h2>
                     <p>Advanced optimization ensures efficient spend and higher ROI.</p>
                 </div>
             </div>
-            <div className='text-box'>
+            <div className='text-box-home'>
                 <SafetyOutlined className='feature-icon' />
                 <div className='text-content'>
                     <h2 className='tab-heading'>Brand-Safe & Transparent</h2>
