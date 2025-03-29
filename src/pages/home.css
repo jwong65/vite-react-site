@@ -362,17 +362,6 @@
 
 }
 
-.home-container,
-.home-container-2,
-.home-container-3,
-.home-container-4,
-.partners-container {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 .section-wrapper,
 .section-wrapper-bottom,
 .home-container-wrapper,
