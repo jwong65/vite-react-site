@@ -43,7 +43,7 @@
     position: relative;
 }
 
-.logo-container-home {
+.logo-container-header {
     margin-right: 1em;
 }
 
@@ -303,7 +303,7 @@
 
 @media (max-width: 640px) {
     
-    .logo-container-home {
+    .logo-container-header {
         margin-right: 6px;
     }
     
@@ -325,7 +325,7 @@
 @media (max-width: 480px){
 
     
-    .logo-container-home {
+    .logo-container-header {
         margin-right: 6px;
     }
     
