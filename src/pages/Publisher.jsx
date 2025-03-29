@@ -3,6 +3,7 @@ import publisherImage from "../assets/publisher_photo1.png"
 import publisherImage1 from "../assets/publisher_photo2.png"
 import publisherImage2 from "../assets/publisher_photo3.png"
 import publisherImage3 from "../assets/publisher_photo4.png"
+import companyLogo from "../assets/companyLogoWhite.svg"
 
 import { Button } from 'antd'
 import {LineChartOutlined, TrophyOutlined} from '@ant-design/icons'
@@ -116,6 +117,20 @@ export default function Publisher() {
             <img src={yieldmoLogo} alt='Yieldmo' className='partner-logo' />
             <img src={epsilonLogo} alt='Epislon' className='partner-logo' />                                
           </div>
+        </div>
+      </div>
+      <div className='bottom-publisher-wrapper'>
+        <div className='bottom-publisher-container'>
+          <div className='logo-container'>
+            <img  src={companyLogo} alt='Thunder Monetize Logo' className='company-logo'/>
+          </div>
+          <div className='bottom-publisher-text'>
+            <div className='bottom-publisher-header'>Power Up your monetization.</div>
+            <div className='bottom-publisher-subtext'>Whether you're a direct publisher, SDK network, or SSP, Thunder Monetize gives you the tools, demand, and insights to turn traffic into profit—at lightning speed.</div>
+          </div>
+          <Link to='/contact'>
+            <Button type='primary'>Supercharge Your Growth Today</Button>
+          </Link>
         </div>
       </div>
     </div>

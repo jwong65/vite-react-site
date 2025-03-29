@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Button } from 'antd'
 
 import aboutImage from "../assets/about_photo1.png"
-import aboutImage1 from "../assets/about_photo2.png"
+import aboutImage1 from "../assets/about_photo22.png"
 import aboutImage2 from "../assets/about_photo3.png"
 import companyLogo from "../assets/companyLogoWhite.svg"
 import companyLogoBlack from "../assets/companyLogoBlack.svg"
