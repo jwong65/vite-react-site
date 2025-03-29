@@ -192,14 +192,17 @@
         height: auto;
         justify-content: space-between;
         flex-wrap: wrap;
+        position: relative;
     }
     
     .brand-section {
         width: auto;
         justify-content: center;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: none;
         margin: 0;
     }
     .mobile-menu {
