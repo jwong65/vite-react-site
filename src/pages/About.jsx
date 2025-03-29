@@ -20,7 +20,7 @@ export default function About() {
           <div className='about-text-overlay'>
             <h1 className='about-main-heading'>About Thunder Monetize</h1>
             <h3 className='about-sub-heading'>
-              Pondering The Future <br/> 
+              Powering The Future <br/> 
               of Digital <br/>
               Advertising
             </h3>
