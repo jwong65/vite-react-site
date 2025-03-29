@@ -54,6 +54,7 @@
     justify-content: center;
     align-items: flex-start;
     background-color: #4A4A4A;
+    padding-left: 60px;
 }
 
 .about-main-heading{
@@ -90,6 +91,8 @@
 }
 
 .about-sub-heading2{
+    width: 100%;
+    max-width: 750px;
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
