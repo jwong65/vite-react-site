@@ -143,6 +143,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin: 0 auto;
     max-width:1512px;
     padding: 2rem;
 }
@@ -170,7 +171,7 @@
 }
 .left-content-home, .right-content-home{
     flex: 1;
-    max-width: 50%;
+    max-width: 48%;
 }
 .left-content-home {
     flex: 1;
@@ -500,7 +501,7 @@
         height: auto;
         margin: 0 auto;
     }
-    .home-container-3:first-of-type .right-content {
+    .home-container-3:first-of-type .right-content-home {
         order: 1; 
     }
     .home-container-3:first-of-type .left-content-home {
