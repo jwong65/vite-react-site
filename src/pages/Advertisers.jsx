@@ -31,6 +31,14 @@ export default function Advertisers() {
           </div>
         </div>
       </div>
+      <div className='advertiser-container-2-wrapper'>
+        <div className='advertiser-container-2'>
+          <img src='/thunder_monetize_logo.svg' alt='company logo' className='company-logo' />
+          <div className='advertiser-text-overlay-2'>
+            Tap into <span className='underline-text'>premium</span>, <span className='underline-text'>high-quality inventory</span> with unmatched scale across key global markets. Our proprietary solutions ensure <span className='highlight-text'>seamless measurement</span>, <span className='highlight-text'>optimized bidding</span>, and <span className='highlight-text'>reliable tracking</span>—so your campaigns <span className='underline-text'>deliver results</span>, not just impressions.
+          </div>
+        </div>
+      </div>
       Advertisers
     </div>
   )
