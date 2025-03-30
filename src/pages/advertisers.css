@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:ital,wght@0,400;0,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+.ant-layout-content{
+    background-color: var(--Primary-Arctic-White, #F8F9FA)
+}
+
+.advertiser-page-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1512px;
+    margin: 0 auto;
+    background: var(--Primary-Arctic-White, #F8F9FA);
+}
+
+.advertiser-hero-section-wrapper{
+    width: 100vw;
+    background-color: #F8F9FA ;
+    justify-content: center;
+    position: relative;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.advertiser-hero-container{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    max-width: 1512px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.background-advertiser{
+    width: 100%;
+    height: auto;
+    max-height: 850px;
+    object-fit: cover;
+    object-position: right center;
+    display: block;
+}
