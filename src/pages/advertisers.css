@@ -16,7 +16,7 @@
 
 .advertiser-hero-section-wrapper{
     width: 100vw;
-    background-color: #F8F9FA ;
+    background-color: #F8F9FA;
     justify-content: center;
     position: relative;
     margin-left: -50vw;
@@ -41,3 +41,28 @@
     object-position: right center;
     display: block;
 }
+
+.advertiser-floating-overlay{
+    z-index: 3;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.advertiser-text-overlay{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #F8F9FA;
+    box-sizing: border-box;
+
+}
+
