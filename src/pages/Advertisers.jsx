@@ -109,7 +109,7 @@ export default function Advertisers() {
       </div>
       <div className='advertiser-container-3-wrapper'>
         <div className='advertiser-content-3'>
-          <div className='partners-grid'>
+          <div className='partners-grid-advertiser'>
             <img src={appLovinLogo} alt="App Lovin" className='partner-logo' />
             <img src={unityLogo} alt="Unity" className='partner-logo' />
             <img src={verveLogo} alt="Verve" className='partner-logo' />
