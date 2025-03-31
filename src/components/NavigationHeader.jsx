@@ -86,7 +86,7 @@ export default function NavigationHeader() {
           )
         }
           <Link to="/" className='brand-section'>
-            <div className='logo-container-home'>
+            <div className='logo-container-header'>
               <img src='/thunder_monetize_logo.svg' alt='Logo' className='logo'/>
             </div>
             <div className='company-name'>
