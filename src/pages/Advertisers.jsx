@@ -5,6 +5,10 @@ import { Button } from 'antd'
 import "./advertisers.css"
 import advertiserPhoto from "../assets/advertiser_photo1.png"
 import advertiserPhoto2 from "../assets/advertiser_photo2.png"
+import advertiserPhoto3 from "../assets/advertiser_photo3.png"
+import advertiserPhoto4 from "../assets/advertiser_photo4.png"
+
+import {StarOutlined} from '@ant-design/icons'
 
 export default function Advertisers() {
   return (
@@ -39,7 +43,43 @@ export default function Advertisers() {
           </div>
         </div>
       </div>
-      Advertisers
+      <div className='advertiser-container-3-wrapper'>
+        <div className='advertiser-container-3'>
+          <div className='container-3-header'>Advertising</div>
+          <div className='container-3-subheader'>Solutions</div>
+          <div className='container-3-text'>
+            Unlock access to high-quality, transparent inventory that drives real results. Thunder Monetize connects you with top-tier supply, advanced targeting, and cutting-edge fraud prevention to ensure every ad placement is optimized for performance, brand safety, and measurable success.
+          </div>
+        </div>
+      </div>
+      <div className='advertiser-container-3-wrapper'>
+        <div className='advertiser-content-3'>
+          <div className='left-content-advertiser'>
+            <div className='advertiser-text-content'>
+                <StarOutlined className='feature-icon'/>
+                <div className='text-container'>
+                  <div className='container-3-tab-heading'>Inventory Quality & Transparency</div>
+                  <p>We're committed to 100% transparency and top-tier compliance. Every impression you buy is fully verified, compliant with OMSDK (viewability measurement), app-ads.txt, and sellers.json, and sourced exclusively from the best SDK vendors in the industry.</p>
+                </div>
+            </div>
+          </div>
+          <div className='right-content-advertiser'>
+              <img src={advertiserPhoto3} alt='Advertiser Photo' className='advertiser-content-image'/>
+          </div>
+        </div>
+      </div>
+      <div className='advertiser-container-3-wrapper'>
+          <div className='advertiser-content-3'>
+            <div className='left-content-advertiser'>
+              
+            </div>
+            <div className='right-content-advertiser'>
+
+            </div>
+            HELLO?
+          </div>
+        </div>
+      Advertiser
     </div>
   )
 }

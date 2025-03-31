@@ -180,3 +180,118 @@
 .advertiser-text-overlay-2 .highlight-text{
     color: var(--Primary-Electric-Blue, #007BFF);
 }
+
+.advertiser-container-3-wrapper{
+    width: 100vw;
+    background-color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.advertiser-container-3{
+    margin-top: 124px;
+    margin-bottom: 124px;
+    max-width: 1512px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.container-3-text{
+    width: 950px;
+    font-family: Inter;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color:  #F8F9FA;
+}
+
+.container-3-header{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F8F9FA;
+
+}
+
+.advertiser-content-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1512px;
+    gap: 0;
+    /* border: 1px solid red; */
+}
+
+.advertiser-text-content{
+    background-color: #F8F9FA;
+    padding: 48px 32px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    width: 100%;
+    max-width: 475px;
+    min-height: 350px;
+}
+
+.left-content-advertiser, .right-content-advertiser{
+    flex: 0 0 auto;
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.left-content-advertiser{
+    justify-content: flex-end;
+    padding-right: 0px;
+}
+.right-content-advertiser{
+    justify-content: flex-start;
+    padding-left: 0px;
+}
+.text-container{
+    padding: 48 32px;
+    max-width: 500px;
+    flex: 1;
+    background-color: #F8F9FA;
+}
+.feature-icon{
+    width: 36px;
+    height: 36px;
+}
+.container-3-tab-heading{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    max-width: 350px;
+}
+.advertiser-text-content p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #4A4A4A;
+}
