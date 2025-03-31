@@ -9,11 +9,11 @@ import advertiserPhoto3 from "../assets/advertiser_photo3.png"
 import advertiserPhoto4 from "../assets/advertiser_photo4.png"
 import advertiserPhoto5 from "../assets/advertiser_photo5.png"
 
-import appLovinLogo from "../assets/partnericons/AppLovin_Full.svg"
-import unityLogo from "../assets/partnericons/Unity_2021.svg"
-import verveLogo from "../assets/partnericons/verve-group-logo 2.svg"
-import ironSourceLogo from "../assets/partnericons/IronSource_Logo.svg"
-import mintegralLogo from "../assets/partnericons/mtgLogo.svg"
+import appLovinLogo from "../assets/partnericons/AppLovin_Full_White.svg"
+import unityLogo from "../assets/partnericons/Unity_2021_White.png"
+import verveLogo from "../assets/partnericons/verve-group-logo 2-white.svg"
+import ironSourceLogo from "../assets/partnericons/IronSource_LogoWhite.svg"
+import mintegralLogo from "../assets/partnericons/mtgLogoWhite.svg"
 
 import {StarOutlined, StopOutlined, AreaChartOutlined} from '@ant-design/icons'
 
