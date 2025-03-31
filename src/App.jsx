@@ -8,6 +8,7 @@ import Advertisers from './pages/Advertisers'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Privacy from './pages/Privacy'
+import ScrollToTop from './components/ScrollToTop'
 
 import { Layout } from 'antd'
 const { Content } =  Layout
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Layout className='app-layout'>
         <div className='App'>
           <NavigationHeader />
