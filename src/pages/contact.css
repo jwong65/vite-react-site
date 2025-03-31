@@ -202,6 +202,25 @@
     border: 1px solid #06C !important;
     background: #06C !important;     
 }
+.contact-consent-checkbox{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color:#4A4A4A;
+
+}
+.privacy-policy-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+.privacy-policy-link{
+    color: #007BFF;
+}
 @media (max-width: 767px) {
     .contact-form .ant-input,
     .contact-form .ant-select {

@@ -1,6 +1,7 @@
 import React , {useState} from 'react'
+import { Link } from 'react-router-dom'
 import contactImage from "../assets/contact_photo1.png"
-import { Form, Input, Button, Select, Result, Row, Col, message } from 'antd';
+import { Form, Input, Button, Select, Result, Row, Col, message, Checkbox } from 'antd';
 
 import "./contact.css"
 
@@ -141,11 +142,21 @@ export default function Contact() {
                   Get in Touch
                 </Button>
               </Form.Item>
+              <Form.Item
+                name='consent'
+                valuePropName='checked'
+              >
+                <Checkbox className='contact-consent-checkbox'>
+                  By checking here, you agree to receive marketing emails about our products and services. You can unsubscribe anytime via a link in the email.
+                </Checkbox>
+              </Form.Item>
+              <div className='privacy-policy-text'>
+                The information you provide will be used in accordance with the terms of our <Link to='/privacy' className='privacy-policy-link'>privacy policy</Link>.
+              </div>
             </Form>
           </div>
         </div>
       ):(<>No form</>)}
-      Contact
     </div>
   )
 }
