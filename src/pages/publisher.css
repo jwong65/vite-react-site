@@ -204,8 +204,8 @@
     margin-top: 124px;
     margin-bottom: 124px;
 }
-.container-3-header{
-    font-family: Rajdhani;
+.container-3-header-publisher{
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 90%;
@@ -215,8 +215,8 @@
     color:#4A4A4A;
 
 }
-.container-3-subheader{
-    font-family: Poppins;
+.container-3-subheader-publisher{
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-style: italic;
     font-size: 40px;
@@ -227,9 +227,9 @@
     color: #007BFF;
     margin-bottom: 23px;
 }
-.container-3-text{
+.container-3-text-publisher{
     width: 950px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;

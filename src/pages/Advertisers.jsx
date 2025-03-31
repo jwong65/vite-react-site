@@ -101,7 +101,14 @@ export default function Advertisers() {
           </div>
         </div>
       </div>
-      Advertiser
+      <div className='advertiser-container-3-wrapper'>
+        <div className='advertiser-content-3'>
+          <div className='partners-grid'>
+            
+          </div>
+
+        </div>
+      </div>
     </div>
   )
 }
