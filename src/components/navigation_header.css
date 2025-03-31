@@ -183,6 +183,91 @@
         font-size: 14px;
     }
 }
+/* Tablet Portrait */
+@media (max-width: 834px){
+    .navigation-header {
+        padding: 10px 15px;
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .brand-section {
+        width: auto;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        transform: none;
+        margin: 0;
+    }
+    
+    .contact-button {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        margin-left: 0;
+        height: 30px;
+        font-size: 14px;
+        padding: 0 10px;
+        z-index: 10;
+    }
+
+    .logo {
+        width: 30px;
+        height: 34px;
+    }
+    
+    .nav-tabs-container {
+        width: 100%;
+        margin: 0;
+        overflow-x: auto;
+        justify-content: flex-start;
+        height: auto;
+        margin: 10px 0 0 0;
+        height: 40px;
+    }
+    
+    /* Hide scrollbar but allow scrolling */
+    .nav-tabs-container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .nav-tabs-container {
+        -ms-overflow-style: none;  
+        scrollbar-width: none;  
+    }
+    
+    .navigation-tabs {
+        width: 100%;
+    }
+    
+    .navigation-tabs .ant-tabs-nav {
+        width: 100%;
+    }
+    
+    .navigation-tabs .ant-tabs-nav-wrap {
+        overflow-x: auto;
+        justify-content: flex-start;
+    }
+    
+    .navigation-tabs .ant-tabs-nav-list {
+        flex-wrap: nowrap;
+        gap: 5px;
+        padding: 0 5px;
+    }
+    
+    .navigation-tabs .ant-tabs-tab {
+        padding: 0 8px;
+        flex-shrink: 0;
+    }
+    
+    .navigation-tabs .ant-tabs-tab-btn {
+        font-size: 14px;
+    }
+}
 /* Tablet */
 @media (max-width: 768px) {
     .navigation-header {
@@ -211,12 +296,7 @@
         align-items: center; 
         height: 100%; 
       }
-    .company-name {
-        font-size: 40px;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-    
+
     .contact-button{
         position: absolute;
         right: 15px;
@@ -296,35 +376,8 @@
     
 /* Phones */
 /* Mobile view adjustments */
-@media (max-width: 834px) {
-    
-    
-}  
 
-@media (max-width: 640px) {
-    
-    .logo-container-header {
-        margin-right: 6px;
-    }
-    
-    .logo {
-        width: 24px;
-        height: 28px;
-    }
-    
-    .navigation-tabs .ant-tabs-tab-btn {
-        font-size: 13px;
-    }
-    
-    .contact-button {
-        font-size: 12px;
-        padding: 0 8px;
-    }
-}
-/* Smaller phones */
-@media (max-width: 480px){
-
-    
+@media (max-width: 480px) {
     .logo-container-header {
         margin-right: 6px;
     }
@@ -343,23 +396,26 @@
         padding: 0 8px;
     }
 
-    .navigation-header{
+    .navigation-header {
         height: auto;
         min-height: 50px;
         padding: 10px 15px;
         flex-direction: row;
         align-items: center;
     }
+    
     .brand-section {
         margin-left: 0;
         margin-bottom: 10px;
         width: auto;
     }
+    
     .contact-button {
         position: static;
         margin: 10px auto 5px auto;
         order: 3;
     }
+    
     .nav-tabs-container {
         width: 100%;
         margin: 0;
@@ -375,7 +431,7 @@
         justify-content: center;
     }
 }
-
+    
 .mobile-full-width-dropdown {
     width:100vw !important;
     position:fixed;
@@ -394,10 +450,7 @@
     font-weight: 700;
     font-size: 18px;
   }
-.header-wrapper {
-    position: relative;
-    z-index: 1000;
-}
+
 .navigation-header {
     position: relative;
     min-height: 80px;
