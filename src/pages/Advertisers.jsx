@@ -7,8 +7,9 @@ import advertiserPhoto from "../assets/advertiser_photo1.png"
 import advertiserPhoto2 from "../assets/advertiser_photo2.png"
 import advertiserPhoto3 from "../assets/advertiser_photo3.png"
 import advertiserPhoto4 from "../assets/advertiser_photo4.png"
+import advertiserPhoto5 from "../assets/advertiser_photo5.png"
 
-import {StarOutlined} from '@ant-design/icons'
+import {StarOutlined, StopOutlined, AreaChartOutlined} from '@ant-design/icons'
 
 export default function Advertisers() {
   return (
@@ -69,16 +70,37 @@ export default function Advertisers() {
         </div>
       </div>
       <div className='advertiser-container-3-wrapper'>
-          <div className='advertiser-content-3'>
-            <div className='left-content-advertiser'>
-              
+        <div className='advertiser-content-3'>
+          <div className='left-content-advertiser'>
+            <img src={advertiserPhoto4} alt='Advertiser Photo' className='advertiser-content-image'/>
+          </div>
+          <div className='right-content-advertiser'>
+            <div className='advertiser-text-content'>
+                <StopOutlined className='feature-icon'/>
+                <div className='text-container'>
+                  <div className='container-3-tab-heading'>Fraud Prevention & Brand Safety</div>
+                  <p>We don't just fight fraud—we stay ahead of it. Our proprietary fraud prevention and brand safety processes ensure a clean, brand-safe environment. That’s why our supply consistently leads in quality—as verified by case studies from top demand partners.</p>
+                </div>
             </div>
-            <div className='right-content-advertiser'>
-
-            </div>
-            HELLO?
           </div>
         </div>
+      </div>
+      <div className='advertiser-container-3-wrapper'>
+        <div className='advertiser-content-3'>
+          <div className='left-content-advertiser'>
+            <div className='advertiser-text-content'>
+              <div className='text-container'>
+                <AreaChartOutlined className='feature-icon'/>
+                <div className='container-3-tab-heading'>Targeting & Performance Optimization</div>
+                <p>We shape traffic in real-time, ensuring your ads land in front of the most engaged users. AI-driven insights, post-bid data analysis, and granular targeting tools give you full control over your campaign performance.</p>
+              </div>
+            </div>
+          </div>
+          <div className='right-content-advertiser'>
+            <img src={advertiserPhoto5} alt='Advertiser Photo' className='advertiser-content-image'/>
+          </div>
+        </div>
+      </div>
       Advertiser
     </div>
   )

@@ -235,7 +235,7 @@
     width: 100%;
     max-width: 1512px;
     gap: 0;
-    /* border: 1px solid red; */
+    padding: 40px 20px;
 }
 
 .advertiser-text-content{
