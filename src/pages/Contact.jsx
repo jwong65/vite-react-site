@@ -1,9 +1,22 @@
-import React from 'react'
+import React , {useState} from 'react'
 import contactImage from "../assets/contact_photo1.png"
+import { Form, Input, Button, Select, Result, Row, Col, message } from 'antd';
 
 import "./contact.css"
 
 export default function Contact() {
+  const [form] = Form.useForm();
+  const [submitted, setSubmitted] = useState(false);
+  
+  const onFinish= (values) =>{
+    console.log('Form Values:', values)
+    setSubmitted(true)
+  }
+  
+  const resetForm = ()=>{
+    form.resetFields();
+    setSubmitted(false)
+  }
   return (
     <div className='contact-page-wrapper'>
       <div className='contact-container'>
@@ -25,8 +38,60 @@ export default function Contact() {
           <h1 className='form-header'>Get In Touch</h1> 
           <h3 className='form-subheader'>Have questions? Ready to supercharge your ad strategy? Fill out the form below, and our team will get back to you lightning fast.</h3>
         </div> 
-      
       </div>
+      {!submitted ? (
+        <div className='contact-form-outer-wrapper'>
+          <div className='contact-form-container'>
+            <Form
+              form={form}
+              name='contactForm'
+              onFinish={onFinish}
+              layout='vertical'
+              className='contact-form'
+            >
+              <Row gutter={52}>
+                <Col xs={24} sm={12}>
+                  <Form.Item
+                    name='firstName'
+                    label="First Name"
+                  >
+                    <Input placeholder='First Name' />
+                  </Form.Item>
+                  <Form.Item
+                    name="email"
+                    label='Email'
+                  >
+                    <Input placeholder='Email' />
+                  </Form.Item>
+                  <Form.Item
+                    name="country"
+                    label="Country"
+                  >
+                    <Select placeholder='Country'>
+                      <Option value='us'>United States</Option>
+                      <Option value='ca'>Canada</Option>
+                      <Option value='other'>Other</Option>
+                    </Select>
+                  </Form.Item>
+                  <Form.Item
+                    name="interest"
+                    label="I am interested in"
+                  >
+                    <Select placeholder="Select">
+                      <Option value='publisher'>Publisher</Option>
+                      <Option value='advertiser'>Advertiser</Option>
+                      <Option value='other'>Other</Option>
+                    </Select>
+                  </Form.Item>
+                </Col>
+
+              </Row>
+
+            </Form>
+            Form
+          </div>
+        </div>
+      ):(<>No form</>)}
       Contact
     </div>
   )

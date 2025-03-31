@@ -116,5 +116,42 @@
     max-width: 610px;
     margin-left: auto;
     margin-right: auto;
+}
 
+.contact-form .ant-form-item-label{
+    text-align: left;
+    margin-bottom: 0px;
+    min-width: 400px;
+}
+.contact-form .ant-form-item-label > label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #4A4A4A;
+  }
+.contact-form .ant-form-item{
+    margin-bottom: 24px;
+}
+.contact-form .ant-select-selector{
+    height: 40px !important;
+    padding: 8px 12px !important;
+    border-radius: 2px !important;
+    border-width: 1px !important;
+}
+.contact-form .ant-input, .contact-form .ant-select {
+    min-width: 400px;
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    border-width: 1px;
+
+}
+
+@media (max-width: 767px) {
+    .contact-form .ant-input,
+    .contact-form .ant-select {
+        min-width: 100%;
+    }
 }
