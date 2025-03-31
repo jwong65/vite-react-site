@@ -9,6 +9,12 @@ import advertiserPhoto3 from "../assets/advertiser_photo3.png"
 import advertiserPhoto4 from "../assets/advertiser_photo4.png"
 import advertiserPhoto5 from "../assets/advertiser_photo5.png"
 
+import appLovinLogo from "../assets/partnericons/AppLovin_Full.svg"
+import unityLogo from "../assets/partnericons/Unity_2021.svg"
+import verveLogo from "../assets/partnericons/verve-group-logo 2.svg"
+import ironSourceLogo from "../assets/partnericons/IronSource_Logo.svg"
+import mintegralLogo from "../assets/partnericons/mtgLogo.svg"
+
 import {StarOutlined, StopOutlined, AreaChartOutlined} from '@ant-design/icons'
 
 export default function Advertisers() {
@@ -46,9 +52,9 @@ export default function Advertisers() {
       </div>
       <div className='advertiser-container-3-wrapper'>
         <div className='advertiser-container-3'>
-          <div className='container-3-header'>Advertising</div>
-          <div className='container-3-subheader'>Solutions</div>
-          <div className='container-3-text'>
+          <div className='container-3-header-advertiser'>Advertising</div>
+          <div className='container-3-subheader-advertiser'>Solutions</div>
+          <div className='container-3-text-advertiser'>
             Unlock access to high-quality, transparent inventory that drives real results. Thunder Monetize connects you with top-tier supply, advanced targeting, and cutting-edge fraud prevention to ensure every ad placement is optimized for performance, brand safety, and measurable success.
           </div>
         </div>
@@ -104,9 +110,12 @@ export default function Advertisers() {
       <div className='advertiser-container-3-wrapper'>
         <div className='advertiser-content-3'>
           <div className='partners-grid'>
-            
+            <img src={appLovinLogo} alt="App Lovin" className='partner-logo' />
+            <img src={unityLogo} alt="Unity" className='partner-logo' />
+            <img src={verveLogo} alt="Verve" className='partner-logo' />
+            <img src={ironSourceLogo} alt="IronSource" className='partner-logo' />
+            <img src={mintegralLogo} alt="Mintegral" className='partner-logo' />
           </div>
-
         </div>
       </div>
     </div>

@@ -201,9 +201,9 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
-.container-3-text{
+.container-3-text-advertiser{
     width: 950px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
@@ -214,7 +214,7 @@
     color:  #F8F9FA;
 }
 
-.container-3-header{
+.container-3-header-advertiser{
     font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -223,6 +223,19 @@
     text-align: center;
     text-transform: capitalize;
     color: #F8F9FA;
+
+}
+.container-3-subheader-advertiser{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #308DFF;
+
 
 }
 
