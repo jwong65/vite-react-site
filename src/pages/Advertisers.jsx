@@ -15,6 +15,8 @@ import verveLogo from "../assets/partnericons/verve-group-logo 2-white.svg"
 import ironSourceLogo from "../assets/partnericons/IronSource_LogoWhite.svg"
 import mintegralLogo from "../assets/partnericons/mtgLogoWhite.svg"
 
+import companyLogo from "../assets/companyLogoWhite.svg"
+
 import {StarOutlined, StopOutlined, AreaChartOutlined} from '@ant-design/icons'
 
 export default function Advertisers() {
@@ -116,6 +118,20 @@ export default function Advertisers() {
             <img src={ironSourceLogo} alt="IronSource" className='partner-logo' />
             <img src={mintegralLogo} alt="Mintegral" className='partner-logo' />
           </div>
+        </div>
+      </div>
+      <div className='advertiser-container-4-wrapper'>
+        <div className='advertiser-container-4'>
+          <div className='logo-container-advertiser'>
+            <img src={companyLogo} alt='Thunder Monetize Logo' className='company-logo' />
+          </div>
+          <div className='advertiser-text-wrapper'>
+            <div className='advertiser-text-wrapper-header'>Maximize Impact with Thunder.</div>
+            <div className='advertiser-text-wrapper-subheader'>Join the world's leading advertisers in a faster, safer, and more transparent ecosystem. Let's get started.</div>
+          </div>
+          <Link to='/contact'>
+              <Button type='primary' className='advertiser-custom-button'>Supercharge Your Campaigns Today</Button>
+          </Link>
         </div>
       </div>
     </div>
