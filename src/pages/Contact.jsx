@@ -1,7 +1,8 @@
 import React , {useState} from 'react'
 import { Link } from 'react-router-dom'
 import contactImage from "../assets/contact_photo1.png"
-import { Form, Input, Button, Select, Result, Row, Col, message, Checkbox } from 'antd';
+import companyLogo from "../assets/companyLogoBlack.svg"
+import { Form, Input, Button, Select, Row, Col, Checkbox } from 'antd';
 
 import "./contact.css"
 
@@ -158,7 +159,25 @@ export default function Contact() {
           </div>
         </div>
         </>
-      ):(<>No form</>)}
+      ) : (
+        <> 
+          <div className='contact-success-wrapper'>
+            <div className='contact-success-container'>
+              <img src={companyLogo} alt='Company Logo' className='company-logo'/>
+              <h3 className='success-header'>Got it!</h3>
+              <p className='success-subheading'>Your message has been received, and our team is on it. We’ll be in touch soon—because in a world where every millisecond counts, we move fast.</p>
+              <p className='success-subheading2'>In the meantime, stay ahead of the curve.</p>
+              <Button
+                type='primary'
+                onClick={resetForm}
+                className='contact-reset-button'
+              >
+                Explore Our Solutions
+              </Button>
+            </div>
+          </div>
+        </>
+    )}
     </div>
   )
 }

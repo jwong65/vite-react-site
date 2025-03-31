@@ -221,6 +221,59 @@
 .privacy-policy-link{
     color: #007BFF;
 }
+.contact-success-wrapper{
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+}
+.contact-success-container{
+    width: 100%;
+    max-width: 1512px;
+    margin: 350px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+.success-header{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4A4A4A;
+}
+
+.success-subheading{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 24px 0;
+    max-width: 610px;
+    color: #4A4A4A;
+}
+.success-subheading2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4A4A4A;
+    max-width: 610px;
+}
+
 @media (max-width: 767px) {
     .contact-form .ant-input,
     .contact-form .ant-select {
