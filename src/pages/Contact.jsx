@@ -84,11 +84,55 @@ export default function Contact() {
                     </Select>
                   </Form.Item>
                 </Col>
-
+                <Col xs={24} sm={12}>
+                  <Form.Item
+                    name="lastName"
+                    label="Last Name"
+                  >
+                    <Input placeholder='Last Name' />
+                  </Form.Item>
+                  <Form.Item
+                    name="company"
+                    label="Company Name"
+                  >
+                    <Input placeholder='Company Name' />
+                  </Form.Item>
+                  <Form.Item
+                    name="role"
+                    label="I am"
+                  >
+                    <Select placeholder='Select'>
+                      <Option value='publisher'>Publisher</Option>
+                      <Option value='advertiser'>Advertiser</Option>
+                      <Option value='other'>Other</Option>
+                    </Select> 
+                  </Form.Item>
+                  <Form.Item
+                    name="jobTitle"
+                    label= "Job Title"
+                  >
+                    <Input placeholder='Job Title' />
+                  </Form.Item>
+                </Col>
               </Row>
-
+              <Form.Item
+                name='message'
+                label={<span>
+                  Anything else you'd like to tell us?
+                  <span className='optional-label'>
+                    (optional)
+                  </span>
+                  </span>}   
+              >
+                <Input.TextArea 
+                  rows={4}
+                  placeholder='Let Us Know'
+                  showCount
+                  maxLength={100} 
+                  className="contact-message-textarea"
+                />
+              </Form.Item>
             </Form>
-            Form
           </div>
         </div>
       ):(<>No form</>)}
