@@ -29,6 +29,7 @@
     padding: 0;
 }
 
+
 .brand-section{
     display: flex;
     align-items: center;
@@ -451,11 +452,6 @@
     font-size: 18px;
   }
 
-.navigation-header {
-    position: relative;
-    min-height: 80px;
-    justify-content: flex-start; 
-  }
 
 
 .hamburger-button {
