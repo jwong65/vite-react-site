@@ -308,3 +308,15 @@
     letter-spacing: 0%;
     color: #4A4A4A;
 }
+
+.partners-grid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    gap: 80px;
+    width: 100%;
+    max-width: 1512px;
+    margin: 0 auto;
+}
