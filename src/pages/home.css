@@ -61,7 +61,7 @@
 }
 .main-heading{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 64px;
     font-style: normal;
     font-weight: 700;
@@ -72,7 +72,7 @@
 .sub-heading{
     color: var(--Secondary-Electric-Blue-Light, #308DFF);
     align-self: stretch;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 64px;
     font-style: italic;
     font-weight: 800;
@@ -83,7 +83,7 @@
 }
 .sub-heading2{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -95,7 +95,7 @@
     height: 44px;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     text-align: center;
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -189,7 +189,7 @@
 
 .tab-heading{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -202,7 +202,7 @@
 
 .text-box-home{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -253,7 +253,7 @@
     height: 44px;
     color: var(--Primary-Arctic-White, #F8F9FA);
     text-align: center;
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -279,7 +279,7 @@
     text-align: center;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     text-align: center;
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -302,7 +302,7 @@
 .main-heading-partners{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     text-align: center;
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -316,7 +316,7 @@
 .sub-heading-partners{
     color: var(--Primary-Electric-Blue, #007BFF);
     text-align: center;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-style: italic;
     font-weight: 800;
@@ -339,7 +339,7 @@
     overflow: visible;
 }
 .footer-heading{
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
     font-size: 64px;
     line-height: 90%;
@@ -350,7 +350,7 @@
 }
 
 .footer-subtext{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-style: italic;
     font-size: 64px;
