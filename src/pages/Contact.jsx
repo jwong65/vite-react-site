@@ -132,6 +132,15 @@ export default function Contact() {
                   className="contact-message-textarea"
                 />
               </Form.Item>
+              <Form.Item>
+                <Button 
+                  type='primary' 
+                  htmlType='submit'
+                  className='contact-submit-button'
+                  >
+                  Get in Touch
+                </Button>
+              </Form.Item>
             </Form>
           </div>
         </div>
