@@ -20,6 +20,13 @@ export default function Contact() {
           </h3>
         </div>
       </div>
+      <div className='contact-form-wrapper'>
+        <div className='form-text'>
+          <h1 className='form-header'>Get In Touch</h1> 
+          <h3 className='form-subheader'>Have questions? Ready to supercharge your ad strategy? Fill out the form below, and our team will get back to you lightning fast.</h3>
+        </div> 
+      
+      </div>
       Contact
     </div>
   )
