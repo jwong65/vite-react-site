@@ -75,3 +75,46 @@
     letter-spacing: 0%;
     max-width: 750px;
 }
+
+.contact-form-wrapper{
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    position: relative;
+}
+.form-text{
+    margin-top: 124px;
+    margin-bottom: 56px;
+    max-width: 1512px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.form-header{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4A4A4A;
+    margin-bottom: 24px;
+}
+.form-subheader{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #4A4A4A;
+    max-width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
