@@ -538,6 +538,9 @@
         margin-bottom: 20px;
         align-items: center;
     }
+    .left-content-home{
+        padding-right: 0;
+    }
     .left-content-home img, .right-content-home img{
         max-width: 100%;
         height: auto;
