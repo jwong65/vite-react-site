@@ -461,6 +461,23 @@
         z-index: 3;
     }
 
+    .publisher-main-heading{
+        font-size: 28px;
+        text-align: left;
+        width: 100%;
+    }
+    .publisher-sub-heading{
+        font-size: 32px;
+        text-align: left;
+        width: 100%;
+        margin: 12px 0px;   
+    }
+    .publisher-sub-heading2{
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 24px;
+    }
     .publisher-container-2-wrapper{
         margin-bottom: 60px;
     }
