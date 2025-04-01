@@ -487,12 +487,15 @@
         height: auto;
     }
     .text-overlay-1 > a{
+        display: flex;
         align-items: center;
+        text-align: center;
         width: 100%;
     }
     .text-overlay-1 .ant-btn{
         width: 90%;
         margin: 0 auto;
+        display: block;
     }
     .page-wrapper .ant-btn,
     .text-overlay-1 .ant-btn,
