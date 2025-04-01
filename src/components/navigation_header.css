@@ -5,6 +5,7 @@
     position: relative;
     z-index: 1000; 
     background-color: #FFFFFF;
+    margin-bottom: 20px;
   }
 .header-container{
     display: flex;
@@ -138,8 +139,8 @@
 }
    
 .mobile-full-width-dropdown {
-    width:100vw !important;
-    position:fixed;
+    width:100% !important;
+    position: absolute
 }
 .mobile-full-width-dropdown .ant-dropdown-menu {
     width: 100%;
@@ -211,11 +212,15 @@
 }
 /* Tablet Portrait */
 @media (max-width: 834px){
+    .header-wrapper{
+        margin-bottom: 30px;
+    }
     .navigation-header {
         padding: 10px 15px;
         flex-direction: row;
         align-items: center;
         height: auto;
+        min-height: 60px;
         justify-content: center;
         flex-wrap: wrap;
         position: relative;
