@@ -136,6 +136,32 @@
 .ant-dropdown-menu{
     text-align: center;
 }
+   
+.mobile-full-width-dropdown {
+    width:100vw !important;
+    position:fixed;
+}
+.mobile-full-width-dropdown .ant-dropdown-menu {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  
+.mobile-full-width-dropdown .ant-dropdown-menu-item {
+    text-align: center;
+    padding: 15px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+.hamburger-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+}
 /* Desktop */
 @media (max-width: 1280px) {
     .brand-section {
@@ -213,8 +239,15 @@
         transform: translateY(-50%);
         display: flex;
         align-items: center; 
-        height: 100%; 
+        height: auto;
+        z-index: 20; 
       }
+
+    .hamburger-button {
+        padding: 5px;
+        border: none;
+        z-index: 20;
+    }
     .company-name {
         font-size: 40px;
         white-space: nowrap;
@@ -331,31 +364,4 @@
         justify-content: center;
     }
 }
-    
-.mobile-full-width-dropdown {
-    width:100vw !important;
-    position:fixed;
-}
-.mobile-full-width-dropdown .ant-dropdown-menu {
-    width: 100%;
-    border-radius: 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  }
-
-  
-.mobile-full-width-dropdown .ant-dropdown-menu-item {
-    text-align: center;
-    padding: 15px;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-  }
-
-
-
-.hamburger-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 32px;
-}
+ 
