@@ -2,6 +2,7 @@
 
 .ant-layout-content {
     background-color: var(--Primary-Arctic-White, #F8F9FA);
+    padding-top: 0;
 }
 .about-page-wrapper{
     width: 100%;
