@@ -6,6 +6,7 @@
     z-index: 1000; 
     background-color: #FFFFFF;
     justify-content: center;
+    justify-content: center;
     display: flex;
     left: 0;
     right: 0;
@@ -21,7 +22,6 @@
     white-space: nowrap;
     background-color: #FFFFFF;
     box-sizing: border-box;
-    overflow-x: visible;
 }
 
 .navigation-header {
