@@ -463,6 +463,10 @@
     .background-image{
         display: none;
     }
+    .floating-overlay-image{
+        display: none;
+    }
+
     .home-container{
         background-color: #F8F9FA;
         padding: 20px 0;
@@ -472,28 +476,27 @@
         width: 100%;
         height: auto;
     }
+    .page-wrapper .ant-btn,
+    .text-overlay-1 .ant-btn,
+    .home-container-4 .ant-btn,
+    .home-container-3 .redirect.ant-btn{
+        width: 100%;
+        display: block;
+        font-size: 18px;
+        padding: 0 15px;
+    }
     .main-heading {
         font-size: 28px;
     }
     
     .sub-heading {
-        font-size: 28px;
+        font-size: 32px;
     }
     
     .sub-heading2 {
-        font-size: 13px;
+        font-size: 14px;
     }
-    
-    .text-overlay-1 {
-        width: 100%; 
-    }
-    
-    button, .ant-btn {
-        font-size: 16px;
-    }
-    .floating-overlay-image{
-        display: none;
-    }
+
     .partners-grid{
         gap: 30px;
     }
