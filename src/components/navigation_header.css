@@ -230,11 +230,13 @@
         justify-content: center;
         transform: none;
         margin: 0 auto;
+        padding-left: 32px;
     }
     
     .mobile-menu {
         position: absolute;
         left: 15px;
+        top: 15px;
         top: 50%;
         transform: translateY(-50%);
         display: flex;
