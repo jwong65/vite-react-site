@@ -37,6 +37,7 @@
     padding: 0;
     justify-content: center;
     box-sizing: border-box;
+    background-color: #007BFF;
 }
 
 .background-publisher{
@@ -437,6 +438,29 @@
     .publisher-floating-overlay{
         display: none;
     }
+    .publisher-hero-section-wrapper{
+        width: 100%;
+        background-color: #007BFF;
+        margin-left: 0;
+        margin-right: 0;
+        min-height: 780px;
+        position: relative;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+    .publisher-hero-container{
+        min-height: 780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .publisher-text-overlay{
+        position: relative;
+        width: 100%;
+        height: auto;
+        z-index: 3;
+    }
+
     .publisher-container-2-wrapper{
         margin-bottom: 60px;
     }
