@@ -356,6 +356,9 @@
         margin-bottom: 10px;
         width: auto;
     }
+    .company-name{
+        font-size: 28px;
+    }
     
     .nav-tabs-container {
         width: 100%;
