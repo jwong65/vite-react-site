@@ -418,6 +418,14 @@
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;
 }
 /* Tablet view */
+@media(max-width: 834px){
+    .header-wrapper{
+        margin-bottom: 0 !important;
+    }
+    .publisher-hero-section-wrapper{
+        margin-top: 0;
+    }
+}
 @media (max-width: 768px) {
     .publisher-container-2-wrapper{
         margin-bottom: 80px;
@@ -457,7 +465,6 @@
         margin-right: -50vw;
         padding: 0;
         justify-content: center;
-        margin-bottom: 35px;
     }
     .publisher-hero-container{
         min-height: 780px;
