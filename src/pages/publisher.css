@@ -427,6 +427,9 @@
 @media (max-width: 480px){
     .publisher-page-wrapper{
         padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
     }
     .publisher-text-overlay-2{
         width: 100%;
@@ -442,12 +445,13 @@
         display: none;
     }
     .publisher-hero-section-wrapper{
-        width: 100%;
+        width: 100vw;
         background-color: #007BFF;
-        margin-left: 0;
-        margin-right: 0;
         min-height: 780px;
         position: relative;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        padding: 0;
         justify-content: center;
         margin-bottom: 35px;
     }
