@@ -70,7 +70,7 @@
     align-items: center;
     height: 46px;
     position: relative;
-    margin-left: 366px;
+    margin-left: auto;
 }
 
 .navigation-tabs {
@@ -169,7 +169,7 @@
     }
     
     .nav-tabs-container {
-        margin-right: 150px;
+        margin-left: 150px;
     }
     
     .navigation-tabs .ant-tabs-nav-list {
