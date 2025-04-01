@@ -10,11 +10,13 @@
     display: flex;
     justify-content: center;
     max-width: 1512px;
+    width: 100%;
     position: relative;
     margin: 0 auto;
     padding: 0 20px;
     white-space: nowrap;
     background-color: #FFFFFF;
+    box-sizing: border-box;
 }
 
 .navigation-header {
