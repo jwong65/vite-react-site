@@ -82,8 +82,18 @@
     .footer-links-column ul{
         flex-wrap: wrap;
         gap: 20px;
+        justify-content: center;
     }
 }
+@media(max-width: 834px){
+    .footer-links-column ul{
+        gap: 16px;
+    }
+    .footer-links-column ul li a{
+        font-size: 20px;
+    }
+}
+
 @media (max-width:768px){
     .footer-container{
         flex-direction: column;
