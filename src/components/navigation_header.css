@@ -5,7 +5,6 @@
     position: relative;
     z-index: 1000; 
     background-color: #FFFFFF;
-    margin-bottom: 20px;
   }
 .header-container{
     display: flex;
