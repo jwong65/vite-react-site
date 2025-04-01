@@ -486,6 +486,14 @@
         width: 100%;
         height: auto;
     }
+    .text-overlay-1 > a{
+        align-items: center;
+        width: 100%;
+    }
+    .text-overlay-1 .ant-btn{
+        width: 90%;
+        margin: 0 auto;
+    }
     .page-wrapper .ant-btn,
     .text-overlay-1 .ant-btn,
     .home-container-4 .ant-btn,
