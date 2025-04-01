@@ -582,11 +582,8 @@
     }
     
     .text-box-home {
-        gap: 24px;
-        padding-top: 48px;
-        padding-right: 32px;
-        padding-bottom: 48px;
-        padding-left: 32px;
+        margin: 12px 0;
+        padding: 24px 16px;
     }
     
     .main-heading, .sub-heading {
