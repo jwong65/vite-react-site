@@ -512,10 +512,10 @@
         order: 1;
     }
     .publisher-content-3:nth-of-type(2) .left-content{
-        order: 2;
+        order: 1;
     }
     .publisher-content-3:nth-of-type(2) .right-content{
-        order: 1;
+        order: 2;
     }
     .publisher-image{
         max-width: 100%;
