@@ -81,8 +81,10 @@
 @media (max-width: 1024px){
     .footer-links-column ul{
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 15px;
         justify-content: center;
+        max-width: 90%;
+        margin: 0 auto;
     }
 }
 @media(max-width: 834px){
