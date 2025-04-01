@@ -7,7 +7,6 @@ import graphicImage2 from "../assets/graphic2.png"
 import companyLogoWhite from "../assets/companyLogoWhite.svg"
 
 import appLovinLogo from "../assets/partnericons/AppLovin_Full.svg"
-import verveGroupLogo from "../assets/partnericons/verve-group-logo 2.svg"
 import inMobiLogo from "../assets/partnericons/InMobi-Logo.svg"
 import ironSourceLogo from "../assets/partnericons/IronSource_Logo.svg"
 import sovrnLogo from "../assets/partnericons/sovrn-logo.svg"
@@ -16,8 +15,7 @@ import unityLogo from "../assets/partnericons/Unity_2021.svg"
 import yieldLogo from "../assets/partnericons/yieldmo.svg"
 import mintegralLogo from "../assets/partnericons/mtgLogo.svg"
 import epsilonLogo from "../assets/partnericons/Epsilon-Logo 1.svg"
-
-import verveLogo from "../assets/partnericons/verve-logo.svg"
+import verveLogo from "../assets/partnericons/verve-logo 1.svg"
 
 import { Button } from 'antd'
 import { BulbOutlined, RobotOutlined,FileAddOutlined, TrophyOutlined, AimOutlined, SafetyOutlined } from '@ant-design/icons'
@@ -131,8 +129,7 @@ export default function Home() {
             <h3 className='sub-heading-partners'>Partners</h3>
             <div className='partners-grid'>
                 <img src={appLovinLogo} alt='AppLovin' className='partner-logo' />
-                <img src={verveGroupLogo} alt='VerveGroup' className='partner-logo' />
-                {/* <img src={verveLogo} alt="VerveGroup" className='partner-logo-verve' height='40' width='150' /> */}
+                <img src={verveLogo} alt="VerveGroup" className='partner-logo-verve' height='40' width='150' />
                 <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
                 <img src={ironSourceLogo} alt='IronSource' className='partner-logo' />
                 <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
