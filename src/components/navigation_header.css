@@ -166,13 +166,6 @@
 }
 /* Desktop */
 @media (max-width: 1280px) {
-    .brand-section {
-        margin-left: 250px;
-    }
-    
-    .nav-tabs-container {
-        margin-left: 150px;
-    }
     
     .navigation-tabs .ant-tabs-nav-list {
         gap: 20px;
