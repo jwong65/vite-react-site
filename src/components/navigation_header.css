@@ -162,6 +162,12 @@
   justify-content: center;
   height: 32px;
 }
+/* Extra wide screens */
+@media (min-width: 1513px) {
+    .nav-tabs-container {
+        margin-left: 278px; 
+    }
+}
 /* Desktop */
 @media (max-width: 1280px) {
     .brand-section {
