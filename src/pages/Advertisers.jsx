@@ -38,9 +38,11 @@ export default function Advertisers() {
             <h3 className='advertiser-sub-heading2'>
               Reach premium audiences with full transparency and precision. Thunder Monetize connects you to high-quality, brand-safe inventory while leveraging advanced optimization and fraud prevention tools to ensure every ad dollar drives real results.
             </h3>
-            <Link to='/contact'>
-              < Button type='primary'>Maximize Your Impact</Button>
-            </Link>
+            <div className='button-container'>
+              <Link to='/contact'>
+                < Button type='primary'>Maximize Your Impact</Button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
