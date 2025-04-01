@@ -427,7 +427,10 @@
     .publisher-text-overlay-2{
         width: 100%;
         max-width: 100%;
+        padding: 0 15px;
+        font-size: 28px;
     }
+    
     .background-publisher{
         display: none;
     }
@@ -436,5 +439,28 @@
     }
     .publisher-container-2-wrapper{
         margin-bottom: 60px;
+    }
+    .container-3-text-publisher {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    .bottom-publisher-subtext {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .publisher-container-2,
+    .publisher-container-3,
+    .publisher-content-3 {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
     }
 }
