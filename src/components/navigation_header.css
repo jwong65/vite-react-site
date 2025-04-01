@@ -17,7 +17,6 @@
     padding: 0 20px;
     white-space: nowrap;
     background-color: #FFFFFF;
-    box-sizing: border-box;
 }
 
 .navigation-header {
@@ -210,45 +209,6 @@
     
     .navigation-tabs .ant-tabs-tab-btn {
         font-size: 14px;
-    }
-}
-
-@media (min-width: 835px) and (max-width: 1024px) {
-    .header-wrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .header-container {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .navigation-header {
-        width: 100%;
-        justify-content: space-between;
-    }
-    
-    .brand-section {
-        margin-left: 0;
-        margin-right: 10px;
-    }
-    
-    .nav-tabs-container {
-        margin-left: auto;
-        margin-right: 0;
-    }
-    
-    .navigation-tabs .ant-tabs-nav-list {
-        gap: 8px;
-    }
-    
-    .navigation-tabs .ant-tabs-tab {
-        margin: 0 8px;
     }
 }
 
