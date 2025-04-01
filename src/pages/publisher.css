@@ -424,6 +424,10 @@
 }
 
 @media (max-width: 480px){
+    .publisher-text-overlay-2{
+        width: 100%;
+        max-width: 100%;
+    }
     .background-publisher{
         display: none;
     }
