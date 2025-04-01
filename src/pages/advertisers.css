@@ -394,3 +394,24 @@
     background: #E2A602 !important;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;   
 }
+
+@media(max-width: 480px)  {
+    .advertiser-hero-section-wrapper{
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+    .advertiser-hero-container{
+        width: 100%;
+        position: relative;
+    }
+    .background-advertiser{
+        display: none;
+    }
+    .advertiser-floating-overlay{
+        display: none;
+    }
+}
