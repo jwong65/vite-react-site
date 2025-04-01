@@ -116,7 +116,8 @@ export default function Advertisers() {
           <div className='partners-grid-advertiser'>
             <img src={appLovinLogo} alt="App Lovin" className='partner-logo' />
             <img src={unityLogo} alt="Unity" className='partner-logo' />
-            <img src={verveLogoWhite} alt="Verve" className='partner-logo' height='40' width='150'/>
+            <img src={verveLogo} alt='Verve-Logo-White' className='partner-logo' />
+            {/* <img src={verveLogoWhite} alt="Verve" className='partner-logo' height='40' width='150'/> */}
             <img src={ironSourceLogo} alt="IronSource" className='partner-logo' />
             <img src={mintegralLogo} alt="Mintegral" className='partner-logo' />
           </div>

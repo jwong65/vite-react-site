@@ -131,7 +131,8 @@ export default function Home() {
             <h3 className='sub-heading-partners'>Partners</h3>
             <div className='partners-grid'>
                 <img src={appLovinLogo} alt='AppLovin' className='partner-logo' />
-                <img src={verveLogo} alt="VerveGroup" className='partner-logo-verve' height='40' width='150' />
+                <img src={verveGroupLogo} alt='VerveGroup' className='partner-logo' />
+                {/* <img src={verveLogo} alt="VerveGroup" className='partner-logo-verve' height='40' width='150' /> */}
                 <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
                 <img src={ironSourceLogo} alt='IronSource' className='partner-logo' />
                 <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
