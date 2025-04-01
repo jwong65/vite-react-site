@@ -180,6 +180,7 @@
 .left-content-home, .right-content-home{
     flex: 1;
     max-width: 48%;
+    padding: 0;
 }
 .left-content-home {
     flex: 1;
@@ -584,6 +585,8 @@
     .text-box-home {
         margin: 12px 0;
         padding: 24px 16px;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .main-heading, .sub-heading {
