@@ -35,9 +35,11 @@ export default function Home() {
                 </h1>
                 <h3 className='sub-heading'>Because every millisecond counts.</h3>
                 <h3 className='sub-heading2'>Maximize revenue with real-time bidding, premium demand, and AI-driven optimization—built for publishers, trusted by advertisers.</h3>
+                <div className='button-container'>
                 <Link to='/contact'>
                     < Button>Supercharge Your Growth Today</Button>
                 </Link>
+                </div>
             </div>
         </div>
     <div className='home-container-2-wrapper'>
