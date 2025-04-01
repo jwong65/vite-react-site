@@ -424,6 +424,12 @@
 }
 
 @media (max-width: 480px){
+    .background-publisher{
+        display: none;
+    }
+    .publisher-floating-overlay{
+        display: none;
+    }
     .publisher-container-2-wrapper{
         margin-bottom: 60px;
     }
