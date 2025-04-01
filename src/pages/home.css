@@ -460,6 +460,18 @@
 /* Small Phones */
 
 @media (max-width: 480px) {
+    .background-image{
+        display: none;
+    }
+    .home-container{
+        background-color: #F8F9FA;
+        padding: 20px 0;
+    }
+    .text-overlay-1{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
     .main-heading {
         font-size: 28px;
     }
