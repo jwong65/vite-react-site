@@ -15,6 +15,8 @@ import verveLogo from "../assets/partnericons/verve-group-logo 2-white.svg"
 import ironSourceLogo from "../assets/partnericons/IronSource_LogoWhite.svg"
 import mintegralLogo from "../assets/partnericons/mtgLogoWhite.svg"
 
+import verveLogoWhite from "../assets/partnericons/verve-logo-light.svg"
+
 import companyLogo from "../assets/companyLogoWhite.svg"
 
 import {StarOutlined, StopOutlined, AreaChartOutlined} from '@ant-design/icons'
@@ -114,7 +116,7 @@ export default function Advertisers() {
           <div className='partners-grid-advertiser'>
             <img src={appLovinLogo} alt="App Lovin" className='partner-logo' />
             <img src={unityLogo} alt="Unity" className='partner-logo' />
-            <img src={verveLogo} alt="Verve" className='partner-logo' />
+            <img src={verveLogoWhite} alt="Verve" className='partner-logo' height='40' width='150'/>
             <img src={ironSourceLogo} alt="IronSource" className='partner-logo' />
             <img src={mintegralLogo} alt="Mintegral" className='partner-logo' />
           </div>

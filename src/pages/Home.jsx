@@ -17,6 +17,8 @@ import yieldLogo from "../assets/partnericons/yieldmo.svg"
 import mintegralLogo from "../assets/partnericons/mtgLogo.svg"
 import epsilonLogo from "../assets/partnericons/Epsilon-Logo 1.svg"
 
+import verveLogo from "../assets/partnericons/verve-logo.svg"
+
 import { Button } from 'antd'
 import { BulbOutlined, RobotOutlined,FileAddOutlined, TrophyOutlined, AimOutlined, SafetyOutlined } from '@ant-design/icons'
 
@@ -129,7 +131,7 @@ export default function Home() {
             <h3 className='sub-heading-partners'>Partners</h3>
             <div className='partners-grid'>
                 <img src={appLovinLogo} alt='AppLovin' className='partner-logo' />
-                <img src={verveGroupLogo} alt="VerveGroup" className='partner-logo' />
+                <img src={verveLogo} alt="VerveGroup" className='partner-logo-verve' height='40' width='150' />
                 <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
                 <img src={ironSourceLogo} alt='IronSource' className='partner-logo' />
                 <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
