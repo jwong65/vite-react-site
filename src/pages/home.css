@@ -447,6 +447,7 @@
 
     .home-container-3 {
         flex-direction: column;
+        align-items: center;
         width: 100%;
         padding: 2rem;
       }
@@ -513,13 +514,29 @@
     .home-container-3{
         flex-direction: column;
         width: 100%;
-        padding: 1.5rem;
+        padding: 1.5rem 0;
+    }
+    .text-box-home {
+        margin: 12px auto;
+        padding: 24px 16px; 
+        box-sizing: border-box;
+    }
+    .text-container-left{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .home-container-3 .redirect ant-btn{
+        display: block;
+        margin: 20px auto;
+        width: 90%;
     }
     .left-content-home, .right-content-home{
         max-width: 100%;
         width: 100%;
         flex: none;
         margin-bottom: 20px;
+        align-items: center;
     }
     .left-content-home img, .right-content-home img{
         max-width: 100%;
@@ -542,73 +559,6 @@
         font-size: 28px;
     }
 }
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-    .home-container-3 {
-        flex-direction: column;
-        align-items: center;
-        padding: 1.5rem;
-    }
-    
-    .left-content-home, .right-content-home {
-        max-width: 90%;
-        width: 90%;
-        margin: 0 auto 20px auto;
-    }
-
-    /* Order of images on responsive view below 768 */
-    
-    .home-container-3:first-of-type .right-content-home {
-        order: 1; 
-    }
-    
-    .home-container-3:first-of-type .left-content-home {
-        order: 2; 
-    }
-    
-    .home-container-3:nth-of-type(2) .left-content-home {
-        order: 1; 
-    }
-    
-    .home-container-3:nth-of-type(2) .right-content-home {
-        order: 2; 
-    }
-
-    
-    .right-content-home img, .left-content-home img {
-        max-width: 70%;
-        display: block;
-        margin: 0 auto;
-    }
-    
-    .text-box-home {
-        margin: 12px 0;
-        padding: 24px 16px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    
-    .main-heading, .sub-heading {
-        font-size: 32px;
-        text-align: center;
-    }
-    
-    .tab-heading {
-        font-size: 24px;
-    }
-    
-    .text-container-left {
-        text-align: center;
-        width: 100%;
-    }
-    
-    .redirect {
-        display: block;
-        margin: 0 auto;
-    }
-}
-
 
 .home-container,
 .home-container-2,
