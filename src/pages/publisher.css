@@ -425,6 +425,9 @@
 }
 
 @media (max-width: 480px){
+    .publisher-page-wrapper{
+        padding: 0;
+    }
     .publisher-text-overlay-2{
         width: 100%;
         max-width: 100%;
@@ -458,10 +461,12 @@
         position: relative;
         width: 100%;
         height: auto;
+        justify-content: flex-start;
         z-index: 3;
     }
 
     .publisher-main-heading{
+        margin-top: 72px;
         font-size: 28px;
         text-align: left;
         width: 100%;
