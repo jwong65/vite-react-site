@@ -224,7 +224,7 @@
         align-items: center;
         height: auto;
         min-height: 60px;
-        justify-content: space-between;
+        justify-content: flex-start;
         flex-wrap: wrap;
         position: relative;
     }
