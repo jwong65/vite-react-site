@@ -56,9 +56,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
+    text-align: left;
     padding: 40px 20px;
     z-index: 1;
+}
+.text-overlay-1 .main-heading,
+.text-overlay-1 .sub-heading,
+.text-overlay-1 .sub-heading2 {
+    text-align: left;
+    align-self: flex-start;
+    width: 100%;
 }
 .main-heading{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
