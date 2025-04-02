@@ -12,24 +12,32 @@
     align-items: center;
     max-width: 1512px;
     margin: 0 auto;
-    padding: 0 20px;
     background-color: #F8F9FA;
+}
+.contact-section-wrapper{
+    width:100vw;
+    background-color: #F8F9FA;
+    justify-content: center;
+    position: relative;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .contact-container{
-    flex-shrink: 0;
     position:relative;
     width: 100%;
+    max-width: 1512px;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     padding: 0;
-    justify-content: center;
 }
 
 .contact-background-image{
     width: 100%;
-    height: auto;
-    min-height: 850px;
+    height: 850px;
     object-fit: cover;
+    object-position: right center;
     display: block;
 }
 

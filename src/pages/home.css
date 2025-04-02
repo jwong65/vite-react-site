@@ -12,24 +12,33 @@
     align-items: center;
     max-width: 1512px;
     margin: 0 auto;
-    padding: 0 20px;
     background: var(--Primary-Arctic-White, #F8F9FA);
-    
+}
+
+.home-hero-section-wrapper{
+    width: 100vw;
+    background-color: #F8F9FA;
+    justify-content: center;
+    position: relative;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .home-container{
-    flex-shrink: 0;
     position: relative;
-    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    max-width: 1512px;
+    justify-content: center;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    justify-content: center;
 }
 
 .background-image{
     width: 100%;
     height: auto;
+    width: 1512px;
     max-height: 850px;
     object-fit: cover;
     object-position: right center;
@@ -40,11 +49,9 @@
     position: absolute;
     top:10%;
     left:50%;
-
     transform: translate(-50%, -50%);
     height:auto;
 }
-
 
 .text-overlay-1{
     position: absolute;

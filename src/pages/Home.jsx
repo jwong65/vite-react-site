@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import backgroundImage from '../assets/home_photo1.jpg'
+
 import overlayImage from "../assets/home_photo2.jpg"
 import graphicImage1 from "../assets/graphic1.png"
 import graphicImage2 from "../assets/graphic2.png"
@@ -25,20 +26,22 @@ import "./home.css"
 export default function Home() {
   return (
     <div className='page-wrapper'>
-        <div className='home-container'>
-            <img src={backgroundImage} className='background-image' />
-            <img src={overlayImage} className='floating-overlay-image' />
-            <div className='text-overlay-1'>
-                <h1 className='main-heading'>
-                    Precision. Scale. <br/>
-                    Performance.
-                </h1>
-                <h3 className='sub-heading'>Because every millisecond counts.</h3>
-                <h3 className='sub-heading2'>Maximize revenue with real-time bidding, premium demand, and AI-driven optimization—built for publishers, trusted by advertisers.</h3>
-                <div className='button-container'>
-                <Link to='/contact'>
-                    < Button>Supercharge Your Growth Today</Button>
-                </Link>
+        <div className='home-hero-section-wrapper'>
+            <div className='home-container'>
+                <img src={backgroundImage} className='background-image' />
+                <img src={overlayImage} className='floating-overlay-image' />
+                <div className='text-overlay-1'>
+                    <h1 className='main-heading'>
+                        Precision. Scale. <br/>
+                        Performance.
+                    </h1>
+                    <h3 className='sub-heading'>Because every millisecond counts.</h3>
+                    <h3 className='sub-heading2'>Maximize revenue with real-time bidding, premium demand, and AI-driven optimization—built for publishers, trusted by advertisers.</h3>
+                    <div className='button-container'>
+                    <Link to='/contact'>
+                        < Button>Supercharge Your Growth Today</Button>
+                    </Link>
+                    </div>
                 </div>
             </div>
         </div>
