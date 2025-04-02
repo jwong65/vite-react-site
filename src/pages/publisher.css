@@ -466,6 +466,12 @@
     .publisher-hero-section-wrapper{
         margin-top: 0;
     }
+    .background-publisher{
+        display: none;
+    }
+    .publisher-floating-overlay{
+        display: none;
+    }
 }
 @media (max-width: 768px) {
     .publisher-page-wrapper{
@@ -518,13 +524,6 @@
         max-width: 100%;
         padding: 0 15px;
         font-size: 28px;
-    }
-    
-    .background-publisher{
-        display: none;
-    }
-    .publisher-floating-overlay{
-        display: none;
     }
     .publisher-hero-section-wrapper{
         width: 100vw;
