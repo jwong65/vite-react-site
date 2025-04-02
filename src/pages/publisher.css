@@ -457,6 +457,10 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .publisher-container-3-wrapper:nth-of-type(4) .publisher-content-3 .right-content,
+    .publisher-container-3-wrapper:nth-of-type(5) .publisher-content-3 .left-content {
+    background-color: transparent;
+}
     .publisher-container-3-wrapper:nth-of-type(5) .publisher-content-3 .left-content {
         justify-content: flex-start;
     }
