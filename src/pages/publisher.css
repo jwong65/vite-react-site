@@ -488,6 +488,9 @@
         flex-direction: column;
         width: 100%;
     } 
+    .publisher-text-overlay{
+        padding: 30px 20px;
+    }
     .publisher-sub-heading2{
         margin-bottom: 24px;
     }
