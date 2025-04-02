@@ -537,15 +537,8 @@
         width: 100%;
         max-width: 100%;
     }
-    .publisher-text-overlay-2{
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-        font-size: 28px;
-    }
     .publisher-hero-section-wrapper{
         width: 100vw;
-        background-color: #007BFF;
         min-height: 780px;
         position: relative;
         margin-left: -50vw;
@@ -559,6 +552,12 @@
         flex-direction: column;
         justify-content: center;
         margin: 0;
+    }
+    .publisher-text-overlay-2{
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        font-size: 28px;
     }
     .publisher-text-overlay{
         position: relative;
