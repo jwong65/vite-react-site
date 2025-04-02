@@ -423,6 +423,8 @@
     }
 }
 
+
+
 /* Tablet Sizes */
 
 @media (max-width: 768px) {
@@ -466,6 +468,10 @@
       .left-content-home {
         margin-bottom: 20px;
       }
+    .right-content-home img, .left-content-home img {
+        margin-top: 350px;
+      }
+      
     .partners-grid{
         gap:40px;
     }

@@ -84,7 +84,7 @@ export default function Home() {
             </Link>
         </div>
         <div className='right-content-home'>
-            <img src={graphicImage1}   />
+            <img src={graphicImage1}  />
         </div>
     </div>
     </div>
