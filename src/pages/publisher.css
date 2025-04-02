@@ -457,6 +457,15 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+    .publisher-container-3-wrapper:nth-of-type(5) .publisher-content-3 .left-content {
+        justify-content: flex-start;
+    }
+    
+    .publisher-container-3-wrapper:nth-of-type(5) .publisher-content-3 .right-content {
+        justify-content: flex-end; 
+        padding-left: 0;
+        padding-right: 10px;
+    }
 }
 /* Tablet view */
 @media(max-width: 834px){
@@ -477,7 +486,7 @@
         flex-direction: column;
         width: 100%;
     } 
-    
+
     .publisher-container-3-wrapper:nth-of-type(4) .publisher-content-3 .left-content {
         order: 1; 
     }
