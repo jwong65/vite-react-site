@@ -348,6 +348,10 @@
     max-width: 1512px;
     margin: 0 auto;
 }
+.partner-logo{
+    width: 110px !important;
+    height: auto !important;
+}
 
 .bottom-publisher-wrapper{
     width: 100vw;

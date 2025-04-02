@@ -321,6 +321,10 @@
     max-width: 950px;
     margin: 0 auto;
 }
+.partner-logo{
+    width: 110px !important;
+    height: auto !important;
+}
 .advertiser-container-4-wrapper{
     width: 100vw;
     background-color: #007BFF;
