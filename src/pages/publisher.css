@@ -63,7 +63,7 @@
     top: 0;
     left: 0;
     width: 65%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -489,7 +489,7 @@
         width: 100%;
     } 
     .publisher-text-overlay{
-        height: 50%;
+        min-height: auto;
     }
     .publisher-sub-heading2{
         margin-bottom: 24px;
