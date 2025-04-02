@@ -32,6 +32,7 @@
     height: auto;
     max-height: 850px;
     object-fit: cover;
+    object-position: right center;
     display: block;
 }
 .floating-overlay-image{
