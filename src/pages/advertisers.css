@@ -46,9 +46,11 @@
 .advertiser-floating-overlay{
     z-index: 3;
     position: absolute;
-    top: 15%;
-    left: 70%;
-    transform: translate(-50%, -50%);
+    top: 0%;
+    right: 20%;
+    width: auto;
+    object-position: right top;
+
 }
 
 .advertiser-text-overlay{
