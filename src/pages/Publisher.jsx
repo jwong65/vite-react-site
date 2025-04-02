@@ -75,14 +75,14 @@ export default function Publisher() {
               </div>
             </div>
           </div>
-          <div className='right-content'>
+          <div className='right-content' style={{backgroundColor: 'transparent'}}>
            <img src={publisherImage2} alt='publisherImage2' className='publisher-image' />
           </div>
         </div>
       </div>
       <div className='publisher-container-3-wrapper'>
         <div className='publisher-content-3'>
-          <div className='left-content'>
+          <div className='left-content' style={{backgroundColor: 'transparent'}}>
             <img src={publisherImage3} alt='publisherImage3' className='publisher-image' />
           </div>
           <div className='right-content'>
