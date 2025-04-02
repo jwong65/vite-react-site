@@ -557,18 +557,21 @@
         height: auto;
         margin: 0 auto;
     }
-    .home-container-3:first-of-type .right-content-home {
+    .publisher-section .left-content-home {
         order: 1; 
-    }
-    .home-container-3:first-of-type .left-content-home {
+      }
+      
+      .publisher-section .right-content-home {
         order: 2; 
-    }
-    .home-container-3:nth-of-type(2) .left-content-home {
+      }
+      .advertiser-section .right-content-home {
         order: 1; 
-    }
-    .home-container-3:nth-of-type(2) .right-content-home {
+      }
+      
+      .advertiser-section .left-content-home {
         order: 2; 
-    }
+      }
+
     .footer-heading, .footer-subtext{
         font-size: 28px;
     }

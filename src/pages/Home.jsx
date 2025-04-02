@@ -50,7 +50,7 @@ export default function Home() {
             </div>
         </div>
     </div>
-    <div className='home-container-3-wrapper'>
+    <div className='home-container-3-wrapper advertiser-section'>
     <div className='home-container-3'>
         <div className='left-content-home'>
             <div className='text-container-left'>
@@ -83,48 +83,15 @@ export default function Home() {
                 <Button type='primary' className='redirect'>Learn More</Button> 
             </Link>
         </div>
-        <div className='right-content-home'
-                style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '100%' }}
-        >
-            <img src={graphicImage1}   
-                style={{
-                width: 'auto',
-                maxWidth: '100%',
-                height: 'auto',
-                minHeight: '450px',
-                objectFit: 'contain',
-                display: 'block',
-                margin: '0 auto'
-                }}
-            />
+        <div className='right-content-home'>
+            <img src={graphicImage1}   />
         </div>
     </div>
     </div>
-    <div className='home-container-3-wrapper'>
+    <div className='home-container-3-wrapper publisher-section'>
     <div className='home-container-3'>
-        <div className='left-content-home'
-            style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '100%'
-            }}
-        >
-            <img src={graphicImage2} 
-             style={{
-                width: 'auto',
-                maxWidth: '100%',
-                height: 'auto',
-                minHeight: '450px',
-                objectFit: 'contain',
-                display: 'block',
-                margin: '0 auto'
-              }}
-            />
+        <div className='left-content-home'>
+            <img src={graphicImage2} />
         </div>
         <div className='right-content-home'>
         <div className='text-container-left'>
