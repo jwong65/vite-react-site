@@ -130,16 +130,16 @@ export default function Home() {
             <h1 className='main-heading-partners'>Some of Our</h1>
             <h3 className='sub-heading-partners'>Partners</h3>
             <div className='partners-grid'>
-                <img src={appLovinLogo} alt='AppLovin' className='partner-logo' />
-                <img src={verveLogo} alt="VerveGroup" className='partner-logo-verve' height='40' width='150' />
-                <img src={inMobiLogo} alt='InMobi' className='partner-logo' />
-                <img src={ironSourceLogo} alt='IronSource' className='partner-logo' />
-                <img src={sovrnLogo} alt='Sovrn' className='partner-logo' />
-                <img src={magniteLogo} alt='Magnite' className='partner-logo' />
-                <img src={unityLogo} alt='Unity' className='partner-logo' />
-                <img src={yieldLogo} alt='Yieldmo' className='partner-logo' />
-                <img src={mintegralLogo} alt='Mintegral' className='partner-logo' />
-                <img src={epsilonLogo} alt='Epislon' className='partner-logo' />
+                <img src={appLovinLogo} alt='AppLovin' className='partner-logo-home' />
+                <img src={verveLogo} alt="VerveGroup" className='partner-logo-home' />
+                <img src={inMobiLogo} alt='InMobi' className='partner-logo-home' />
+                <img src={ironSourceLogo} alt='IronSource' className='partner-logo-home' />
+                <img src={sovrnLogo} alt='Sovrn' className='partner-logo-home' />
+                <img src={magniteLogo} alt='Magnite' className='partner-logo-home' />
+                <img src={unityLogo} alt='Unity' className='partner-logo-home' />
+                <img src={yieldLogo} alt='Yieldmo' className='partner-logo-home' />
+                <img src={mintegralLogo} alt='Mintegral' className='partner-logo-home' />
+                <img src={epsilonLogo} alt='Epislon' className='partner-logo-home' />
             </div>
         </div>
     </div>
