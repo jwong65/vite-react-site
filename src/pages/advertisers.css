@@ -436,6 +436,27 @@
         padding-right: 20px;
     }
 }
+@media (max-width: 834px){
+    .header-wrapper{
+        margin-bottom: 0 !important;
+    }
+    .background-advertiser{
+        display: none;
+    }
+    .advertiser-floating-overlay{
+        display: none;
+    }
+    .advertiser-content-3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .left-content-advertiser, .right-content-advertiser{
+        max-width: 100%;
+        width: 100%;
+        
+    }
+}
 @media(max-width: 480px)  {
     .ant-layout-content {
         padding-top: 0;
@@ -468,12 +489,6 @@
         max-width: 100%;
         padding: 0 15px;
         font-size: 28px;
-    }
-    .background-advertiser{
-        display: none;
-    }
-    .advertiser-floating-overlay{
-        display: none;
     }
     .advertiser-main-heading{
         margin-top: 30px;
