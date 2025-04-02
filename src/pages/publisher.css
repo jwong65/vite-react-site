@@ -429,6 +429,21 @@
         flex-direction: column;
         justify-content: center;
     }
+    .publisher-hero-section-wrapper,
+    .publisher-container-2-wrapper,
+    .publisher-container-3-wrapper,
+    .partner-wrapper,
+    .bottom-publisher-wrapper {
+        width: 100vw;
+        max-width: 100vw;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
 }
 /* Tablet view */
 @media(max-width: 834px){
