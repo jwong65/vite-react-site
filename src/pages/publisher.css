@@ -477,10 +477,7 @@
         flex-direction: column;
         width: 100%;
     } 
-    .left-content, .right-content{
-        max-width: 100%;
-        width: 100%;
-    }
+    
     .publisher-container-3-wrapper:nth-of-type(4) .publisher-content-3 .left-content {
         order: 1; 
     }
