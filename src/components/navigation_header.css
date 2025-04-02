@@ -16,6 +16,18 @@ nav a,
     -moz-user-select: none !important;
     -ms-user-select: none !important;
 }
+.ant-menu-item-selected,
+.ant-menu-submenu-selected,
+.ant-menu-item-active,
+.ant-menu-submenu-active,
+.ant-dropdown-menu-item-active,
+.ant-menu-submenu-open,
+.ant-menu-submenu-selected,
+.ant-menu-submenu:hover,
+.ant-menu-item:hover {
+  cursor: pointer !important;
+  user-select: none !important;
+}
 
 .header-wrapper {
     width: 100%;
