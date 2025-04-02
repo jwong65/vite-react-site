@@ -417,7 +417,7 @@
     background: #E2A602 !important;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;
 }
-@media(max-width: 1280){
+@media(max-width: 1024px){
     .publisher-text-overlay {
         position: relative;
         width: 100%;
@@ -443,6 +443,15 @@
         position: relative;
         box-sizing: border-box;
         overflow: hidden;
+    }
+    .publisher-text-overlay-2,
+    .container-3-text-publisher,
+    .bottom-publisher-subtext {
+        width: 100% !important;
+        max-width: 950px;
+        box-sizing: border-box;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 /* Tablet view */
