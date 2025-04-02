@@ -456,6 +456,34 @@
         width: 100%;
         padding: 2rem;
       }
+      .right-content-home img, 
+      .left-content-home img {
+          width: 100%;
+          height: auto;
+          max-height: 100%;
+          object-fit: contain;
+      }
+      .home-container-3:first-of-type .right-content-home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .home-container-3:first-of-type .right-content-home img {
+        width: 100%;
+        height: auto;
+    }
+    .home-container-3:nth-of-type(2) .left-content-home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .home-container-3:nth-of-type(2) .left-content-home img {
+        width: 100%;
+        height: auto;
+    }
+    
       .left-content-home, .right-content-home {
         max-width: 50%;
         flex: 1;
