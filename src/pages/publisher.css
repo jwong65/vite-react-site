@@ -488,8 +488,9 @@
         flex-direction: column;
         width: 100%;
     } 
-
-  
+    .publisher-sub-heading2{
+        margin-bottom: 24px;
+    }
 
 }
 @media (max-width: 768px) {
