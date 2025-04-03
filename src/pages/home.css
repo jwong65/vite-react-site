@@ -403,7 +403,7 @@
 }
 
 /* Laptop width */
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
     .main-heading {
         font-size: 48px;
     }
@@ -418,10 +418,8 @@
     
     .text-overlay-1 {
         padding: 30px 20px;
-        z-index: 2;
     }
     .floating-overlay-image{
-        z-index: 1;
         top: 8%;
         max-width: 35%;
     }
