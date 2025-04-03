@@ -215,7 +215,8 @@
     font-size: 18px;
     line-height: 130%;
     letter-spacing: 0%;
-    max-width: 350px;
+    max-width: 100%;
+    margin: 0;
 
 }
 
@@ -515,11 +516,12 @@
     }
     .text-box {
         display: flex;
+        max-width: 100%;
         flex-direction: row;
         align-items: flex-start;
         margin: 20px; 
-        background-color: #F8F9FA;
         box-sizing: border-box;
+        background-color: #FFFFFF;
     }
     .text-content {
         flex: 1;
