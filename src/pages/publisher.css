@@ -565,6 +565,12 @@
         padding: 0;
         justify-content: center;
     }
+    .background-publisher{
+        display: none;
+    }
+    .publisher-floating-overlay{
+        display: none;
+    }   
     .publisher-hero-container{
         min-height: 780px;
         display: flex;

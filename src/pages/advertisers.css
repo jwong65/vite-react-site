@@ -565,6 +565,12 @@
         width: 100%;
         max-width: 100%;
     }
+    .background-advertiser {
+        display: none !important;
+    }
+    .advertiser-floating-overlay {
+        display: none !important;
+    }
     .advertiser-hero-section-wrapper{
         width: 100vw;
         position: relative;
