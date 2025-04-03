@@ -9,11 +9,34 @@ import "./contact.css"
 export default function Contact() {
   const [form] = Form.useForm();
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false)
   
-  const onFinish= (values) =>{
-    console.log('Form Values:', values)
-    setSubmitted(true)
-  }
+  const onFinish = async (values) => {
+    console.log('Form Values:', values);
+    setLoading(true);
+    
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      });
+      
+      const data = await response.json();
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        console.error('Error submitting form:', data.error);
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+  
   
   const resetForm = ()=>{
     form.resetFields();
@@ -151,6 +174,7 @@ export default function Contact() {
                   type='primary' 
                   htmlType='submit'
                   className='contact-submit-button'
+                  loading={loading}
                   >
                   Get in Touch
                 </Button>
