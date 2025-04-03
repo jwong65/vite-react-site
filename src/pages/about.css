@@ -461,10 +461,87 @@
     .about-hero-section-wrapper {
         margin-top: 0;
     }
-    .background-advertiser{
-        display: none;
+    .about-main-heading{
+        font-size: 40px;
+        margin-bottom: 0px;
     }
-    .advertiser-floating-overlay{
-        display: none;
+    .about-sub-heading{
+        font-size: 40px;
+        margin: 16px 0;
     }
+    .about-sub-heading2{
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .about-content-container {
+        display: grid;
+        grid-template-columns:80% 20%;
+        grid-template-areas: 
+            "left-content image"
+            "right-content image";
+        gap: 20px;
+        padding: 0 15px;
+    }
+    .about-left-content {
+        grid-area: left-content;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .about-center-graphic {
+        grid-area: image;
+        width: 100%;
+        height: 100%;
+        align-self: stretch
+    }
+    
+    .about-right-content {
+        grid-area: right-content;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .text-box {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 20px; 
+        background-color: #F8F9FA;
+        box-sizing: border-box;
+    }
+    .text-content {
+        flex: 1;
+        min-width: 300px;
+        max-width: 100%;
+    }
+    .tab-heading {
+        font-size: 24px;
+    }
+    .text-content p {
+        font-size: 14px;
+    }
+    .about-banner-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .about-banner-text-box1, .about-banner-text-box2{
+        max-width: 620px;
+        margin: 0;
+        padding: 32px;
+    }
+    .about-banner-text-box1{
+        margin-bottom: 32px;
+    }
+    .about-banner-text-box2{
+        margin-top: 32px;
+    }
+    .banner-heading{
+        text-align: flex-start;
+        font-size: 28px;
+    }
+    .about-banner-text-box1 p, .about-banner-text-box2 p{
+        font-size: 18px
+    }
+
+    
+
 }
