@@ -453,6 +453,20 @@
         margin: 10px 0;
         box-sizing: border-box;
     }
+    .about-hero-section-wrapper,
+    .about-content-section-wrapper,
+    .about-banner-section-wrapper,
+    .about-section-bottom-wrapper {
+        width: 100vw;
+        max-width: 100vw;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
 }
 @media (max-width:834px){
     .header-wrapper {
@@ -518,12 +532,6 @@
     .text-content p {
         font-size: 14px;
     }
-    .about-banner-section-wrapper {
-        position: relative;
-        height: auto; 
-        margin-bottom: 20px; 
-        overflow: visible;
-    }
     .about-banner-content{
         flex-direction: column;
         align-items: center;
@@ -549,7 +557,54 @@
     .about-banner-text-box1 p, .about-banner-text-box2 p{
         font-size: 16px;
     }
+}
+@media (max-width: 480px){
+    .ant-layout-content {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .about-page-wrapper{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .about-background-image {
+        display: none;
+    }
+    .about-container {
+        min-height: 780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .about-text-overlay {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 40px 15px;
+        justify-content: flex-start;
 
+    }
+    .about-main-heading {
+        margin-top: 30px;
+        font-size: 28px;
+        width: 100%;
+    }
+    
+    .about-sub-heading {
+        font-size: 32px;
+        width: 100%;
+        margin: 12px 0px;
+    }
+    
+    .about-sub-heading2 {
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
     
 
 }
