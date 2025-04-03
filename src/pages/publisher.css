@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:ital,wght@0,400;0,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Poppins:ital,wght@0,400;0,700;1,800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 .ant-layout-content {
     background-color: #FFFFFF;
@@ -298,6 +298,22 @@
     width: 100%;
     max-width: 350px;
 }
+.text-content p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+.text-content .content-list li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #4A4A4A;
+
+}
 .tab-heading {
     font-family: 'Rajdhani';
     font-weight: 700;
@@ -307,13 +323,6 @@
     text-transform: uppercase;
     color:#4A4A4A;
 
-}
-.text-content p {
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    letter-spacing: 0%;
 }
 .partner-wrapper{
     width: 100vw;
