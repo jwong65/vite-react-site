@@ -489,7 +489,7 @@
     }
     .about-content-container {
         display: grid;
-        grid-template-columns:80% 20%;
+        grid-template-columns:70% 20%;
         grid-template-areas: 
             "left-content image"
             "right-content image";
