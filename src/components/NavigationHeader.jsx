@@ -66,7 +66,8 @@ export default function NavigationHeader() {
                 key: item.key,
                 label: item.label,
                 onClick: ()=> navigate(item.key)
-              }))
+              })),
+              selectedKeys: [currentPath]
             }}
             trigger={['click']}
             placement='bottom'

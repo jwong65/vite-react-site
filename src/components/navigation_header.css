@@ -179,14 +179,21 @@ nav a,
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
 
-  
 .mobile-full-width-dropdown .ant-dropdown-menu-item {
     text-align: center;
-    padding: 15px;
+    margin: 8px;
     font-family: 'Rajdhani', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 700 !important;
+    font-size: 22px !important;
+    line-height: 130% !important;
+    letter-spacing: 0% !important;
+    vertical-align: middle !important; 
+    color: #4A4A4A !important;
   }
+  .ant-dropdown-menu-item.ant-dropdown-menu-item-selected {
+    color: #007BFF !important; 
+    background-color: transparent !important;
+}
 
 .hamburger-button {
   display: flex;
