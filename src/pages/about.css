@@ -426,5 +426,32 @@
         font-size: 16px;
         max-width: 90%;
     }
+    .about-content-container {
+        display: flex;
+        align-items: stretch; 
+        justify-content: center;
+    }
+    .about-left-content, 
+    .about-right-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30%;
+    }
+    
+    .about-center-graphic {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-box {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px 16px;
+        margin: 10px 0;
+        box-sizing: border-box;
+    }
 
 }
