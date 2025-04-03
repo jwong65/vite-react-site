@@ -518,15 +518,22 @@
     .text-content p {
         font-size: 14px;
     }
+    .about-banner-section-wrapper {
+        position: relative;
+        height: auto; 
+        margin-bottom: 20px; 
+        overflow: visible;
+    }
     .about-banner-content{
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
     }
     .about-banner-text-box1, .about-banner-text-box2{
-        max-width: 620px;
-        margin: 0;
-        padding: 32px;
+        max-width: 400px;
+        height: 190px;
+        margin: 8px 0;
+        padding: 10px;
     }
     .about-banner-text-box1{
         margin-bottom: 32px;
@@ -535,11 +542,12 @@
         margin-top: 32px;
     }
     .banner-heading{
-        text-align: flex-start;
+        text-align: left;
+        margin: 0 0 5px 0;
         font-size: 28px;
     }
     .about-banner-text-box1 p, .about-banner-text-box2 p{
-        font-size: 18px
+        font-size: 16px;
     }
 
     
