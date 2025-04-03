@@ -423,6 +423,33 @@
         top: 8%;
         max-width: 35%;
     }
+    .home-container-3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+    
+    .left-content-home, 
+    .right-content-home {
+        flex: 1;
+        max-width: 48%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .left-content-home img, 
+    .right-content-home img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+    }
 
     .partners-grid{
         gap:60px;
