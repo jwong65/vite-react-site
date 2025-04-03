@@ -131,11 +131,9 @@ export default function Advertisers() {
             <div className='advertiser-text-wrapper-header'>Maximize Impact with Thunder.</div>
             <div className='advertiser-text-wrapper-subheader'>Join the world's leading advertisers in a faster, safer, and more transparent ecosystem. Let's get started.</div>
           </div>
-          <div className='button-container'>
-            <Link to='/contact'>
-                <Button type='primary' className='advertiser-custom-button'>Supercharge Your Campaigns Today</Button>
-            </Link>
-          </div>
+          <Link to='/contact'>
+              <Button type='primary' className='advertiser-custom-button'>Supercharge Your Campaigns Today</Button>
+          </Link>
         </div>
       </div>
     </div>
