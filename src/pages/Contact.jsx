@@ -53,24 +53,28 @@ export default function Contact() {
               onFinish={onFinish}
               layout='vertical'
               className='contact-form'
+              requiredMark={false}
             >
               <Row gutter={52}>
                 <Col xs={24} sm={12}>
                   <Form.Item
                     name='firstName'
                     label="First Name"
+                    rules={[{required: true, message:''}]}
                   >
                     <Input placeholder='First Name' />
                   </Form.Item>
                   <Form.Item
                     name="email"
                     label='Email'
+                    rules={[{required: true, message:''}]}
                   >
                     <Input placeholder='Email' />
                   </Form.Item>
                   <Form.Item
                     name="country"
                     label="Country"
+                    rules={[{required: true, message:''}]}
                   >
                     <Select placeholder='Country'>
                       <Option value='us'>United States</Option>
@@ -81,6 +85,7 @@ export default function Contact() {
                   <Form.Item
                     name="interest"
                     label="I am interested in"
+                    rules={[{required: true, message:''}]}
                   >
                     <Select placeholder="Select">
                       <Option value='publisher'>Publisher</Option>
@@ -93,18 +98,21 @@ export default function Contact() {
                   <Form.Item
                     name="lastName"
                     label="Last Name"
+                    rules={[{required: true, message:''}]}
                   >
                     <Input placeholder='Last Name' />
                   </Form.Item>
                   <Form.Item
                     name="company"
                     label="Company Name"
+                    rules={[{required: true, message:''}]}
                   >
                     <Input placeholder='Company Name' />
                   </Form.Item>
                   <Form.Item
                     name="role"
                     label="I am"
+                    rules={[{required: true, message:''}]}
                   >
                     <Select placeholder='Select'>
                       <Option value='publisher'>Publisher</Option>
@@ -115,6 +123,7 @@ export default function Contact() {
                   <Form.Item
                     name="jobTitle"
                     label= "Job Title"
+                    rules={[{required: true, message:''}]}
                   >
                     <Input placeholder='Job Title' />
                   </Form.Item>
