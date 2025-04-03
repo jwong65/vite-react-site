@@ -547,5 +547,19 @@
     .advertiser-container-3-wrapper:nth-of-type(6) .advertiser-content-3 .right-content-advertiser {
         order: 2; 
     }
+    .advertiser-text-content{
+        max-width: 100%;
+        padding: 24px 16px;
+    }
+    .advertiser-main-heading,
+    .advertiser-sub-heading,
+    .advertiser-sub-heading2 {
+        text-align: center;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
     
 }
