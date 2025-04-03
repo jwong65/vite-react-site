@@ -522,7 +522,15 @@
         max-width: 100%;
         width: 100%;
         flex: none;
-        margin-bottom: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .advertiser-content-image{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
     }
     .advertiser-container-3-wrapper:nth-of-type(4) .advertiser-content-3 .left-content-advertiser {
         order: 1;

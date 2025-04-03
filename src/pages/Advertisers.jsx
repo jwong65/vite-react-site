@@ -99,8 +99,8 @@ export default function Advertisers() {
         <div className='advertiser-content-3'>
           <div className='left-content-advertiser'>
             <div className='advertiser-text-content'>
+              <AreaChartOutlined className='feature-icon'/>
               <div className='text-container'>
-                <AreaChartOutlined className='feature-icon'/>
                 <div className='container-3-tab-heading'>Targeting & Performance Optimization</div>
                 <p>We shape traffic in real-time, ensuring your ads land in front of the most engaged users. AI-driven insights, post-bid data analysis, and granular targeting tools give you full control over your campaign performance.</p>
               </div>
