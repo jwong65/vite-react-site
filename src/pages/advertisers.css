@@ -403,7 +403,6 @@
 @media(max-width: 1024px){
     .advertiser-text-overlay {
         position: relative;
-        width: 100%;
         height: auto;
         padding: 40px 20px;
         min-height: 100vh;
@@ -437,7 +436,7 @@
     }
     .advertiser-hero-container {
         position: relative;
-        overflow: hidden;
+        overflow: visible;
         width: 100%;
     }
     .background-advertiser {
@@ -456,6 +455,7 @@
         padding: 30px 20px;
         box-sizing: border-box;
     }
+    
 }
 @media (max-width: 834px){
     .header-wrapper{
@@ -464,28 +464,61 @@
     .advertiser-hero-section-wrapper{
         margin-top: 0;
     }
-    .background-advertiser{
-        display: none;
-    }
-    .advertiser-floating-overlay{
-        display: none;
+    .advertiser-hero-container{
+        position: relative;
+        overflow: visible;
     }
     .advertiser-text-overlay{
         position: relative;
-        width: 100%;
         height: auto;
         padding: 40px 20px;
-        background-color:#F8F9FA;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-
+    }
+    .background-advertiser {
+        display: block !important;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: right center;
+    }
+    .advertiser-floating-overlay {
+        display: block !important;
+        z-index: 3;
+        position: absolute;
+        top: 0%;
+        right: 5%;
+        left: auto;
+        transform: none;
+        max-width: 30%;
+        height: auto;
+    }
+    .advertiser-text-overlay {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 65%;
+        height: 100%;
+        padding: 30px 20px;
     }
     .advertiser-content-3{
         display: flex;
         flex-direction: row;
         width: 100%;
+    }
+    .advertiser-main-heading {
+        font-size: 48px;
+    }
+    
+    .advertiser-sub-heading {
+        font-size: 48px;
+    }
+    
+    .advertiser-sub-heading2 {
+        font-size: 16px;
     }
     .left-content-advertiser, .right-content-advertiser{
         max-width: 50%;

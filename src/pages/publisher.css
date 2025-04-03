@@ -497,13 +497,7 @@
     }
     .publisher-hero-section-wrapper{
         margin-top: 0;
-    }
-    .background-publisher{
-        display: none;
-    }
-    .publisher-floating-overlay{
-        display: none;
-    }   
+    } 
     .publisher-content3{
         display: flex;
         flex-direction: column;
