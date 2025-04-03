@@ -43,7 +43,7 @@ export default function About() {
             <div className='about-left-content'>
                 <div className='text-box'>
                   <StarOutlined className='feature-icon' />
-                  <div className='text-content'>
+                  <div className='text-content-about'>
                     <div className='tab-heading'>Premium connections</div> 
                     <p>
                       We link top publishers and advertisers, ensuring higher fill rates and stronger eCPMs.
@@ -52,7 +52,7 @@ export default function About() {
               </div>
               <div className='text-box'>
                 <SafetyOutlined className='feature-icon' />
-                <div className='text-content'>
+                <div className='text-content-about'>
                   <div className='tab-heading'>Unmatched transparency & safety</div>  
                   <p>
                     Fully OMSDK, app-ads.txt, and sellers.json compliant, with industry-leading fraud prevention.
@@ -66,7 +66,7 @@ export default function About() {
             <div className='about-right-content'>
               <div className='text-box'>
                 <RobotOutlined className='feature-icon' />
-                <div className='text-content'>
+                <div className='text-content-about'>
                   <div className='tab-heading'>AI-driven optimization</div>
                   <p>
                     Proprietary traffic shaping and post-bid AI maximize revenue on every impression.
@@ -75,7 +75,7 @@ export default function About() {
               </div>
               <div className='text-box'>
                 <ApiOutlined className='feature-icon' />
-                <div className='text-content'>
+                <div className='text-content-about'>
                   <div className='tab-heading'>Seamless integration</div>
                   <p>
                     Designed for SDK networks, SSPs, DSPs, and direct publishers with effortless implementation.

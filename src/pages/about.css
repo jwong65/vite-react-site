@@ -209,7 +209,7 @@
     letter-spacing: 0%;
     text-transform: uppercase;
 }
-.text-content p{
+.text-content-about p{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -523,7 +523,7 @@
         box-sizing: border-box;
         background-color: #FFFFFF;
     }
-    .text-content {
+    .text-content-about {
         flex: 1;
         min-width: 300px;
         max-width: 100%;
@@ -531,7 +531,7 @@
     .tab-heading {
         font-size: 24px;
     }
-    .text-content p {
+    .text-content-about p {
         font-size: 14px;
     }
     .about-banner-content{
