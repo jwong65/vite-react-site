@@ -572,6 +572,15 @@
     .about-background-image {
         display: none;
     }
+    .about-hero-section-wrapper {
+        width: 100vw;
+        min-height: 780px;
+        position: relative;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        padding: 0;
+        justify-content: center;
+    }
     .about-container {
         min-height: 780px;
         display: flex;
