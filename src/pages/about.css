@@ -521,7 +521,6 @@
         align-items: flex-start;
         margin: 20px; 
         box-sizing: border-box;
-        background-color: #FFFFFF;
     }
     .text-content-about {
         flex: 1;
