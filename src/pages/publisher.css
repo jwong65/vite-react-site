@@ -570,10 +570,14 @@
         margin-bottom: 80px;
     }
     .publisher-content-3{
+        display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         align-items: stretch;
-        justify-content: space-between;
         width: 100%;
+        padding: 0; 
+        margin: 0; 
+        gap: 0;
     }
     .publisher-image {
         height: auto;
@@ -588,6 +592,18 @@
         justify-content: center;
         align-items: center;
      }
+     .left-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+     .right-content {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+    }
 }
 
 @media (max-width: 480px){
