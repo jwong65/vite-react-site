@@ -324,7 +324,90 @@
     }
 }
 @media (max-width: 480px){
+    .ant-layout-content {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .contact-page-wrapper {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+    }
     .contact-background-image{
         display: none;
     }
+    .contact-section-wrapper{
+        width: 100vw;
+        min-height: 780px;
+        position: relative;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        padding: 0;
+        justify-content: center;
+    }
+    .contact-container{
+        min-height:780px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+    .contact-text-overlay {
+        position: relative;
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        z-index: 3;
+        padding: 40px 15px;
+    }
+    .contact-main-heading{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
+    }
+    .contact-sub-heading{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 32px;
+        line-height: 90%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+    }
+    .contact-sub-heading2{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0%;
+    }
+
+
+    .form-text{
+        margin: 40px;
+        margin-bottom: 20px;
+    }
+    .form-header{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+    .form-subheader{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    
 }
