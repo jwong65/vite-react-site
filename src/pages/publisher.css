@@ -531,9 +531,10 @@
     .publisher-hero-section-wrapper{
         margin-top: 0;
     } 
-    .publisher-content3{
+    .publisher-content-3{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: stretch;
         width: 100%;
     } 
     .publisher-text-overlay{
