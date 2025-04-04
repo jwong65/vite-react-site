@@ -41,7 +41,7 @@ export default function About() {
           </div>
           <div className='about-content-container'>
             <div className='about-left-content'>
-                <div className='text-box'>
+                <div className='text-box-about'>
                   <StarOutlined className='feature-icon' />
                   <div className='text-content-about'>
                     <div className='tab-heading'>Premium connections</div> 
@@ -50,7 +50,7 @@ export default function About() {
                     </p>
                 </div>
               </div>
-              <div className='text-box'>
+              <div className='text-box-about'>
                 <SafetyOutlined className='feature-icon' />
                 <div className='text-content-about'>
                   <div className='tab-heading'>Unmatched transparency & safety</div>  
@@ -64,7 +64,7 @@ export default function About() {
               <img src={aboutImage1} alt="Center Graphic" />
             </div>
             <div className='about-right-content'>
-              <div className='text-box'>
+              <div className='text-box-about'>
                 <RobotOutlined className='feature-icon' />
                 <div className='text-content-about'>
                   <div className='tab-heading'>AI-driven optimization</div>
@@ -73,7 +73,7 @@ export default function About() {
                   </p>
                 </div>
               </div>
-              <div className='text-box'>
+              <div className='text-box-about'>
                 <ApiOutlined className='feature-icon' />
                 <div className='text-content-about'>
                   <div className='tab-heading'>Seamless integration</div>

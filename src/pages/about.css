@@ -124,6 +124,7 @@
 
 .about-content-section-wrapper{
     width: 100vw;
+    position: relative;
     background-color: #FFFFFF;
     display: flex;
     width: 100%;
@@ -131,7 +132,6 @@
     padding: 0;
     margin-left: -50vw;
     margin-right: -50vw;
-    position: relative;
 }
 
 .about-content-section{
@@ -150,6 +150,15 @@
     margin-top: 124px;
     margin-bottom: 60px;
     width:100%;
+}
+.about-content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1512px;
+    margin: 0 auto;
 }
 .content-header{
     font-family: 'Rajdhani', sans-serif;
@@ -173,13 +182,14 @@
     text-transform: uppercase;
     color: #007BFF;
 }
-.about-content-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+.text-box{
+    background-color: #F8F9FA;
     width: 100%;
+    width: 475px;
+    max-width: 100%;
+    gap: 24px;
+    padding: 48px 32px;
 }
-
 .about-left-content, .about-right-content{
     flex: 0 0 30%;
     max-width: 30%;
@@ -189,13 +199,7 @@
     max-width: 40%;
 }
 
-.text-box{
-    background-color: #F8F9FA;
-    width: 475px;
-    max-width: 100%;
-    gap: 24px;
-    padding: 48px 32px;
-}
+
 .feature-icon{
     width: 36px;
     height: 36px;
@@ -392,6 +396,22 @@
     border: 1px solid #06C;
     background: #06C;
 }
+@media (max-width: 1280px){
+    .about-page-wrapper{
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .about-content-section{
+        max-width: 1512px;
+    }
+    .about-content-container{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
 
 @media (max-width: 1024px){
     .about-container{
@@ -446,7 +466,7 @@
         align-items: center;
         justify-content: center;
     }
-    .text-box {
+    .text-box-about {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
@@ -661,7 +681,7 @@
         max-width: 100%;
         margin-bottom: 40px;
     }    
-    .text-box {
+    .text-box-about {
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
