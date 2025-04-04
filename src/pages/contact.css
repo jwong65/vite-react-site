@@ -409,5 +409,24 @@
         text-align: center;
     }
 
-    
+    .contact-form-container{
+        margin-bottom: 40px;
+    }
+
+    .contact-form .ant-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form .ant-col {
+        width: 100%;
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 0;
+    }
+    .contact-message-textarea{
+        width: 100% 
+    }
+    .contact-submit-button{
+        min-width: 100%;
+    }
 }
