@@ -15,6 +15,22 @@
     padding: 0 20px;
     background: var(--Primary-Arctic-White, #F8F9FA);
 }
+.privacy-content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+.privacy-hero-section-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    overflow: visible;
+    padding: 60px 0;
+}
 
 .privacy-box{
     width: 100%;
@@ -79,3 +95,8 @@
 .text-box-privacy:last-child{
     margin-bottom: 108px;
 }
+/* @media(max-width: 1024px){
+    .privacy-policy-wrapper{
+
+    }
+} */
