@@ -302,9 +302,29 @@
     background: #E2A602 !important;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;
 }
-@media (max-width: 767px) {
+@media (max-width: 1024px){
+    .contact-section-wrapper,
+    .contact-form-wrapper,
+    .contact-form-outer-wrapper,
+    .contact-success-wrapper{
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+        left: 0;
+        right: 0;
+        position: relative;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 834px) {
     .contact-form .ant-input,
     .contact-form .ant-select {
         min-width: 100%;
+    }
+}
+@media (max-width: 480px){
+    .contact-background-image{
+        display: none;
     }
 }
