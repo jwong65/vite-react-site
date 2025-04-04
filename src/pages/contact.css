@@ -53,6 +53,7 @@
     align-items: flex-start;
     background-color: #F8F9FA;
     z-index: 1;
+    padding: 40px;
 }
 .contact-main-heading{
     font-family: 'Rajdhani', sans-serif;

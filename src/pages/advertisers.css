@@ -66,6 +66,7 @@
     align-items: flex-start;
     background-color: #F8F9FA;
     box-sizing: border-box;
+    padding: 40px;
 
 }
 
@@ -590,7 +591,7 @@
     .advertiser-text-overlay{
         width: 100%;
         max-width: 100%;
-        padding: 0 15px;
+        padding: 15px;
         font-size: 28px;
     }
     .advertiser-main-heading{
