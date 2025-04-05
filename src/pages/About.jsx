@@ -106,7 +106,7 @@ export default function About() {
       </div>
       <div className='about-section-bottom-wrapper'>
         <div className='bottom-about-container'>
-          <div className='logo-container'>
+          <div className='logo-container-about'>
             <img src={companyLogoBlack} alt='Thunder Monetize Logo' />
           </div>
           <div className='about-footer-text'>

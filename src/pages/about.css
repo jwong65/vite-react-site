@@ -344,12 +344,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 124px;
 }
-.bottom-about-container .logo-container{
-    margin-top: 124px;
-}
-.bottom-about-container .logo-container img{
+.bottom-about-container .logo-container-about img{
     width: 74px;
     height: 88px;
 }
