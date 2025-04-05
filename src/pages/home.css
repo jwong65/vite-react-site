@@ -47,9 +47,8 @@
 .floating-overlay-image{
     z-index:2;
     position: absolute;
-    top:10%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    top:0%;
+    left: 5px;0%;
     height:auto;
 }
 
@@ -57,7 +56,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 65%;
     height: 100%;
     background-color: #F8F9FA;
     display: flex;
