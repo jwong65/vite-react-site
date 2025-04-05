@@ -389,7 +389,7 @@
 .section-wrapper-bottom,
 .home-container-wrapper,
 .home-container-2-wrapper,
-.home-container-3-wrapper .advertiser-section {
+.home-container-3-wrapper {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
   margin-right: calc(-50vw + 50%);
@@ -398,10 +398,8 @@
   overflow: hidden;
 }
 
-.home-container-3-wrapper .advertiser-section {
+.home-container-3-wrapper {
     background-color: var(--Primary-Arctic-White, #F8F9FA);
-    padding-top: 20px;
-
 }
 
 /* Laptop width */
