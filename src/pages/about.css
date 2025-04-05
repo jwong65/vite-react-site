@@ -558,7 +558,12 @@
         justify-content: flex-start;
     }
     .banner-image-1{
+        width: 100%;
         height: 750px;
+        object-position: center;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
     }
     .about-banner-text-box1, .about-banner-text-box2{
         max-width: 626px;
@@ -651,6 +656,7 @@
     .about-content-container{
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 100%;
         margin: 24px;
         grid-template-columns: none; 
