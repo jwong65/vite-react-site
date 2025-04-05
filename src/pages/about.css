@@ -394,6 +394,16 @@
     border: 1px solid #06C;
     background: #06C;
 }
+.about-container,
+.about-content-section,
+.about-banner-container,
+.bottom-about-container {
+    width: 100%;
+    max-width: 1512px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
 @media (max-width: 1280px){
     .about-page-wrapper{
         width: 100%;
