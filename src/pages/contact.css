@@ -337,7 +337,7 @@
     }
     .contact-section-wrapper{
         width: 100vw;
-        min-height: 780px;
+        min-height: 460px;
         position: relative;
         margin-left: -50vw;
         margin-right: -50vw;
@@ -359,6 +359,7 @@
         justify-content: flex-start;
         z-index: 3;
         padding: 40px 15px;
+        text-align: center;
     }
     .contact-main-heading{
         font-family: 'Rajdhani', sans-serif;
