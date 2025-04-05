@@ -260,8 +260,6 @@
     justify-content: center;
     box-sizing: border-box;
     flex-direction: row;
-    background-color: #F8F9FA;
-
 }
 .left-content{
     justify-content: flex-end;
