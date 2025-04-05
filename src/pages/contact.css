@@ -344,6 +344,7 @@
         justify-content: center;
     }
     .contact-container{
+        min-height:780px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -444,6 +445,7 @@
     .contact-form .ant-col:first-child .ant-form-item:nth-child(2) { order: 3; } 
     .contact-form .ant-col:first-child .ant-form-item:nth-child(3) { order: 5; } 
     .contact-form .ant-col:first-child .ant-form-item:nth-child(4) { order: 7; } 
+    
     .contact-form .ant-col:last-child .ant-form-item:nth-child(1) { order: 2; } 
     .contact-form .ant-col:last-child .ant-form-item:nth-child(2) { order: 4; } 
     .contact-form .ant-col:last-child .ant-form-item:nth-child(3) { order: 6; } 
