@@ -65,7 +65,7 @@
     justify-content: center;
     align-items: flex-start;
     text-align: left;
-    padding: 40px;
+    padding: 40px 100px;
     z-index: 1;
 }
 .text-overlay-1 .main-heading,
@@ -180,6 +180,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
     overflow: visible;
 }
@@ -242,8 +243,11 @@
 .text-box-home p{
     margin-top: 0;
 }
-.logo-container{
-    margin: 0;
+.logo-container-home{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .company-logo{
     width: 74px;
@@ -423,13 +427,19 @@
         top: 8%;
         max-width: 35%;
     }
+    .home-container,
+    .home-container-2,
+    .home-container-3,
+    .home-container-4,
+    .partners-container {
+        padding: 0 60px; 
+    }
     .home-container-3 {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         gap: 20px;
-        padding: 2rem;
         box-sizing: border-box;
     }
     
@@ -466,9 +476,16 @@
     .sub-heading2 {
         font-size: 14px;
     }
+    .home-container,
+    .home-container-2,
+    .home-container-3,
+    .home-container-4,
+    .partners-container {
+        padding: 0 40px;
+    }
     
     .text-overlay-1 {
-        padding: 20px;
+        padding: 20px 40px;         
         width: 70%;
     }
     .text-overlay-2{
@@ -527,12 +544,19 @@
 
     .home-container{
         background-color: #F8F9FA;
-        padding: 20px 0;
+    }
+    .home-container,
+    .home-container-2,
+    .home-container-3,
+    .home-container-4,
+    .partners-container {
+        padding: 0 20px; 
     }
     .text-overlay-1{
         position: relative;
         width: 100%;
         height: auto;
+        padding: 20px;
     }
     .button-container{
         justify-content: center;
@@ -624,7 +648,7 @@
 .home-container-4,
 .partners-container {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 100px;
     max-width: 1512px;
     box-sizing: border-box;
 }
