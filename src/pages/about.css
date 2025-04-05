@@ -269,7 +269,7 @@
 .about-banner-text-box1,
 .about-banner-text-box2 {
   padding: 48px 32px;
-  width: 475px;
+  width: 560px;
   flex: 0 0 auto;
   box-sizing: border-box;
   display: flex;
@@ -514,7 +514,6 @@
         grid-template-areas: 
             "left-content image"
             "right-content image";
-        gap: 20px;
         padding: 0 15px;
     }
     .about-left-content {
@@ -558,22 +557,35 @@
         align-items: center;
         justify-content: flex-start;
     }
+    .banner-image-1{
+        height: 750px;
+    }
     .about-banner-text-box1, .about-banner-text-box2{
-        max-width: 400px;
-        height: 190px;
-        margin: 8px 0;
-        padding: 10px;
+        max-width: 626px;
+        min-height: 190px;
+        gap: 9px;
+        padding: 32px;
     }
     .about-banner-text-box1{
+        margin: 0;
+        margin-top: 72px;
         margin-bottom: 32px;
     }
     .about-banner-text-box2{
+        margin: 0 auto;
         margin-top: 32px;
+        margin-bottom: 72px;
     }
     .banner-heading{
         text-align: left;
         margin: 0 0 5px 0;
         font-size: 28px;
+    }
+    .about-banner-logo{
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .about-banner-text-box1 p, .about-banner-text-box2 p{
         font-size: 16px;

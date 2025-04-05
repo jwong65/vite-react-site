@@ -313,6 +313,9 @@
         position: relative;
         box-sizing: border-box;
     }
+    .contact-container{
+        padding: 0;
+    }
 }
 
 @media (max-width: 834px) {

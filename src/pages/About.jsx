@@ -88,7 +88,7 @@ export default function About() {
       </div>
       <div className='about-banner-section-wrapper'>
         <div className='about-banner-container'>
-          <img src={aboutImage2} alt="About Image 2" />
+          <img src={aboutImage2} alt="About Image 2" className='banner-image-1'/>
           <div className='about-banner-content'>
             <div className='about-banner-text-box1'>
               <h3 className='banner-heading'>Our Mission</h3>
