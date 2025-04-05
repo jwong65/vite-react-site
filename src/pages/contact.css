@@ -31,6 +31,7 @@
     justify-content: center;
     margin: 0 auto;
     padding: 0;
+    padding-left: 100px;
 }
 
 .contact-background-image{
@@ -101,7 +102,7 @@
     margin-bottom: 56px;
     max-width: 1512px;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 100px;
     box-sizing: border-box;
 }
 .form-header{
@@ -249,6 +250,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0 100px;
     box-sizing: border-box;
 }
 .success-header{

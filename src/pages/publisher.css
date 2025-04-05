@@ -25,28 +25,28 @@
     margin-left: -50vw;
     margin-right: -50vw;
     overflow: visible;
+    display: flex;
 }
 
 .publisher-hero-container{
     position: relative;
     width: 100%;
-    align-items: center;
     max-width: 1512px;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-end;
     margin: 0 auto;
     padding: 0;
-    justify-content: center;
     box-sizing: border-box;
     background-color: #007BFF;
 }
 
 .background-publisher{
-    width: 100%;
+    width: auto;
     height: auto;
+    display: block;
     max-height: 850px;
     object-fit: cover;
     object-position: right center;
-    display: block;
 }
 
 .publisher-floating-overlay{
