@@ -54,7 +54,7 @@ export default function Home() {
         </div>
     </div>
     <div className='home-container-3-wrapper advertiser-section'>
-    <div className='home-container-3'>
+    <div className='home-container-3' style={{paddingTop: '20px'}}>
         <div className='left-content-home'>
             <div className='text-container-left'>
                 <h1 className='main-heading'>Solutions for</h1>
