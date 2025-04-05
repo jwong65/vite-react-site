@@ -344,7 +344,6 @@
         justify-content: center;
     }
     .contact-container{
-        min-height: 460px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -361,16 +360,28 @@
         text-align: center;
     }
     .contact-main-heading{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
         font-size: 28px;
         line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: capitalize;
     }
     .contact-sub-heading{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-style: italic;
         font-size: 32px;
         line-height: 90%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
     }
     .contact-sub-heading2{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
         font-size: 14px;
         line-height: 130%;
+        letter-spacing: 0%;
         text-align: left;
     }
     .form-text{
@@ -382,13 +393,23 @@
     }
     
     .form-header{
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
         font-size: 28px;
         line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
     }
     .form-subheader{
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
         font-size: 14px;
         line-height: 130%;
-        
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
     }
 
     .contact-form-container{
