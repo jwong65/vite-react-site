@@ -100,7 +100,6 @@
 .form-text{
     margin-top: 124px;
     margin-bottom: 56px;
-    max-width: 1512px;
     width: 100%;
     padding: 0 100px;
     box-sizing: border-box;
@@ -121,7 +120,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
-    letter-spacing: 0%;
     text-align: center;
     color: #4A4A4A;
     max-width: 610px;
@@ -155,7 +153,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
-    letter-spacing: 0%;
     color: #4A4A4A;
   }
 .contact-form .ant-form-item{
@@ -189,7 +186,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    letter-spacing: 0%;
     margin-left: 4px;
     color: #8C8C8C;
   }
@@ -387,12 +383,14 @@
         line-height: 130%;
         letter-spacing: 0%;
     }
-
-
     .form-text{
-        margin: 40px;
-        margin-bottom: 20px;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        margin: 40px 0 20px 0;
+        box-sizing: border-box;
     }
+    
     .form-header{
         font-family: 'Rajdhani', sans-serif;
         font-weight: 700;
@@ -407,11 +405,15 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 130%;
-        letter-spacing: 0%;
+        max-width: 100%;
+        width: 100%;
         text-align: center;
+        box-sizing: border-box;
     }
 
     .contact-form-container{
+        width: 100%;
+        padding: 0 15px;
         margin-bottom: 40px;
     }
 
