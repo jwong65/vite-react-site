@@ -76,7 +76,7 @@
 }
 
 .about-sub-heading{
-    font-family: Poppins;
+    font-family: 'Poppins',sans-serif;
     font-weight: 800;
     font-style: italic;
     font-size: 64px;
@@ -86,6 +86,7 @@
     word-wrap: break-word;
     padding-top: 0;
     color: #308DFF;
+    margin: 0;
 
 }
 
