@@ -28,7 +28,6 @@
     width: 100%;
     max-width: 1512px;
     margin: 0 auto;
-    padding: 0;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
@@ -40,6 +39,8 @@
     width: auto;
     height: auto;
     display: block;
+    max-height: 850px;
+    object-fit: cover;
 }
 
 .about-text-overlay{
@@ -394,9 +395,7 @@
     border: 1px solid #06C;
     background: #06C;
 }
-.about-container,
 .about-content-section,
-.about-banner-container,
 .bottom-about-container {
     width: 100%;
     max-width: 1512px;
