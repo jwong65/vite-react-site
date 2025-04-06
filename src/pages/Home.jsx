@@ -54,7 +54,7 @@ export default function Home() {
         </div>
     </div>
     <div className='home-container-3-wrapper advertiser-section'>
-    <div className='home-container-3' style={{paddingTop: '20px'}}>
+    <div className='home-container-3'>
         <div className='left-content-home'>
             <div className='text-container-left'>
                 <h1 className='main-heading'>Solutions for</h1>
@@ -86,7 +86,7 @@ export default function Home() {
                 <Button type='primary' className='redirect'>Learn More</Button> 
             </Link>
         </div>
-        <div className='right-content-home' style={{paddingTop: '124px'}}>
+        <div className='right-content-home'>
             <img src={graphicImage1}  />
         </div>
     </div>
