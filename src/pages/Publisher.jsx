@@ -50,7 +50,7 @@ export default function Publisher() {
           </div>
         </div>
       </div>
-      <div className='publisher-container-3-wrapper'>
+      <div className='publisher-container-3-wrapper' >
         <div className='publisher-container-3'>
           <div className='container-3-header-publisher'>Monetization</div>
           <div className='container-3-subheader-publisher'>Solutions</div>
@@ -59,7 +59,7 @@ export default function Publisher() {
           </div>
         </div>
       </div>
-      <div className='publisher-container-3-wrapper'>
+      <div className='publisher-container-3-wrapper' style={{marginBottom: '92px'}}>
         <div className='publisher-content-3'>
           <div className='left-content'>
             <div className='text-box'>
