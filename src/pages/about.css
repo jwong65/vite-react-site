@@ -193,6 +193,17 @@
     align-items: flex-start;
     display: flex;
     flex-direction: row;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.about-left-content .text-box-about:first-child,
+.about-right-content .text-box-about:first-child {
+  margin-top: 0;
+}
+
+.about-left-content .text-box-about:last-child,
+.about-right-content .text-box-about:last-child {
+  margin-bottom: 0;
 }
 
 .about-left-content, .about-right-content{
