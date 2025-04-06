@@ -203,8 +203,7 @@
     margin-right: -50vw;
 }
 .publisher-container-3{
-    margin-top: 124px;
-    margin-bottom: 124px;
+    padding: 124px 0;
 }
 .container-3-header-publisher{
     font-family: 'Rajdhani', sans-serif;
@@ -245,7 +244,6 @@
     align-items: center;
     width: 100%;
     max-width: 950px;
-    padding: 2rem;
     box-sizing: border-box;
     background-color: #FFFFFF;
     align-items: stretch;
