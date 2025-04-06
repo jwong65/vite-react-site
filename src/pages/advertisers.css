@@ -170,6 +170,8 @@
     text-align: center;
     text-transform: uppercase;
     max-width: 945px;
+    color: #4A4A4A;
+
 
 }
 .advertiser-text-overlay-2 .underline-text{
@@ -307,6 +309,8 @@
     letter-spacing: 0%;
     text-transform: uppercase;
     max-width: 350px;
+    color: #4A4A4A;
+
 }
 .advertiser-text-content p{
     font-family: Inter;
