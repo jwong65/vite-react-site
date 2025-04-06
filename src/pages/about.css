@@ -189,8 +189,6 @@
     background-color: #F8F9FA;
     width: 100%;
     width: 475px;
-    max-width: 100%;
-    gap: 24px;
     padding: 48px 32px;
 }
 .about-left-content, .about-right-content{
