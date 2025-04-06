@@ -444,28 +444,35 @@
         width: 100%;
         min-width: 100%;
     }
-    .contact-form .ant-col:first-child .ant-form-item:nth-child(1) { order: 1; } 
-    .contact-form .ant-col:first-child .ant-form-item:nth-child(2) { order: 3; } 
-    .contact-form .ant-col:first-child .ant-form-item:nth-child(3) { order: 5; } 
-    .contact-form .ant-col:first-child .ant-form-item:nth-child(4) { order: 7; } 
+    .contact-form .ant-col:first-child .ant-form-item:nth-child(1) { order: 1; }
+    /* Last Name */
+    .contact-form .ant-col:last-child .ant-form-item:nth-child(1) { order: 2; }
+    /* Email */
+    .contact-form .ant-col:first-child .ant-form-item:nth-child(2) { order: 3; }
+    /* Company Name */
+    .contact-form .ant-col:last-child .ant-form-item:nth-child(2) { order: 4; }
+    /* Country */
+    .contact-form .ant-col:first-child .ant-form-item:nth-child(3) { order: 5; }
+    /* I am */
+    .contact-form .ant-col:last-child .ant-form-item:nth-child(3) { order: 6; }
+    /* I am interested in */
+    .contact-form .ant-col:first-child .ant-form-item:nth-child(4) { order: 7; }
+    /* Job Title */
+    .contact-form .ant-col:last-child .ant-form-item:nth-child(4) { order: 8; }
     
-    .contact-form .ant-col:last-child .ant-form-item:nth-child(1) { order: 2; } 
-    .contact-form .ant-col:last-child .ant-form-item:nth-child(2) { order: 4; } 
-    .contact-form .ant-col:last-child .ant-form-item:nth-child(3) { order: 6; } 
-    .contact-form .ant-col:last-child .ant-form-item:nth-child(4) { order: 8; } 
-
     .contact-form .ant-col:first-child,
     .contact-form .ant-col:last-child {
-        display: contents; 
+        display: contents;
     }
-    .contact-form .ant-col:first-child,
-    .contact-form .ant-col:last-child {
-        display: flex;
-        flex-direction: column;
+    .contact-form .ant-form-item {
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 0 15px;
+        box-sizing: border-box;
     }
-    
     .contact-message-textarea {
         width: 100%;
+        box-sizing: border-box;
     }
     .contact-submit-button {
         min-width: 100%;
