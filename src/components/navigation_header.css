@@ -215,6 +215,7 @@ nav a,
 @media (max-width: 1024px) {
     .brand-section {
         margin-left: 20px;
+        padding-left: 0;
     }
     
     .nav-tabs-container {
