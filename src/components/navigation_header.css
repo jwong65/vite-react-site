@@ -44,7 +44,7 @@ nav a,
     display: flex;
     justify-content: center;
     max-width: 1512px;
-    width: 100vw;
+    width: 100%;
     position: relative;
     margin: 0 auto;
     padding: 0 20px;
@@ -213,7 +213,9 @@ nav a,
     .navigation-tabs .ant-tabs-nav-list {
         gap: 20px;
     }
-    
+    .brand-section{
+    padding-left: 0;
+    }
 }
 
 /* Laptop View */
