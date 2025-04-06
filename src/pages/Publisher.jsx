@@ -59,8 +59,8 @@ export default function Publisher() {
           </div>
         </div>
       </div>
-      <div className='publisher-container-3-wrapper' style={{marginBottom: '92px'}}>
-        <div className='publisher-content-3'>
+      <div className='publisher-container-3-wrapper' >
+        <div className='publisher-content-3' style={{marginBottom: '92px'}}>
           <div className='left-content'>
             <div className='text-box'>
               <LineChartOutlined className='feature-icon' />

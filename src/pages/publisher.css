@@ -263,7 +263,6 @@
 }
 .right-content{
     justify-content: flex-start;
-    padding-left: 10px;
 }
 .feature-icon{
     width: 36;
@@ -488,7 +487,6 @@
     .left-content, .right-content{
         flex: 0 0 auto;
         max-width: 48%;
-        padding: 10px;  
         height: auto;
     }
     .text-box{
