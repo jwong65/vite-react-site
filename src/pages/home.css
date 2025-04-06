@@ -599,9 +599,10 @@
         box-sizing: border-box;
     }
     .text-container-left{
-        width: 90%;
+        text-align: left !important;
+        position: relative;
+        width: 100%;
         margin: 0 auto;
-        text-align: center;
     }
     .home-container-3 .redirect ant-btn{
         display: block;
