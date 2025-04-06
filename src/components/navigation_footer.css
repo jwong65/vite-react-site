@@ -131,6 +131,15 @@
     }
 }
  @media (max-width:480px){
+    .logo-container-footer{
+        padding-left: 0;
+        width: 200px;
+        justify-content: center;
+    }
+    .logo-container-footer img{
+        width: 100%;
+        height: auto;
+    }
     .footer-links-column ul{
         gap: 12px 12px;
         flex-wrap: wrap;

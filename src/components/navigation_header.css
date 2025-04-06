@@ -358,12 +358,14 @@ nav a,
 
 @media (max-width: 480px) {
     .logo-container-header {
-        margin-right: 6px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
     }
-    
-    .logo {
-        width: 24px;
-        height: 28px;
+    .logo-container-header img{
+        width: 100%;
+        height: auto;
     }
     
     .navigation-tabs .ant-tabs-tab-btn {
@@ -375,21 +377,19 @@ nav a,
         height: auto;
         min-height: 50px;
         padding: 10px 15px;
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    .brand-section {
-        margin-left: 0;
+        position: relative;
         justify-content: center;
         align-items: center;
-        margin: 0 auto;
-        width: auto;
     }
-    .company-name{
-        font-size: 28px;
-        text-align: center;
-        margin-left: 0;
+    .brand-section{
+        position: static;
+        transform: none;
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        z-index: 5;
+        padding-left: 0;
     }
     
     .nav-tabs-container {
