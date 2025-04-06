@@ -190,7 +190,11 @@
     width: 100%;
     width: 475px;
     padding: 48px 32px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
 }
+
 .about-left-content, .about-right-content{
     flex: 0 0 30%;
     max-width: 30%;
