@@ -320,6 +320,7 @@
     .contact-form .ant-input,
     .contact-form .ant-select {
         min-width: 100%;
+        width: 100%;
     }
     .contact-form-container{
         width: 100%;
