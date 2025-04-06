@@ -44,7 +44,7 @@ nav a,
     display: flex;
     justify-content: center;
     max-width: 1512px;
-    width: 100%;
+    width: 100vw;
     position: relative;
     margin: 0 auto;
     padding: 0 20px;
