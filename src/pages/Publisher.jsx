@@ -61,7 +61,7 @@ export default function Publisher() {
       </div>
       <div className='publisher-container-3-wrapper' >
         <div className='publisher-content-3' style={{marginBottom: '92px'}}>
-          <div className='left-content'>
+          <div className='left-content' style={{height: '345px'}}>
             <div className='text-box'>
               <LineChartOutlined className='feature-icon' />
               <div className='text-content'>
@@ -75,7 +75,7 @@ export default function Publisher() {
               </div>
             </div>
           </div>
-          <div className='right-content' style={{backgroundColor: 'transparent'}}>
+          <div className='right-content' style={{backgroundColor: 'transparent', height: '345px'}}>
            <img src={publisherImage2} alt='publisherImage2' className='publisher-image' />
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function Publisher() {
           <div className='left-content' style={{backgroundColor: 'transparent'}}>
             <img src={publisherImage3} alt='publisherImage3' className='publisher-image' />
           </div>
-          <div className='right-content'>
+          <div className='right-content' style={{height:'391px'}}>
             <div className='text-box'>
                 <TrophyOutlined className='feature-icon' />
                 <div className='text-content'>
