@@ -701,7 +701,6 @@
     }    
     .text-box-about {
         width: 100%;
-        max-width: 100%;
         box-sizing: border-box;
         margin: 10px 0;
         padding: 20px 15px;
