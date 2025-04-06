@@ -425,10 +425,6 @@
     .text-overlay-1 {
         padding: 30px 20px;
     }
-    .floating-overlay-image{
-        top: 8%;
-        max-width: 35%;
-    }
     .home-container,
     .home-container-2,
     .home-container-3,
@@ -491,11 +487,6 @@
     }
     .text-overlay-2{
         max-width: 90%;
-    }
-    .floating-overlay-image{
-        max-width: 30%;
-        top: 6%;
-        left: 80%;
     }
     .home-container-2{
         font-size: 28px;
