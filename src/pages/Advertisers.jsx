@@ -63,7 +63,7 @@ export default function Advertisers() {
           </div>
         </div>
       </div>
-      <div className='advertiser-container-3-wrapper'>
+      <div className='advertiser-container-3-wrapper' style={{paddingBottom:'92px'}}>
         <div className='advertiser-content-3'>
           <div className='left-content-advertiser'>
             <div className='advertiser-text-content'>
@@ -79,7 +79,7 @@ export default function Advertisers() {
           </div>
         </div>
       </div>
-      <div className='advertiser-container-3-wrapper'>
+      <div className='advertiser-container-3-wrapper' style={{paddingBottom: '92px'}}>
         <div className='advertiser-content-3'>
           <div className='left-content-advertiser'>
             <img src={advertiserPhoto4} alt='Advertiser Photo' className='advertiser-content-image'/>
@@ -95,7 +95,7 @@ export default function Advertisers() {
           </div>
         </div>
       </div>
-      <div className='advertiser-container-3-wrapper'>
+      <div className='advertiser-container-3-wrapper' style={{paddingBottom: '92px'}}>
         <div className='advertiser-content-3'>
           <div className='left-content-advertiser'>
             <div className='advertiser-text-content'>
@@ -111,7 +111,7 @@ export default function Advertisers() {
           </div>
         </div>
       </div>
-      <div className='advertiser-container-3-wrapper'>
+      <div className='advertiser-container-3-wrapper' style={{paddingBottom: '124px'}}>
         <div className='advertiser-content-3'>
           <div className='partners-grid-advertiser'>
             <img src={appLovinLogo} alt="App Lovin" className='partner-logo' />
