@@ -94,6 +94,11 @@
     .footer-links-column ul li a{
         font-size: 20px;
     }
+    .logo-container-footer{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width:768px){
