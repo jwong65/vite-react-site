@@ -323,6 +323,27 @@
     .contact-form .ant-select {
         min-width: 100%;
     }
+    .contact-form-container{
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .contact-form .ant-input,
+    .contact-form .ant-select {
+        width: 100%;
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+    .contact-message-textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .contact-submit-button {
+        min-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 @media (max-width: 480px){
     .ant-layout-content {
