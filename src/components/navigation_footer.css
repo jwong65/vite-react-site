@@ -81,10 +81,13 @@
 @media (max-width: 1024px){
     .footer-links-column ul{
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 10px 15px;
         justify-content: center;
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
+    }
+    .footer-links-column ul li a{
+        white-space: normal;
     }
 }
 @media(max-width: 834px){

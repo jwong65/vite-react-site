@@ -30,11 +30,15 @@ nav a,
 }
 
 .header-wrapper {
-    width: 100%;
+    width: 100vw;
     position: relative;
     z-index: 1000; 
     background-color: #FFFFFF;
     justify-content: center;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    left: 50%;
+    right: 50%;
   }
 .header-container{
     display: flex;
