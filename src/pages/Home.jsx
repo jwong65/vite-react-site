@@ -93,10 +93,10 @@ export default function Home() {
     </div>
     <div className='home-container-3-wrapper publisher-section'>
     <div className='home-container-3'>
-        <div className='left-content-home'>
+        <div className='left-content-home' style={{paddingTop:'0px'}}>
             <img src={graphicImage2} />
         </div>
-        <div className='right-content-home' style={{paddingBottom: '124px', paddingTop: '124px'}}>
+        <div className='right-content-home' style={{paddingTop:'0px'}}>
         <div className='text-container-left'>
                 <h1 className='main-heading'>Solutions for</h1>
                 <h3 className='sub-heading'>Advertisers</h3>
