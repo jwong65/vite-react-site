@@ -306,10 +306,8 @@
     .contact-form-outer-wrapper,
     .contact-success-wrapper{
         width: 100vw;
-        margin-left: 0;
-        margin-right: 0;
-        left: 0;
-        right: 0;
+        margin-left: -50vw;
+        margin-right: -50vw;
         position: relative;
         box-sizing: border-box;
     }
@@ -327,7 +325,8 @@
         width: 100%;
         max-width: 700px;
         margin: 0 auto;
-        padding: 0 20px;
+        margin-bottom: 60px;
+        
     }
     .contact-form .ant-input,
     .contact-form .ant-select {
