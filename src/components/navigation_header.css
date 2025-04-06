@@ -48,7 +48,7 @@ nav a,
     position: relative;
     margin: 0 auto;
     padding: 0 20px;
-    white-space: nowrap;
+    flex-wrap: wrap;
     background-color: #FFFFFF;
     box-sizing: border-box;
 }
