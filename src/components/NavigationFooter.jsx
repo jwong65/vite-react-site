@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 import './navigation_footer.css'
-import companyLogo from "../assets/companyLogoSmall.svg"
+import brandLight from "../assets/HorizontalLight.svg"
 
 export default function NavigationFooter() {
   const location = useLocation();
@@ -22,10 +22,7 @@ export default function NavigationFooter() {
         <div className='footer-container'>
             <Link to="/" onClick={handleHomeClick} className='brand-section-footer'>
               <div className='logo-container-footer'>
-                <img src={companyLogo} alt='Logo' className='logo'/>
-              </div>
-              <div className='company-name-footer'>
-                Thunder Monetize
+                <img src={brandLight} alt='Logo'/>
               </div>
             </Link>
 

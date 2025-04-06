@@ -3,6 +3,8 @@ import './navigation_header.css'
 import { Tabs, Button, Dropdown } from 'antd'
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons'
 import { useNavigate, useLocation, Link } from 'react-router-dom'
+
+import brandDark from '../assets/HorizontalDark.svg'
 export default function NavigationHeader() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 834)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -88,10 +90,7 @@ export default function NavigationHeader() {
         }
           <Link to="/" className='brand-section'>
             <div className='logo-container-header'>
-              <img src='/thunder_monetize_logo.svg' alt='Logo' className='logo'/>
-            </div>
-            <div className='company-name'>
-              Thunder Monetize
+              <img src={brandDark} alt='Logo' />
             </div>
           </Link>
 
