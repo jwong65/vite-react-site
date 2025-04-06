@@ -536,6 +536,7 @@
 
     .home-container{
         background-color: #F8F9FA;
+        justify-self: flex-start;
     }
     .home-container,
     .home-container-2,
@@ -641,7 +642,6 @@
 .home-container-4,
 .partners-container {
     width: 100%;
-    padding: 0 100px;
     max-width: 1512px;
     box-sizing: border-box;
 }
