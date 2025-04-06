@@ -283,10 +283,8 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 48px 32px;
-    gap: 24px;
     align-self: stretch;
-
-    margin: 24px;
+    
     width: auto;
     min-width: 475px;
     height: auto;
