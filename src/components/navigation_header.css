@@ -9,7 +9,11 @@ nav a,
 .nav-link,
 .menu-button,
 [role="menuitem"],
-[role="button"] {
+[role="button"],
+.navigation-tabs .ant-tabs-tab,
+.navigation-tabs .ant-tabs-tab-btn, 
+.ant-dropdown-menu-item span
+{
     cursor: pointer !important;
     user-select: none !important;
     -webkit-user-select: none !important;
