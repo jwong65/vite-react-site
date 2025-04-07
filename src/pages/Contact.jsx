@@ -101,9 +101,15 @@ export default function Contact() {
                     rules={[{required: true, message:' '}]}
                   >
                     <Select placeholder='Country'>
-                      <Option value='us'>United States</Option>
-                      <Option value='ca'>Canada</Option>
-                      <Option value='other'>Other</Option>
+                      {countries.map(country=>(
+                        <Select.Option
+                          key={country.value}
+                          value={country.value}
+                          disabled={country.disabled}
+                        >
+                          {country.label}
+                        </Select.Option>
+                      ))}
                     </Select>
                   </Form.Item>
                   <Form.Item
@@ -112,9 +118,9 @@ export default function Contact() {
                     rules={[{required: true, message:' '}]}
                   >
                     <Select placeholder="Select">
-                      <Option value='publisher'>Publisher</Option>
-                      <Option value='advertiser'>Advertiser</Option>
-                      <Option value='other'>Other</Option>
+                      <Select.Option value='publisher'>Publisher</Select.Option>
+                      <Select.Option value='advertiser'>Advertiser</Select.Option>
+                      <Select.Option value='other'>Other</Select.Option>
                     </Select>
                   </Form.Item>
                 </Col>
@@ -139,9 +145,9 @@ export default function Contact() {
                     rules={[{required: true, message:' '}]}
                   >
                     <Select placeholder='Select'>
-                      <Option value='publisher'>Publisher</Option>
-                      <Option value='advertiser'>Advertiser</Option>
-                      <Option value='other'>Other</Option>
+                      <Select.Option value='publisher'>Publisher</Select.Option>
+                      <Select.Option value='advertiser'>Advertiser</Select.Option>
+                      <Select.Option value='other'>Other</Select.Option>
                     </Select> 
                   </Form.Item>
                   <Form.Item
