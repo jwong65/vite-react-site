@@ -1,10 +1,9 @@
-import React , {useState, useEffect} from 'react'
+import React , {useState} from 'react'
 import { Link } from 'react-router-dom'
 import contactImage from "../assets/contact_photo1.png"
 import companyLogo from "../assets/companyLogoBlack.svg"
 import { Form, Input, Button, Select, Row, Col, Checkbox } from 'antd';
 
-import { Dropdown } from 'antd-mobile'
 import "./contact.css"
 import {countries} from '../utils/countries.js'
 
@@ -13,52 +12,6 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false)
   
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 834);
-  
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 834);
-    }
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  const renderCountryField = () => {
-    if (isMobile) {
-      // Return mobile-friendly Dropdown component
-      return (
-        <Form.Item name="country" label="Country" rules={[{required: true, message:' '}]}>
-          <Dropdown>
-            {/* Mobile dropdown implementation */}
-          </Dropdown>
-        </Form.Item>
-      );
-    }
-    
-    return (
-      <Form.Item name="country" label="Country" rules={[{required: true, message:' '}]}>
-        <Select
-         placeholder='Country' 
-         tabIndex={5}
-         showSearch
-         optionFilterProp="children"
-         filterOption={(input, option) => 
-           option.children.toLowerCase().indexOf(input.toLowerCase()) === 0
-         }>
-          {countries.map(country=>(
-            <Select.Option
-              key={country.value}
-              value={country.value}
-              disabled={country.disabled}
-            >
-              {country.label}
-            </Select.Option>
-          ))}
-        </Select>
-      </Form.Item>
-    );
-  };
-
   const onFinish = async (values) => {
     setLoading(true);
     
@@ -141,7 +94,30 @@ export default function Contact() {
                   >
                     <Input placeholder='Email' tabIndex={3}/>
                   </Form.Item>
-                  {renderCountryField()}
+                  <Form.Item
+                    name="country"
+                    label="Country"
+                    rules={[{required: true, message:' '}]}
+                  >
+                    <Select
+                     placeholder='Country' 
+                     tabIndex={5}
+                     showSearch
+                     optionFilterProp="children"
+                     filterOption={(input, option) => 
+                       option.children.toLowerCase().indexOf(input.toLowerCase()) === 0
+                     }>
+                      {countries.map(country=>(
+                        <Select.Option
+                          key={country.value}
+                          value={country.value}
+                          disabled={country.disabled}
+                        >
+                          {country.label}
+                        </Select.Option>
+                      ))}
+                    </Select>
+                  </Form.Item>
                   <Form.Item
                     name="interest"
                     label="I am interested in"
