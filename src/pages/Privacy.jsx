@@ -1,5 +1,6 @@
 import React from 'react'
 import './privacy.css'
+import privacyImage from "../assets/privacyImage.png"
 
 export default function Privacy() {
   return (
@@ -13,34 +14,155 @@ export default function Privacy() {
         <div className='privacy-content-wrapper'>
           <div className='privacy-text'>
             <div className='text-box-privacy'>
-            Thunder Monetize provides monetization tools to our customer that allow for revenue generation through digital advertising.This 'Privacy Policy' describes how Thunder Monetize collects, uses and shares personal information in connection with (i) Thunder Monetize services; and (ii) our public-facing business websites found at <a href='thunder-monetize.com'>www.thunder-monetize.com</a>('Site').
+            Thunder Monetize provides monetization tools to our customer that allow for revenue generation through digital advertising.This 'Privacy Policy' describes how Thunder Monetize collects, uses and shares personal information in connection with (i) Thunder Monetize services; and (ii) our public-facing business websites found at <a href='thunder-monetize.com' className='privacy-link'>www.thunder-monetize.com</a>('Site').
             </div>
-            <div className='privacy-text-header'>About Us</div>
+            <div className='privacy-text-header-1'>Definition of Terms</div>
             <div className='text-box-privacy'>
-              Thunder Monetize offers Services that connect buyers of advertising inventory (which we refer to as advertisers) with sellers of advertising inventory (which we refer to as publishers), providing such buyers with the opportunity to display an advertisement on a seller's Digital Media Property.
-              In this policy, we refer to our buyers and sellers collectively as “Clients”.
-              Our platform is used to deliver digital advertising inventory on websites and applications across Internet-connected devices and platforms, including mobile devices, computers and internet-connected TVs (which we collectively refer to as “Digital Media Properties”).
+              Throughout this <span className='highlight-privacy'>Privacy Policy</span>, we use some phrases that are unique to our business or the technology underlying our <span className='highlight-privacy'>Services</span> or may just be new to you. The following are definitions of some of the key terms that you’ll need to know to make it easier to understand this <span className='highlight-privacy'>Privacy Policy</span>:
             </div>
-            <div className='privacy-text-header'>How We Collect User Information</div>
             <div className='text-box-privacy'>
-              We (and our service providers) use different technologies (collectively “Tracking Technologies”), including cookies and other similar technologies to collect information automatically from your device when you visit a Digital Media Property that uses our technology. 
-              When doing so, we collect certain information about you and your device (collectively, “User Information”). User Information does not include information that directly identifies an individual, such as name, address, phone number, or email address. 
-              However, the User Information we collect is considered “personal data” or “personal information” under applicable privacy and data protection laws.
-              In particular, we collect information such as your IP address, cookie data, and other device identifiers, and may also assign new identifiers to your device or browser based on this data and other device-related information we collect as described in more detail <a href='https://www.magnite.com/legal/advertising-platform-privacy-policy/#table-1' target="_blank" rel="noopener noreferrer">here</a>. 
-              These identifiers help us to recognize a particular device without knowing the identity of the user of that device.
-              This helps us, our Clients, and our partners (such as third party advertising platforms) select appropriate advertisements to display to you.
+              <ul>
+                <li>“<span className='highlight-privacy'>Advertiser</span>” means an entity providing ads to be placed on publisher properties (websites, mobile apps, connected-tv channels).</li>
+                <li>“<span className='highlight-privacy'>Interest-Based Advertising</span>” is an umbrella term used throughout this Privacy Policy to indicate cross-device targeting, targeted advertising, cross-contextual behavioral advertising, and similar activities related to the use of profiles to understand the browsing and/or purchasing behaviors of consumers.</li>
+                <li>“<span className='highlight-privacy'>Non-Personal Information</span>” means information that is not associated with or linked to Personal Information including aggregate or de-identified information.</li>
+                <li>“<span className='highlight-privacy'>Personal Information</span>” means any information that can be used to directly or indirectly identify a natural person, such as contact information (i.e., name, address, e-mail address, and/or phone number), and/or information that uniquely and persistently identifies a browser or device, such as an IP address, mobile advertising identifier, unique online identifiers, email address that has been hashed to generate an alphanumeric identifier, or combination of information about a browser or device (such as IP address and browser type/settings).</li>
+                <li>“<span className='highlight-privacy'>Publishers</span>” are properties (websites, mobile apps or connected tv channel) that use Thunder Monetize services, or natural persons who interact with Thunder Monetize on behalf of such properties (websites, mobile apps or connected tv channels). Publishers are also Thunder Monetize customers.</li>
+                <li>“<span className='highlight-privacy'>Users</span>'' are individuals who visit our Publishers’ properties or the Site.</li>
+                <li>“<span className='highlight-privacy'>Thunder Monetize</span>” or “<span className='highlight-privacy'>we</span>,” “<span className='highlight-privacy'>us</span>,” or “<span className='highlight-privacy'>our</span>” means THUNDER MONETIZATION PTE. LTD. and HONGKONG THUNDER SOLUTION LIMITED with our affiliates (including those not under the Thunder Monetize brand).</li>
+              </ul>
             </div>
-            <div className='privacy-text-header'>Information Our Clients and Vendors Collect Independently </div>
+
+            <div className='privacy-text-header-1'>Description of Thunder Monetize Services</div>
+            <div className='text-box-privacy'>The Thunder Monetize Services that collect information from Users are</div>
             <div className='text-box-privacy'>
-              We collaborate with various third-parties for analytics and advertising services, which independently gather and use User Information. 
-              These third-party services provide our Clients with additional ways to deliver targeted ads using our technology.
-              For example, third-party companies may use data about your visits to Digital Media Properties across multiple devices or browsers to create advertising profiles that allow advertisers to deliver more personalized content and ads.
-              Our advertiser clients can combine this data with the information we collect to deliver targeted ads or create audience segments for advertising on Digital Media Properties. 
-              Our Clients and their vendors may use their own tags, pixels, cookies, or similar technologies within ads and on certain third-party platforms and Digital Media Properties. 
-              We are not responsible for the tracking technologies or privacy practices of our Clients or their vendors. 
-              Please review our Platform Cookie Statement for more information.
+              <ul>
+                <li>Exchange and Ad Management for <a href='https://bbbaccountabilityprogram.freshdesk.com/support/solutions/articles/35000046312-what-is-interest-based-advertising-' className='privacy-link' target="_blank" rel="noopener noreferrer">Interest-based Advertising</a>;</li>
+                <li>Signal for viewer engagement metrics.</li>
+              </ul>
             </div>
-            <div className='privacy-text-header'>Use of User Information</div>
+            <div className='text-box-privacy'>In order to provide the Services, we collect Personal Information from our Publishers as described in our Publisher contractual agreements, and this Privacy Policy.</div>
+            <div className='text-box-privacy'>In addition to the Services, Thunder Monetize collects Personal Information through interactions with the Site. By visiting or submitting Personal Information through the Site, you acknowledge the processing of your Personal Information in accordance with this Privacy Policy.</div>
+            
+            <div className='privacy-text-header'>Information We Collect</div>
+            <div className='text-box-privacy'>
+              The information we collect allows us to see browsing habits at an individual device level, but we do not attempt to identify the exact individual who is browsing. Here we outline the types of information used in Interest-Based Advertising, as well as what to expect when visiting our Site.
+            </div>
+            <div className='text-box-privacy'>
+              Thunder Monetize Services and Site collects both Personal Information and Non-Personal Information. Thunder Monetize does not collect personally identifiable information (“PII”) about Users that could directly identify them to Thunder Monetize, such as names, surnames, plain-text email addresses, physical addresses, or phone numbers, unless provided to us through the Site when requesting materials or information from us.
+            </div>
+            <div className='text-box-privacy'>
+              The following provides more detail into the types of Personal Information we may collect (and in some instances purchase from partners) and use in conjunction with the Thunder Monetize Services and Site:
+            </div>
+            <img src={privacyImage} />
+
+            <div className='privacy-text-header'>How We Collect Information</div>
+            <div className='text-box-privacy'>
+              Thunder Monetize uses various technologies to collect both Personal- and Non-Personal Information, such as cookies, web beacons, tracking pixels, or scripts. We also collect information voluntarily provided through our Site. The term ‘cookies’ is used as an umbrella term for these technologies; for convenience, these technologies are collectively referred to in this Privacy Policy as “cookies.”
+            </div>
+            <div className='text-box-privacy'>
+              Both session cookies (which expire once the web browser is closed) and persistent cookies (which stay on a device until deleted or expire) are used to collect viewing and search behaviors by both Thunder Monetize Services and the Site.
+            </div>
+
+            <div className='privacy-text-header-1'>Through our Site</div>
+            <div className='text-box-privacy'>We collect Personal Information submitted to us voluntarily, such as name and contact information. For example, when signing up to receive our newsletter or to participate in a webinar we collect your email address. When contacting us via email, we will collect the email contents.</div>
+            
+            <div className='privacy-text-header-1'>Through Thunder Monetize Services</div>
+            <div className='text-box-privacy'>The information we gather about browsing preferences and purchasing behaviors using cookies helps us provide Thunder MonetizeServices to our Publishers, which in turn provides meaningful Interest-based Advertising to Users.</div>
+            <div className='text-box-privacy'>
+              <ul>
+                <li>
+                  <div className='text-box-privacy'><span className='highlight-privacy'>Users</span>. We set cookies (where allowed) at the first visit to any of the Publisher properties that deploy Thunder Monetize Services. If our cookie is already set on a browser, we recognize a returning User and log data using the existing cookie. Users have the option to use tools provided by browsers to decline to receive cookies or to clear cookies, which will result in us treating the User as a new visitor when encountering Thunder Monetize Services. However, in order to stop Interest-based Advertising by Thunder Monetize, individuals must explicitly opt-out as described in the “<a href="#opt-out" className='privacy-link'>How to Opt-Out</a>” section.</div>
+                  <div className='text-box-privacy'>Some of our business partners (for example, Google Analytics) may set or use their own cookies on our Publisher properties or through Thunder Monetize Services where Thunder Monetize has no access to or control over these cookies. Specific to Google Analytics, opt-out by visiting <a href='https://tools.google.com/dlpage/gaoptout/' className='privacy-link' target="_blank" rel="noopener noreferrer" >https://tools.google.com/dlpage/gaoptout/</a></div>
+                </li>
+                <li>
+                  <div className='text-box-privacy'><span className='highlight-privacy'>Publishers</span>. Publishers provide Personal Information about themselves when registering to use Thunder Monetize Services. Personal Information collected at registration may include: a valid email address, username and password, first and last name, telephone number, website(s) URLs, software, mobile applications, log-in IP address(es), physical address, ZIP code, and country of residence for the Publisher contact.</div>
+                  <div className='text-box-privacy'>When using the Thunder Monetize Platform to manage your account, we will also set cookies that allow us to remember your preferences, as well as to collect analytics about how our customers are interacting with the service.</div>
+                  <div className='text-box-privacy'>We collect Publisher payment information from those who purchase Thunder Monetize Services.</div>
+                  <div className='text-box-privacy'>Publishers may choose not to provide us with certain Personal Information, but this may limit the features of the Thunder Monetize Services available for use.</div>
+                </li>
+              </ul>
+            </div>
+            
+            <div className='privacy-text-header-1'>Through Internet-Connected Technology</div>
+            <div className='text-box-privacy'>As Publishers use the Thunder Monetize Services or Users access or use digital properties within the Thunder Monetize Publisher network (including websites or applications on internet-connected technology, such as computers, mobile devices, or internet-connected televisions), we may also collect web viewing and search activities across non-affiliated websites (including websites accessed through your television), directly through content viewed on an internet-connected television, and mobile applications (“apps”) over time (also known as cross-device tracking). This information may be linked to Personal Information that identifies a browser or device, typically through cookies or tracking pixels/web beacons.</div>
+            <div className='text-box-privacy'>Thunder Monetize may store cookies on your device in order to:</div>
+            <div className='text-box-privacy'>
+              <ul>
+                <li>For Publishers, to allow you to use and access secure areas of Thunder Monetize Services. Without these cookies, it may not be possible to load or offer key functionalities, such as logging in to your account, displaying dynamic elements or uploading information.</li>
+                <li>For both Publishers and Users, for statistical purposes and to analyze and improve the use and performance of Thunder Monetize and the Site, and to do the same for our Publishers’ websites. We also use cookies for a better online experience, as cookies allow us to load or offer key functionalities on our Site, such as displaying dynamic elements or uploading information.</li>
+                <li>For Users, to support Thunder Monetize Services, such as for our analytics and data services and to provide Users with Interest-based Advertising and the ability to opt out of such advertising, all as further described in this Privacy Policy. We also use cookies for social media and multimedia functionalities, where videos and other media often rely on cookies to function correctly. In addition, social media platforms such as Facebook and X can use cookies to see if you are logged in and enable you to “like” content or send it to your friends. When you use these features, such third-party companies can collect information from you. Depending on your settings, these external parties may also use such information for advertising purposes. If you would like to know more about this, please refer to the respective privacy policies of these third parties.</li>
+              </ul>
+            </div>
+            <div className='text-box-privacy'>In some instances, our business partners link the information we gather through cookies to device identifiers associated with the same Reader (also known as cross-device mapping). They will then share the cross-device mapping or other user data with us, for the purpose of Interest-based Advertising.</div>
+            <div className='text-box-privacy'>We may also use web beacons or “pixels” to collect Personal Information, which are electronic images that may be used on website(s) (including Publisher websites and the Site) or in emails sent in Publisher campaigns or from Thunder Monetize directly. We use tracking pixels to, for example, collect hashed emails, sync unique online identifiers, deliver cookies, count visits, understand usage and effectiveness of offers, and tell whether an email has been opened and acted upon.</div>
+            
+            <div className='privacy-text-header-1'>Information from Third-Party Sources</div>
+            <div className='text-box-privacy'>We may receive Personal- and Non-Personal Information about you from other sources and combine it with the information that we collect through Thunder Monetize Services or the Site. Sources may include information conveyed to us by telephone, information that we receive from third-party data providers, or information provided to us by third parties through the Thunder Monetize Publisher network.</div>
+            
+            <div className='privacy-text-header'>How We Use Information</div>
+            <div className='text-box-privacy'>We use Personal- and Non-Personal Information to support our commercial interests (Interest-based Advertising, affiliate network marketing, and Data), internal business operations (such as improving the Services, fraud prevention and security), and business intelligence.</div>
+            
+            <div className='privacy-text-header-1'>Commercial Interests</div>
+            <div className='text-box-privacy'>Commercial interests are activities that allow Thunder Monetize and/or our customers and business partners (such partners include data services and data resellers) to earn revenue and include, for example:</div>
+            <div className='text-box-privacy'>
+              <ul>
+                <li>Serving Interest-based Advertising to Readers on behalf of our Publishers and supporting third parties’ Interest-Based Advertising activities. Options for opting-out of such advertising may be found in the “<a href='#opt-out' className='privacy-link'>How to Opt-Out</a>” section of this Privacy Policy.</li>
+                <li>Providing Thunder Monetize Services, or any other materials requested through the Site (such as electronic newsletters or promotional emails) to Publishers. Options for opting-out of Thunder Monetize marketing may be found in the “<a href='#opt-out' className='privacy-link'>How to Opt-Out</a>” section of this Privacy Policy.</li>
+              </ul>
+            </div>
+
+            <div className='privacy-text-header-1'>Internal Business Operations</div>
+            <div className='text-box-privacy'>Internal business operations are activities that allow us to meet obligations to Publishers, Users, and third-party partners (including regulatory bodies). Internal business operations do not directly benefit any one person or entity, and include, for example:</div>
+            <div className='text-box-privacy'>
+              <ul>
+                <li>Auditing related to counting ad impressions to unique visitors, verifying positioning and quality of ad impressions, and auditing compliance with various data privacy laws and regulations, as well as other standards.</li>
+                <li>Debugging to identify and repair errors that impair existing intended functionality of our products, content, services and websites.</li>
+                <li>Improve and protect our products, content, services and websites, to the extent the use of the Personal Information is reasonably necessary and proportionate for these purposes.</li>
+                <li>Performing services, including maintaining or servicing accounts, providing customer service, processing or fulfilling orders and transactions, verifying Publisher information, processing payments, or providing analytic services.</li>
+                <li>Monitoring any Publisher account to prevent, investigate and/or report fraud, terrorism, misrepresentation, security incidents or crime, in accordance with applicable law.</li>
+                <li>Compliance with applicable laws and to protect Thunder Monetize’s legitimate business interests and legal rights, including, but not limited to, use in connection with legal claims, compliance, regulatory, investigative purposes (including disclosure of such information in connection with law enforcement requests, legal process or litigation), protecting our and others’ rights, privacy, safety, or property, and enforcing our agreements.</li>
+                <li>Responding to comments or complaints or sending service-related communications.</li>
+              </ul>
+            </div>
+
+            <div className='privacy-text-header-1'>Business Intelligence</div>
+            <div className='text-box-privacy'>Business intelligence allows us to analyze and report on the performance of Thunder Monetize Services and the Site, as that performance relates to Publisher or Thunder Monetize campaigns, and includes:</div>
+            <div className='text-box-privacy'>
+              <ul>
+                <li>Monitoring the use of Thunder Monetize Services to support Publisher analytics and reporting.</li>
+                <li>Undertaking internal research for technological development and demonstration.</li>
+                <li>Performing Analytical Analysis. We work with third parties that collect data about User use of the Site and other websites or online services over time for non-advertising purposes. For example, we use Google Analytics and other third-party services to improve the performance of Thunder Monetize Services and for analytics and marketing purposes. For more information about how Google Analytics collects and uses data, visit <a href='https://policies.google.com/technologies/partner-sites' className='privacy-link' target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/partner-sites</a>. Opt-out of Google Analytics by visiting <a href='https://tools.google.com/dlpage/gaoptout/' className='privacy-link' target="_blank" rel="noopener noreferrer">https://tools.google.com/dlpage/gaoptout/</a>.</li>
+              </ul>
+            </div>
+
+            <div className='privacy-text-header-1'>Our Information Sharing Practices</div>
+            <div className='text-box-privacy'>Thunder Monetize shares the Personal Information collected through our Services, procured through our data partners, or our Site with the following third parties and as otherwise described in this Privacy Policy:</div>
+            <div className='text-box-privacy'>
+              <ul>
+                <li><span className='highlight-privacy'>Affiliates:</span> Thunder Monetize may share some or all User Personal Information with our Affiliates (i.e. companies which are under common control, such as subsidiaries or joint ventures), in which case we will require our Affiliates to honor this Privacy Policy in all material respects.</li>
+                <li><span className='highlight-privacy'>Business Transitions:</span> In the event Thunder Monetize goes through a business transition such as a merger, acquisition by another company, or sale of all or a portion of its assets including in bankruptcy, Personal Information may be among the assets transferred.</li>
+                <li><span className='highlight-privacy'>Law Enforcement, Government Authorities, and Private Parties:</span> We may disclose Personal Information if we believe in good faith that such disclosure is necessary to (a) comply with relevant laws or to respond to subpoenas or warrants served on us; (b) to protect and defend the rights or property of Thunder Monetize, Publishers, or third parties; or (c) for the other compliance, fraud prevention, and safety purposes described in this Privacy Policy.</li>
+                <li><span className='highlight-privacy'>Publishers:</span> We may disclose Personal Information that identifies a device or browser to Publishers and their service providers to provide the Thunder Monetize Services, such as measuring the effectiveness of advertising, advertising attribution, and preventing advertising fraud, or to indicate User preferences for Interest-Based Advertising.</li>
+                <li><span className='highlight-privacy'>Other Third-Party Customers:</span> We may disclose Personal Information that identifies a device or browser to our third-party customers that include, for example, other advertising services and data enrichment services, who will use and disclose the information for their own purposes. We may also share Non-Personal Information such as aggregated reports derived in part from the information we have collected. The information we share may also be combined with third-party data to provide an even broader service to our customers. Please see <a href='#opt-out' className='privacy-link'>How to Opt-Out</a> for more information on choices related to this practice.</li>
+                <li><span className='highlight-privacy'>Service Providers:</span> We may provide Personal Information to third-party service providers (sub-/processors) who work on behalf of or with us to provide the Thunder Monetize Services including to help us communicate with you. Examples of such services include our ability to send email, perform data analysis, provide marketing assistance, process payments (including credit card payments, through a third-party service), and provide customer service.</li>
+                <li><span className='highlight-privacy'>Advertising Partners:</span> We may share your Personal Information with third parties that we partner with to engage in Interest-Based Advertising, including through the use of cookies and similar technologies. These third party advertising companies may collect information about your activity over time through the Services and across other online services to serve you advertisements.</li>
+                <li><span className='highlight-privacy'>Professional Advisors:</span>We may share Personal Information with persons, companies, or professional firms providing Thunder Monetize with advice and consulting in accounting, administrative, legal, tax, financial, debt collection, and other matters.</li>
+              </ul>
+            </div>
+
+          <div id='opt-out' className='privacy-text-header'>How To Opt Out</div>
+          <div className='text-box-privacy'>Thunder Monetize supports various opt-out mechanisms, where each option provides different results related to cross-device tracking and targeted advertising. While using these mechanisms may prevent Interest-based Advertising or the sale of your Personal Information, there are no mechanisms for preventing advertising altogether.</div>
+          
+          <div className='privacy-text-header-1'>Opting Out of Thunder Monetize’s Interest-based Advertising</div>
+          <div className='text-box-privacy'>Just as there are different mechanisms for providing Interest-based Advertising (such as through a web browser, apps on your mobile device and connected televisions), there are multiple ways you can limit the use of your personal information for targeted advertising purposes and the sale or sharing of your personal information.</div> 
+          <div className='text-box-privacy'>To simplify the management of Interest-based Advertising preferences, Thunder Monetize participates in the Digital Advertising Alliance (DAA) AdChoices program that allows a user to manage their Interest-based Advertising preferences on their browser(s) or device(s) across all participating DAA members.</div>
+          <div className='text-box-privacy'>For more information on how to opt-out of the sale or sharing of personal information, please see the section, “<a href='#california-rights' className='privacy-link'>Your California Privacy Rights</a>” located in the “<a href='#us-disclosure' className='privacy-link'>Country and US State Specific Disclosures</a>” section, below.</div> 
+
+          <div className='privacy-text-header-1'>Cookies and Unique Online Identifiers Used by Web Browsers</div>
+            
+          <div className='privacy-text-header'>Use of User Information</div>
+
+
             <div className='text-box-privacy'>
               We and our Clients use User Information to guide decisions on buying and selling advertising space on Digital Media Properties.
               This data, which may also be combined with information from third-party services, helps deliver targeted ads that our Clients believe will interest specific users.
@@ -53,6 +175,7 @@ export default function Privacy() {
               We also use these technologies to prevent users from seeing the same ad repeatedly, enhance ad delivery, report to clients, and assess ad effectiveness.
               This processing may constitute “targeted advertising” under some laws and the “sale” or “sharing” of personal information under other laws.
             </div>
+
             <div className='privacy-text-header'>Cooperation with Clients in the European Union</div>
             <div className='text-box-privacy'>
               In the European Union, we and our Clients may act in limited circumstances as joint controllers under the GDPR for the collection of User Information on Digital Media Properties. In this case, this joint controllership is limited to setting and collecting identifiers and User Information on the Digital Media Properties and transmitting this information to us (“Joint Processing“). 
