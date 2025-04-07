@@ -124,8 +124,7 @@
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
 }
 
-.advertiser-text-overlay .ant-btn:hover,
-.advertiser-text-overlay .ant-btn:focus{
+.advertiser-text-overlay .ant-btn:hover{
     border: 1px solid #E2A602 !important;
     background: #E2A602 !important;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;
@@ -406,7 +405,7 @@
     background: var(--Primary-Lightning-Yellow, #FFC107);
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
 }
-.advertiser-custom-button:hover, .advertiser-custom-button:focus{
+.advertiser-custom-button:hover{
     border: 1px solid #E2A602 !important;
     background: #E2A602 !important;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;   

@@ -290,15 +290,12 @@
     line-height: 130%;
 }
 
-.home-container-3 .redirect.ant-btn:hover,
-.home-container-3 .redirect.ant-btn:focus {
+.home-container-3 .redirect.ant-btn:hover {
     border: 1px solid #06C;
     background: #06C;
 }
 .page-wrapper .text-overlay-1 .ant-btn:hover,
-.page-wrapper .text-overlay-1 .ant-btn:focus, 
-.page-wrapper .home-container-4 .ant-btn:hover,
-.page-wrapper .home-container-4 .ant-btn:focus {
+.page-wrapper .home-container-4 .ant-btn:hover{
     border: 1px solid #E2A602;
     background: #E2A602;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);

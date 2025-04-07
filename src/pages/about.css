@@ -116,8 +116,7 @@
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
 }
 
-.about-text-overlay .ant-btn:hover, 
-.about-text-overlay .ant-btn:focus{
+.about-text-overlay .ant-btn:hover{
     border: 1px solid #E2A602 !important;
     background: #E2A602 !important;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;
@@ -410,8 +409,7 @@
     line-height: 130%;
 }
 
-.about-section-bottom-wrapper .bottom-about-container .ant-btn:hover,
-.about-section-bottom-wrapper .bottom-about-container .ant-btn:focus {
+.about-section-bottom-wrapper .bottom-about-container .ant-btn:hover {
     border: 1px solid #06C;
     background: #06C;
 }
