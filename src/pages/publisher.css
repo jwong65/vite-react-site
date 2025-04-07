@@ -69,6 +69,7 @@
     align-items: flex-start;
     background-color: #007BFF;
     padding: 40px;
+    padding-left: 100px;
     box-sizing: border-box;
 
 }
