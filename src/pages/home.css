@@ -165,8 +165,10 @@
     width: 100%;
     margin: 0 auto;
     max-width:1512px;
-    padding: 2rem;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 .home-container-3 .main-heading, .home-container-3 .sub-heading{
     font-size: 40px;
 }
