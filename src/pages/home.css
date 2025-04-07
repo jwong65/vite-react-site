@@ -137,6 +137,17 @@
     margin-left: -50vw;
     margin-right: -50vw;
 }
+.home-container-2-wrapper{
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
 .home-container-2{
     width: 100%;
     position: relative;
@@ -144,21 +155,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    padding: 124px 0;
     margin: 0 auto;
     max-width: 1512px;
     box-sizing: border-box;
-    overflow: hidden;
 }
-.home-container-2-wrapper{
-    width: 100vw;
-    background-color: #FFF;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
+
 .home-container-3{
     display: flex;
     justify-content: space-between;
@@ -209,8 +210,6 @@
     margin: 0 auto;
 }
   
-
-
 .tab-heading{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
     font-family: 'Rajdhani', sans-serif;
@@ -255,6 +254,7 @@
 .company-logo{
     width: 74px;
     height: 86px;
+    margin-top: 124px;
     margin-bottom: 32px;
     display: block;
 }
@@ -315,6 +315,7 @@
     font-weight: 700;
     line-height: 100%;
     text-transform: uppercase;
+    margin-bottom: 124px;
     }
 
 .text-overlay-2 .highlight-text{
@@ -391,19 +392,6 @@
     color: #FFFFFF;
     margin-bottom: 40px;
 
-}
-
-.section-wrapper,
-.section-wrapper-bottom,
-.home-container-wrapper,
-.home-container-2-wrapper,
-.home-container-3-wrapper {
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
 }
 
 .home-container-3-wrapper {
@@ -660,4 +648,19 @@
     margin: 0 auto;
     padding: 60px 20px;
     box-sizing: border-box;
+}
+
+.debug-wrapper {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    box-sizing: border-box;
+    border-top: 2px solid red; /* For visual debugging */
+    border-bottom: 2px solid red; /* For visual debugging */
 }

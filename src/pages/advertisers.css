@@ -149,7 +149,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    margin: 0 auto;
     max-width: 1512px;
     box-sizing: border-box;
 }
@@ -157,11 +157,12 @@
 .advertiser-container-2 .company-logo{
     width: 74px;
     height: 86px;
+    margin-top: 124px;
     margin-bottom: 32px;
 }
 
 .advertiser-text-overlay-2{
-    font-family: Rajdhani;
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 100%;
@@ -170,8 +171,7 @@
     text-transform: uppercase;
     max-width: 945px;
     color: #4A4A4A;
-
-
+    margin-bottom: 124px;
 }
 .advertiser-text-overlay-2 .underline-text{
     text-decoration-line: underline;

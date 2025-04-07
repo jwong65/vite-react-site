@@ -161,7 +161,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
     max-width: 1512px;
     box-sizing: border-box;
     background-color: #F8F9FA;
@@ -175,7 +174,7 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration-style: solid;
-    width: 950px;
+    max-width: 945px;;
     color: #4A4A4A;
 }
 
@@ -632,6 +631,7 @@
         max-width: 100%;
         padding: 0 15px;
         font-size: 28px;
+        margin-bottom: 124px;
     }
     .publisher-text-overlay{
         position: relative;
