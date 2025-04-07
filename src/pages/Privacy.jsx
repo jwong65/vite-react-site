@@ -283,7 +283,7 @@ export default function Privacy() {
           <div className='privacy-text-header'>Contact us</div>
           <div className='text-box-privacy'>Please contact us at privacy@thunder-monetize[.]com with questions or concerns regarding our Privacy Policy or how we process your Personal Information.</div>
           <div className='text-box-privacy'>Thunder Monetize will respond in good faith to all privacy inquiries but may not be able to provide complete information if the request requires Thunder Monetize to release confidential information of third parties, or otherwise imposes an undue burden or expense.</div>
-          <div className='text-box-privacy'>THUNDER MONETIZATION PTE. LTD346C KING GEORGE'S AVENUE, KING GEORGE'S BUILDING, SINGAPORE 208577</div>
+          <div className='text-box-privacy'>THUNDER MONETIZATION PTE. LTD 346C KING GEORGE'S AVENUE, KING GEORGE'S BUILDING, SINGAPORE 208577</div>
           <div className='text-box-privacy'>HONGKONG THUNDER SOLUTION LIMITED Room B3, 19/F, Tung Lee Commercial Building, 91-97 Jervois Street, Sheung Wan, Hong Kong</div>
           </div>
         </div>
