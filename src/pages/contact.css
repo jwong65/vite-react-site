@@ -158,6 +158,21 @@
 .contact-form .ant-form-item{
     margin-bottom: 24px;
 }
+.ant-select-dropdown {
+    touch-action: pan-y;
+    -webkit-overflow-scrolling: touch;
+    max-height: 40vh !important;
+  }
+  body.select-open {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  .contact-form .ant-select-dropdown {
+    position: fixed !important;
+    z-index: 1050;
+  }
 .contact-form .ant-select-selector{
     height: 40px !important;
     padding: 8px 12px !important;
