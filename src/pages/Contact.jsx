@@ -14,7 +14,6 @@ export default function Contact() {
   
   const onFinish = async (values) => {
     setLoading(true);
-    setSubmitted(true);
     
     try {
       const response = await fetch('/api/contact', {
