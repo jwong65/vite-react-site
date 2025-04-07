@@ -13,7 +13,6 @@ export default function Contact() {
   const [loading, setLoading] = useState(false)
   
   const onFinish = async (values) => {
-    console.log('Form Values:', values);
     setLoading(true);
     setSubmitted(true);
     
