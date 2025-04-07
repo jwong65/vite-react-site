@@ -70,6 +70,14 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
+.privacy-text img{
+    .privacy-text img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+    }
+}
 
 .privacy-text-header{
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A);
@@ -86,6 +94,13 @@
     color: #4A4A4A;
 
 }
+.privacy-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .privacy-link{
     font-family: 'Inter', sans-serif;
     font-weight: 400;

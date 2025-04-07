@@ -8,7 +8,7 @@ export default function Privacy() {
         <div className='privacy-hero-section-wrapper'>
           <div className='privacy-box'>
             <div className='privacy-header'>Privacy Policy</div>
-            <div className='privacy-subheader'>Last Updated: September 30, 2024</div>
+            <div className='privacy-subheader'>Last Updated: April 6, 2025</div>
           </div>
         </div>
         <div className='privacy-content-wrapper'>
@@ -53,7 +53,7 @@ export default function Privacy() {
             <div className='text-box-privacy'>
               The following provides more detail into the types of Personal Information we may collect (and in some instances purchase from partners) and use in conjunction with the Thunder Monetize Services and Site:
             </div>
-            <img src={privacyImage} />
+            <img src={privacyImage} alt="Privacy information" className="privacy-image" />
 
             <div className='privacy-text-header'>How We Collect Information</div>
             <div className='text-box-privacy'>
@@ -200,6 +200,11 @@ export default function Privacy() {
           <div className='text-box-privacy'>These rights may be limited in some situations–for example, where we can demonstrate that we have a legal requirement to process data. In some instances, this may mean that we are able to retain data even if consent is withdrawn. In other instances, we may provide the requested information with some portions redacted in order to adhere to obligations of confidentiality to others.</div>
           <div className='text-box-privacy'>Where we require Personal Information to comply with legal or contractual obligations, provision of Personal Information is mandatory; in all other cases, provision of requested Personal Information is optional.</div>
 
+          <div className='privacy-text-header-1'>Data Transfers</div>
+          <div className='text-box-privacy'>Thunder Monetize is a global company headquartered in Singapore, with data centers located in the United States, Singapore and Europe. By visiting Publisher’s properties who are using Thunder Monetize Services, Personal Information may be transferred to, stored, and processed by us, our affiliates, and by those third parties with whom we may share your information, some of which are located outside of the Applicable Countries.</div>
+          <div className='text-box-privacy'>These countries (including the United States) may have data protection or other laws that differ from those in the Applicable Countries. We ensure that where Thunder Monetize or third-party service providers receive Personal Information outside of the Applicable Countries, appropriate safeguards are in place under the Applicable Countries’ data protection legislation.
+          <div className='text-box-privacy'>Thunder Monetize may be required to disclose Personal Information in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.</div>
+
             <div className='text-box-privacy'>
               We and our Clients use User Information to guide decisions on buying and selling advertising space on Digital Media Properties.
               This data, which may also be combined with information from third-party services, helps deliver targeted ads that our Clients believe will interest specific users.
@@ -233,5 +238,6 @@ export default function Privacy() {
           </div>
         </div>
       </div>
+    </div>
   )
 }
