@@ -99,6 +99,7 @@
     height: auto;
     display: block;
     margin: 0 auto;
+    margin-bottom: 32px;
 }
 
 .privacy-link{

@@ -1,6 +1,7 @@
 import React from 'react'
 import './privacy.css'
 import privacyImage from "../assets/privacyImage.png"
+import privacyImage2 from "../assets/privacyImage2.png"
 
 export default function Privacy() {
   return (
@@ -135,7 +136,7 @@ export default function Privacy() {
               </ul>
             </div>
 
-            <div className='privacy-text-header-1'>Our Information Sharing Practices</div>
+            <div id='information-sharing' className='privacy-text-header-1'>Our Information Sharing Practices</div>
             <div className='text-box-privacy'>Thunder Monetize shares the Personal Information collected through our Services, procured through our data partners, or our Site with the following third parties and as otherwise described in this Privacy Policy:</div>
             <div className='text-box-privacy'>
               <ul>
@@ -205,36 +206,85 @@ export default function Privacy() {
           <div className='text-box-privacy'>These countries (including the United States) may have data protection or other laws that differ from those in the Applicable Countries. We ensure that where Thunder Monetize or third-party service providers receive Personal Information outside of the Applicable Countries, appropriate safeguards are in place under the Applicable Countries’ data protection legislation.
           <div className='text-box-privacy'>Thunder Monetize may be required to disclose Personal Information in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.</div>
 
-            <div className='text-box-privacy'>
-              We and our Clients use User Information to guide decisions on buying and selling advertising space on Digital Media Properties.
-              This data, which may also be combined with information from third-party services, helps deliver targeted ads that our Clients believe will interest specific users.
-              When an ad is shown on a publisher's site, it may also be targeted based on the content that you are viewing or have viewed, for example a travel ad appearing on a travel site.
-              Tracking Technologies help to match client's advertising opportunities with the right advertisements.
-              To do so, we may perform cookie syncing between Clients, Thunder Monetize, third party data provider and/or advertiser client cookies.
-              This cookie synching process allows the parties to map their respective cookie information.
-              For example, if publisher A sets a cookie on a user's device with an ID 12345 and advertiser B sets a cookie on the same user's device with an ID 67890, cookie synching would enable publisher A and advertiser B to recognize that ID 12345 and ID 67890 relate to the same user's device. 
-              In the case of advertisers, cookie syncing may influence the decision whether to bid on a specific advertising opportunity, because if an advertiser recognizes a given cookie ID it may place a higher value on that opportunity.
-              We also use these technologies to prevent users from seeing the same ad repeatedly, enhance ad delivery, report to clients, and assess ad effectiveness.
-              This processing may constitute “targeted advertising” under some laws and the “sale” or “sharing” of personal information under other laws.
-            </div>
+          <div className='privacy-text-header-1'>Questions or Complaints</div>
+          <div className='text-box-privacy'>Individuals located in one of the Applicable Countries who have questions or concerns about how we process Personal Information may contact our Data Protection Officer at dpo@thunder-monetize.com. If we are not able to resolve the issue, individuals have the right to lodge a complaint with their local data privacy authority. For contact details of local Data Protection Authorities, please visit the <a href='https://www.edpb.europa.eu/about-edpb/about-edpb/members_en' className='privacy-link' target="_blank" rel="noopener noreferrer">European Data Protection Board member list</a> or the <a href='https://ico.org.uk/global/contact-us/' className='privacy-link' target="_blank" rel="noopener noreferrer">UK data protection regulator</a>.</div>
+            
+          
+          <div className='privacy-text-header-1'>Notice to California Residents: Your Privacy Choices</div>
+          <div className='text-box-privacy'>This section applies only to California residents and supplements the practices described in this Privacy Policy. It describes how we collect, use, sell, share, and retain Personal Information of California residents, and their rights with respect to that Personal Information. For purposes of this section, “Personal Information” has the meaning given in the California privacy laws but does not include information exempted from the scope of those laws.</div>
 
-            <div className='privacy-text-header'>Cooperation with Clients in the European Union</div>
-            <div className='text-box-privacy'>
-              In the European Union, we and our Clients may act in limited circumstances as joint controllers under the GDPR for the collection of User Information on Digital Media Properties. In this case, this joint controllership is limited to setting and collecting identifiers and User Information on the Digital Media Properties and transmitting this information to us (“Joint Processing“). 
-              Further processing of your information is our sole responsibility and we act as an independent controller.
-              We have put contractual arrangements in place with our Clients that set out the distribution of responsibilities between us and our Client. Accordingly, our Clients establish the necessary legal basis for this Joint Processing by obtaining consent on the Digital Media Properties and providing the required transparency information. We and our Clients cooperate to fulfill our obligations under the GDPR, especially regarding collaboration with data protection authorities.
-              If you wish to exercise your rights under the GDPR concerning Joint Processing, please contact us via the User Choice Portal.
-              Information We Collect, Use, Disclose, and the Purposes for such Disclosure:
-            </div>
-            <div className='privacy-text-header'>Types of data we collect:</div>
-            <div className='text-box-privacy'>
-              <ul>
-                <li>Device Characteristics: device identifiers, IP address, authentication-derived identifiers such as hashed email, probabilistic identifiers and other advertising identifiers.</li>
-                <li>Browsing and Interaction Data: information about the domain, topic or name of the property, the date/time of visits, the search terms you enter, visitor activities and actions, viewability data, the video title, video player size, description or category being displayed, click data, types of advertisements viewed, type of browser you use, app version, and the page you visited before navigating to the Digital Media Properties.</li>
-                <li>User's Profiles, User behavior data, derived information: user demographics, information with respect to a user’s preferences, patterns, click and video interactions, behaviors or interests, and information provided to us by advertisers and advertising platforms to match an advertisement opportunity offered by our Clients with the right advertisement.</li>
-              </ul>
-              <p>When you visit Digital Media Properties that use our technology, we collect, use and disclose the following information to the listed recipients for the indicated purposes:</p>
-            </div>
+          <div className='privacy-text-header-1'>Personal Information We Collect and Purposes of Collection and Use</div>
+          <div className='text-box-privacy'>Personal Information we collect (or have collected in the 12 months preceding the “Effective Date” of this Privacy Policy) about California residents are listed below by reference to the categories specified under California privacy law. Examples in the list refer to the types of Personal Information described above in this Privacy Policy.</div>
+          <div className='text-box-privacy'>
+            <ul>
+              <li><span className='highlight-privacy'>Identifiers</span>, such as cookie ID, unique online identifiers, device information, hashed email, IP address, connected television ID, and mobile advertising ID.</li>
+              <li><span className='highlight-privacy'>Customer Records</span>, such as Publisher PII and payment information.</li>
+              <li><span className='highlight-privacy'>Commercial information</span>, such as records of products or services purchased, obtained or considered.</li>
+              <li><span className='highlight-privacy'>Internet or Network Activity</span>, such as browsing history, search history, and interactions with a website, email, application, or advertisement.</li>
+              <li><span className='highlight-privacy'>Inferences</span> drawn from the Personal Information identified above to create a profile reflecting preferences, characteristics or behavior.</li>
+            </ul>
+          </div>
+          <div className='text-box-privacy'>We may collect these categories of Personal Information directly from you and from your device as you visit our Site or Publisher sites in our network subscribing to Thunder Monetize Services, or from other third parties as further described in this Privacy Policy under the section titled “<a href='#use-info' className='privacy-link'>How We Collect Information</a>.”</div>
+          <div className='text-box-privacy'>The purposes, including the specific business and commercial purposes, for which we collect and use these categories of Personal Information are described in this Privacy Policy under the section titled “How We Use Personal Information.”</div>
+          <div className='text-box-privacy'>To the extent that we may collect any sensitive Personal Information (as defined under California privacy law), such as to provide account management for our Publishers, we only use or disclose it for purposes permitted under California law (i.e., to perform the Thunder Monetize Services, process customer transactions, detect security incidents and prevent fraud, or to verify and maintain the quality of the Services). We do not collect or use sensitive personal information for the purpose of inferring characteristics about California residents.</div>
+          <div className='text-box-privacy'>We retain each of the categories of Personal Information listed above as described in this Privacy Policy under the section titled “<a href='#retention' className='privacy-link'>Retention of Personal Data</a>.”</div>
+
+          <div className='privacy-text-header-1'>Personal Information “Sold,” “Shared” or Disclosed for Business Purposes</div>
+          <div className='text-box-privacy'>“Sale” is defined under California privacy law as disclosing a California resident’s Personal Information to a third party for monetary or other valuable consideration. Where such disclosure is for cross-context behavioral advertising, whether or not for monetary or other valuable consideration, it qualifies as “sharing” under California privacy law.</div>
+          <div className='text-box-privacy'>The following table describes the categories of Personal Information “sold” or “shared” for our commercial purposes to each of the categories of third parties listed, and includes our practices in the 12 months preceding the “Effective Date” of this Privacy Policy.</div>
+          <div className='text-box-privacy'>Each category of Personal Information listed in the following table may also have been disclosed for our business purposes (such as for internal use and business intelligence), and have in the preceding 12 months been disclosed, to each of the categories of third parties listed.</div>
+          <div className='text-box-privacy'>The categories of third parties listed, along with our business and commercial purposes for which we “sold,” “shared” or disclosed Personal Information, are described in this Privacy Policy under “<a href='#information-sharing' className='privacy-link'>Our Information Sharing Practices</a>” within the section titled, “<a href='#use-info' className='privacy-link'>How We Use Information</a>.”</div>
+
+          <img src={privacyImage2} alt="Privacy Image 2" className='privacy-image' />
+
+          <div className='text-box-privacy'>For clarity, Personal Information collected through Thunder Monetize Services, from third parties, or Internet Connected Technology, (and where Thunder Monetize has a license to further disclose Personal Information to third parties) is included in our commercial Data and “sold” or “shared.” Publisher Personal Information provided for account management is not “sold” or “shared” as defined under California privacy law.</div>
+          <div className='text-box-privacy'>California consumers may request to opt-out of the sale or sharing of their Personal Information at any time by e-mailing privacy@thunder-monetize[.]com. Please see “<a href='#california-rights' className='privacy-link'>Your California Privacy Rights</a>” below for more information.</div>
+          <div className='text-box-privacy'>Thunder Monetize does not knowingly “sell” or “share” the Personal Information of California residents under 16 years of age.</div>
+
+          <div id='california-rights' className='privacy-text-header-1'>Your California Privacy Rights</div>
+          <div className='text-box-privacy'>As a California resident, in addition to the rights described elsewhere in this Privacy Policy, you have the privacy rights listed below.  However, these rights are not absolute, and in certain cases we may not be able to respond to your request, such as when a legal exemption applies or if we are not able to verify your identity.</div>
+          <div className='text-box-privacy'>
+            <ul>
+              <li>
+              <span className='highlight-text'>Know/Access</span>. You can request the following information about how we have collected and used your Personal Information:<br/>
+              – The categories of Personal Information that we have collected.<br/>
+              – The categories of sources from which we collected Personal Information.<br/>
+              – The business or commercial purpose for collecting, “selling,” or “sharing” Personal Information.<br/>
+              – The categories of third parties with whom we disclose Personal Information.<br/>
+              – A copy of the Personal Information that we have collected about you.
+              </li>
+              <li><span className='highlight-text'>Delete</span>. You can ask us to delete the Personal Information that we have collected from you.</li>
+              <li><span className='highlight-text'>Correct</span>. You can ask us to correct inaccurate Personal Information that we maintain about you.</li>
+              <li><span className='highlight-text'>Opt-out of sales/sharing</span>. If we “sell” or “share” your Personal Information, you can opt-out.</li>
+              <li><span className='highlight-text'>Nondiscrimination</span>. You are entitled to exercise the rights described above without receiving discriminatory treatment.</li>
+            </ul>
+          </div>
+          <div className='text-box-privacy'>You may request to exercise the California privacy rights described above as follows:</div>
+          <div className='text-box-privacy'>
+            <ul>
+              <li><span className='highlight-text'>Right to know/access, delete, or correct</span>. You can request to exercise your access, deletion, or correction rights by:<br />
+              – Emailing privacy@thunder-monetize[.]com</li>
+              <li><span className='highlight-text'>Right to opt-out of the “sale” or “sharing” of your Personal Information</span>. You can request to opt-out of the “sale” or “sharing” of your Personal Information by e-mailing privacy@thunder-monetize[.].com or broadcasting the Global Privacy Control (GPC) signal through your browser settings.</li>
+            </ul>
+          </div>
+
+          <div className='privacy-text-header-1'>Verification Process and Required Information</div>
+          <div className='text-box-privacy'>We reserve the right to confirm your California residence to process your requests and will need to confirm your identity to process your requests to exercise your right to know/access, delete, and correct. This is a security measure to, for example, help ensure we do not disclose information to a person who is not entitled to receive it. The identity verification process may vary depending on how you submit your request. We will only ask for information needed to verify your identity, such as a different email address, or cookie ID.</div>
+
+          <div className='privacy-text-header-1'>Authorized Agent</div>
+          <div className='text-box-privacy'>Consistent with California law, you may designate an authorized agent to make a request on your behalf. If you do so, we may require proof of your identification, the authorized agent’s proof of identification, and any other information that we may request in order to verify the request, including evidence of valid permission for the authorized agent to act on your behalf. We cannot process your request if you do not provide us with sufficient detail to allow us to understand and respond to it. Authorized agents may submit a request by e-mail to privacy@thunder-monetize[.].com</div>
+
+          <div className='privacy-text-header-1'>Fees</div>
+          <div className='text-box-privacy'>You will not have to pay a fee to access your personal information (or to exercise any of the other rights).  However, we may charge a reasonable fee or decline to comply with your request if your request is clearly unfounded, repetitive, or excessive.</div>
+          
+          <div className='privacy-text-header'>Changes in this Privacy Policy</div>
+          <div className='text-box-privacy'>We may modify or amend this Privacy Policy from time to time at our discretion. When we make material changes to this Privacy Policy, we will amend the revision date at the top of this page and such modified or amended Privacy Policy shall be effective as to the Personal Information governed by this Privacy Policy as of that revision date. We encourage periodic review of this Privacy Policy to view any updates.</div>
+
+          <div className='privacy-text-header'>Contact us</div>
+          <div className='text-box-privacy'>Please contact us at privacy@thunder-monetize[.]com with questions or concerns regarding our Privacy Policy or how we process your Personal Information.</div>
+          <div className='text-box-privacy'>Thunder Monetize will respond in good faith to all privacy inquiries but may not be able to provide complete information if the request requires Thunder Monetize to release confidential information of third parties, or otherwise imposes an undue burden or expense.</div>
+          <div className='text-box-privacy'>THUNDER MONETIZATION PTE. LTD346C KING GEORGE'S AVENUE, KING GEORGE'S BUILDING, SINGAPORE 208577</div>
+          <div className='text-box-privacy'>HONGKONG THUNDER SOLUTION LIMITEDRoom B3, 19/F, Tung Lee Commercial Building, 91-97 Jervois Street, Sheung Wan, Hong Kong</div>
           </div>
         </div>
       </div>
