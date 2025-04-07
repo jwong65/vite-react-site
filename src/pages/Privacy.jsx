@@ -13,10 +13,7 @@ export default function Privacy() {
         <div className='privacy-content-wrapper'>
           <div className='privacy-text'>
             <div className='text-box-privacy'>
-              This policy explains how Thunder Monetize, Inc. (“Thunder", "we" or “us”) collects, uses and discloses information about you when you interact with Digital Media Properties (defined below) that use our advertising technology platforms and related services to deliver you ads (collectively, the “Services”).
-              This privacy policy does not govern (i) the collection and use of information about visitors to our website, or (ii) information collected in the course of our sales and marketing activities. Our privacy practices as to that information can be found <a href="https://www.magnite.com/legal/magnite-website-privacy-policy/" target="_blank" rel="noopener noreferrer" >here</a>.
-              This policy also does not govern the collection, use and disclosure of information by our clients through their Digital Media Properties, the activities of other third parties we may work with, or any activities where we act as a service provider or processor to our clients rather than a data controller. 
-              Those practices are governed by our clients' own privacy policies.
+            Thunder Monetize provides monetization tools to our customer that allow for revenue generation through digital advertising.This 'Privacy Policy' describes how Thunder Monetize collects, uses and shares personal information in connection with (i) Thunder Monetize services; and (ii) our public-facing business websites found at <a href='thunder-monetize.com'>www.thunder-monetize.com</a>('Site').
             </div>
             <div className='privacy-text-header'>About Us</div>
             <div className='text-box-privacy'>
