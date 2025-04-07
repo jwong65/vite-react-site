@@ -74,6 +74,10 @@
     color: #F8F9FA;
     margin: 0;
     white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 .footer-links-column ul li a:hover{
     color: #308DFF
