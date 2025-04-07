@@ -99,7 +99,14 @@ export default function Contact() {
                     label="Country"
                     rules={[{required: true, message:' '}]}
                   >
-                    <Select placeholder='Country' tabIndex={5}>
+                    <Select
+                     placeholder='Country' 
+                     tabIndex={5}
+                     showSearch
+                     optionFilterProp="children"
+                     filterOption={(input, option) => 
+                       option.children.toLowerCase().indexOf(input.toLowerCase()) === 0
+                     }>
                       {countries.map(country=>(
                         <Select.Option
                           key={country.value}
