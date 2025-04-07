@@ -64,8 +64,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 130%; 
-    width: 1134px;
+    max-width: 1134px;
     margin-top: 72px;
+    padding: 0 20px;
 }
 
 .privacy-text-header{
@@ -120,6 +121,7 @@
 li .text-box-privacy:first-child {
     margin-top: 0;
 }
+
 li .text-box-privacy:last-child {
     margin-bottom: 0;
 }
