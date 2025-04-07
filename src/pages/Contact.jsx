@@ -17,26 +17,26 @@ export default function Contact() {
     setLoading(true);
     setSubmitted(true);
     
-    // try {
-    //   const response = await fetch('/api/contact', {
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify(values),
-    //   });
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      });
       
-    //   const data = await response.json();
-    //   if (response.ok) {
-    //     setSubmitted(true);
-    //   } else {
-    //     console.error('Error submitting form:', data.error);
-    //   }
-    // } catch (error) {
-    //   console.error('Error submitting form:', error);
-    // } finally {
-    //   setLoading(false);
-    // }
+      const data = await response.json();
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        console.error('Error submitting form:', data.error);
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    } finally {
+      setLoading(false);
+    }
   };
   
   
