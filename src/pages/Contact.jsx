@@ -5,6 +5,7 @@ import companyLogo from "../assets/companyLogoBlack.svg"
 import { Form, Input, Button, Select, Row, Col, Checkbox } from 'antd';
 
 import "./contact.css"
+import {countries} from '../utils/countries.js'
 
 export default function Contact() {
   const [form] = Form.useForm();
