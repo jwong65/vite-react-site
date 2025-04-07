@@ -85,21 +85,21 @@ export default function Contact() {
                     label="First Name"
                     rules={[{required: true, message:' '}]}
                   >
-                    <Input placeholder='First Name' />
+                    <Input placeholder='First Name' tabIndex={1} />
                   </Form.Item>
                   <Form.Item
                     name="email"
                     label='Email'
                     rules={[{required: true, message:' '}]}
                   >
-                    <Input placeholder='Email' />
+                    <Input placeholder='Email' tabIndex={3}/>
                   </Form.Item>
                   <Form.Item
                     name="country"
                     label="Country"
                     rules={[{required: true, message:' '}]}
                   >
-                    <Select placeholder='Country'>
+                    <Select placeholder='Country' tabIndex={5}>
                       {countries.map(country=>(
                         <Select.Option
                           key={country.value}
@@ -116,7 +116,7 @@ export default function Contact() {
                     label="I am interested in"
                     rules={[{required: true, message:' '}]}
                   >
-                    <Select placeholder="Select">
+                    <Select placeholder="Select" tabIndex={7}>
                       <Select.Option value='publisher'>Publisher</Select.Option>
                       <Select.Option value='advertiser'>Advertiser</Select.Option>
                       <Select.Option value='other'>Other</Select.Option>
@@ -129,21 +129,21 @@ export default function Contact() {
                     label="Last Name"
                     rules={[{required: true, message:' '}]}
                   >
-                    <Input placeholder='Last Name' />
+                    <Input placeholder='Last Name' tabIndex={2}/>
                   </Form.Item>
                   <Form.Item
                     name="company"
                     label="Company Name"
                     rules={[{required: true, message:' '}]}
                   >
-                    <Input placeholder='Company Name' />
+                    <Input placeholder='Company Name' tabIndex={4} />
                   </Form.Item>
                   <Form.Item
                     name="role"
                     label="I am"
                     rules={[{required: true, message:' '}]}
                   >
-                    <Select placeholder='Select'>
+                    <Select placeholder='Select' tabIndex={6}>
                       <Select.Option value='publisher'>Publisher</Select.Option>
                       <Select.Option value='advertiser'>Advertiser</Select.Option>
                       <Select.Option value='other'>Other</Select.Option>
@@ -154,7 +154,7 @@ export default function Contact() {
                     label= "Job Title"
                     rules={[{required: true, message:' '}]}
                   >
-                    <Input placeholder='Job Title' />
+                    <Input placeholder='Job Title' tabIndex={8}/>
                   </Form.Item>
                 </Col>
               </Row>
@@ -173,6 +173,7 @@ export default function Contact() {
                   showCount
                   maxLength={100} 
                   className="contact-message-textarea"
+                  tabIndex={9}
                 />
               </Form.Item>
               <Form.Item>
