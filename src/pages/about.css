@@ -28,11 +28,9 @@
     width: 100%;
     max-width: 1512px;
     margin: 0 auto;
-    overflow: hidden;
     display: flex;
     justify-content: flex-end;
     box-sizing: border-box;
-    max-height: 850px;
 }
 
 .about-background-image {
@@ -55,7 +53,9 @@
     justify-content: center;
     align-items: flex-start;
     background-color: #4A4A4A;
+    padding: 40px;
     padding-left: 100px;
+    box-sizing: border-box;
 }
 
 .about-main-heading{
@@ -92,8 +92,8 @@
 
 .about-sub-heading2{
     width: 100%;
-    max-width: 750px;
-    font-family: Inter;
+    max-width: 945px;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
