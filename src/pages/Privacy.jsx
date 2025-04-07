@@ -15,7 +15,7 @@ export default function Privacy() {
         <div className='privacy-content-wrapper'>
           <div className='privacy-text'>
             <div className='text-box-privacy'>
-            Thunder Monetize provides monetization tools to our customer that allow for revenue generation through digital advertising.This 'Privacy Policy' describes how Thunder Monetize collects, uses and shares personal information in connection with (i) Thunder Monetize services; and (ii) our public-facing business websites found at <a href='thunder-monetize.com' className='privacy-link'>www.thunder-monetize.com</a>('Site').
+            Thunder Monetize provides monetization tools to our customer that allow for revenue generation through digital advertising.This 'Privacy Policy' describes how Thunder Monetize collects, uses and shares personal information in connection with (i) Thunder Monetize services; and (ii) our public-facing business websites found at <a href='https://thunder-monetize.com' className='privacy-link' target="_blank" rel="noopener noreferrer">www.thunder-monetize.com</a>('Site').
             </div>
             <div className='privacy-text-header-1'>Definition of Terms</div>
             <div className='text-box-privacy'>
@@ -284,7 +284,7 @@ export default function Privacy() {
           <div className='text-box-privacy'>Please contact us at privacy@thunder-monetize[.]com with questions or concerns regarding our Privacy Policy or how we process your Personal Information.</div>
           <div className='text-box-privacy'>Thunder Monetize will respond in good faith to all privacy inquiries but may not be able to provide complete information if the request requires Thunder Monetize to release confidential information of third parties, or otherwise imposes an undue burden or expense.</div>
           <div className='text-box-privacy'>THUNDER MONETIZATION PTE. LTD346C KING GEORGE'S AVENUE, KING GEORGE'S BUILDING, SINGAPORE 208577</div>
-          <div className='text-box-privacy'>HONGKONG THUNDER SOLUTION LIMITEDRoom B3, 19/F, Tung Lee Commercial Building, 91-97 Jervois Street, Sheung Wan, Hong Kong</div>
+          <div className='text-box-privacy'>HONGKONG THUNDER SOLUTION LIMITED Room B3, 19/F, Tung Lee Commercial Building, 91-97 Jervois Street, Sheung Wan, Hong Kong</div>
           </div>
         </div>
       </div>
