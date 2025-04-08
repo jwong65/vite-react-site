@@ -555,6 +555,9 @@
         padding: 0 15px;
         margin: 0 auto;
     }
+    .home-container-4 .ant-btn{
+        margin-bottom: 124px;
+    }
     .main-heading {
         font-size: 28px;
     }
@@ -648,19 +651,4 @@
     margin: 0 auto;
     padding: 60px 20px;
     box-sizing: border-box;
-}
-
-.debug-wrapper {
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    width: 100vw;
-    box-sizing: border-box;
-    border-top: 2px solid red; /* For visual debugging */
-    border-bottom: 2px solid red; /* For visual debugging */
 }
