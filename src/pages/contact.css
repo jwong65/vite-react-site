@@ -307,10 +307,6 @@
     background: #E2A602 !important;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;
 }
-.country-select-dropdown {
-    max-height: 50vh !important;
-    -webkit-overflow-scrolling: touch !important;
-  }  
 @media (max-width: 1024px){
     .contact-section-wrapper,
     .contact-form-wrapper,

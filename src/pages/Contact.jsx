@@ -104,14 +104,6 @@ export default function Contact() {
                      tabIndex={5}
                      showSearch
                      optionFilterProp="children"
-                     popupClassName="country-select-dropdown"
-                     onDropdownVisibleChange={(open) => {
-                      if (open) {
-                        document.body.style.overflow = 'hidden';
-                      } else {
-                        document.body.style.overflow = '';
-                      }
-                    }}
                      filterOption={(input, option) => 
                        option.children.toLowerCase().indexOf(input.toLowerCase()) === 0
                      }>
