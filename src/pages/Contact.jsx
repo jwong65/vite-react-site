@@ -104,6 +104,9 @@ export default function Contact() {
                      tabIndex={5}
                      showSearch
                      optionFilterProp="children"
+                     popupClassName="country-select-dropdown"
+                     listHeight={250}
+                     getPopupContainer={(triggerNode) => triggerNode.parentNode}
                      filterOption={(input, option) => 
                        option.children.toLowerCase().indexOf(input.toLowerCase()) === 0
                      }>

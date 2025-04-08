@@ -307,6 +307,16 @@
     background: #E2A602 !important;
     color: var(--Primary-Thunderstorm-Gray, #4A4A4A) !important;
 }
+/* Add to contact.css */
+.country-select-dropdown {
+    -webkit-overflow-scrolling: touch !important;
+  }
+  
+  /* Prevent touch events from propagating to the body when interacting with dropdown */
+  .ant-select-dropdown {
+    touch-action: pan-y !important;
+  }
+  
 @media (max-width: 1024px){
     .contact-section-wrapper,
     .contact-form-wrapper,
@@ -516,4 +526,9 @@
         min-width: 100%;
     }
 }
-
+@media (max-width: 480px) {
+    .ant-select-item {
+      padding: 12px 8px !important;
+      height: auto !important;
+    }
+  }
