@@ -125,6 +125,9 @@
     background: var(--Primary-Lightning-Yellow, #FFC107);
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.04);
 }
+.home-container-4 .ant-btn{
+    margin-bottom: 124px;
+}
 .section-wrapper{
     width: 100vw;
     background-color: #FFFFFF;
@@ -175,7 +178,6 @@
 }
 .home-container-4{
     width: 100%;
-    min-height: 592px;
     max-width: 1512px;
     margin: 0 auto;
     padding: 40px 20px;
@@ -250,6 +252,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 124px;
 }
 .company-logo{
     width: 74px;
